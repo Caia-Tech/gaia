@@ -1,0 +1,49 @@
+What is emergence? When simple rules create complex behaviors not predictable from individual components.
+Can you predict emergent behavior from rules alone? Often no - must simulate or observe the system.
+What's an example of emergence? Consciousness from neurons, wetness from H2O molecules, flocking from bird rules.
+What is a phase transition? Sudden change in system properties at critical conditions.
+What happens at water's boiling point? Liquid to gas phase transition - dramatic property change at 100°C.
+What is a first-order phase transition? Discontinuous change with latent heat, like ice melting.
+What is a second-order phase transition? Continuous but with diverging derivatives, like ferromagnetic transition.
+What is a critical point? Where phase boundaries end and distinct phases become indistinguishable.
+What happens at critical points? Fluctuations at all scales, no characteristic length, universal behavior.
+What is universality? Different systems show identical critical behavior regardless of microscopic details.
+Why does universality occur? Near critical points, only long-range behavior matters, not local details.
+What is spontaneous magnetization? Below critical temperature, magnetic domains align without external field.
+How do birds flock without a leader? Local rules (align, avoid collision, stay together) create global patterns.
+What is self-organization? Order arising without external control through component interactions.
+Can you reduce emergent properties? No - "wetness" isn't in individual water molecules.
+What is the order parameter? Quantity that's zero in disordered phase, non-zero in ordered phase.
+How does superconductivity emerge? Below critical temperature, electrons form Cooper pairs with zero resistance.
+What is criticality? State where system is poised between order and disorder.
+What is self-organized criticality? Systems naturally evolving to critical states, like sandpiles.
+How do traffic jams emerge? Individual car behaviors create collective phenomena nobody intended.
+What is percolation? Connection patterns changing dramatically at critical density.
+When does forest fire spread? Above critical tree density, fires can span entire forest.
+What is a Mexican wave in crowds? Emergent coordination without central control, just local mimicry.
+How do ant colonies find shortest paths? Pheromone trails create emergent optimization without planning.
+What is symmetry breaking in phase transitions? Ordered phase has less symmetry than governing laws.
+Why is water special near 4°C? Density maximum creates unusual properties crucial for life.
+What is the Ising model? Simple model showing how local interactions create phase transitions.
+Can phase transitions happen in 1D? Usually need 2D or higher for true phase transitions at finite temperature.
+What is mean field theory? Approximation replacing interactions with average field.
+When does mean field theory fail? Near critical points where fluctuations dominate.
+What is the renormalization group? Method to understand how physics changes with scale.
+How do crystals form? Atoms finding minimum energy configuration creates emergent periodic order.
+What is frustrated magnetism? When geometry prevents all interactions being satisfied simultaneously.
+What is a quantum phase transition? Phase transition at absolute zero driven by quantum fluctuations.
+How does life emerge from chemistry? Self-replicating molecules create new level of organization.
+What is collective intelligence? Group solving problems no individual could solve alone.
+How do prices emerge in markets? Individual transactions create global price discovery.
+What is a tipping point? Critical threshold where small change triggers large system shift.
+Can you predict tipping points? Often see early warning signs like increased fluctuation time.
+What is hysteresis? System state depends on history, not just current conditions.
+Why does stirring speed matter for mixing? Below critical Reynolds number, laminar flow; above, turbulent mixing.
+What is the butterfly effect? Sensitive dependence on initial conditions in chaotic systems.
+Is emergence just ignorance? No - even with complete information, emergent properties aren't reducible.
+What is downward causation? When emergent properties influence lower-level components.
+How do languages emerge? Individual communications create grammatical structures nobody designed.
+What is stigmergy? Indirect coordination through environment modification, like termite mounds.
+Can AI show emergence? Yes - unexpected capabilities emerging from scale and training.
+What is more than the sum of parts? Emergent systems where interactions create new properties.
+Why study phase transitions? Universal principles apply across physics, biology, society, and computation.

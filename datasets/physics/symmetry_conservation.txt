@@ -1,0 +1,49 @@
+What is Noether's theorem? Every continuous symmetry in physics corresponds to a conserved quantity.
+What symmetry gives conservation of energy? Time translation symmetry - laws of physics don't change over time.
+What symmetry gives conservation of momentum? Spatial translation symmetry - physics same everywhere in space.
+What symmetry gives conservation of angular momentum? Rotational symmetry - physics same in all directions.
+What is gauge symmetry? Transformations that leave physics unchanged, like phase shifts in quantum mechanics.
+Why are conservation laws fundamental? They constrain what transitions are possible in any physical process.
+What is CPT symmetry? Combined symmetry of charge conjugation, parity, and time reversal.
+Has any symmetry violation been observed? Yes, parity violation in weak interactions shocked physicists.
+What is spontaneous symmetry breaking? System's state has less symmetry than its governing laws.
+How does a pencil standing on tip break symmetry? Falls in random direction though all directions equally likely.
+What is the Higgs mechanism? Spontaneous symmetry breaking that gives particles mass.
+What symmetry does crystallization break? Continuous translational symmetry becomes discrete lattice symmetry.
+What is a global symmetry? Same transformation applied everywhere at once.
+What is a local symmetry? Transformation can vary from point to point in spacetime.
+Why are local symmetries special? They require gauge fields and lead to fundamental forces.
+What symmetry gives electric charge conservation? U(1) gauge symmetry of electromagnetism.
+What is translation invariance? Physics works the same way at all locations.
+What is rotational invariance? Physics works the same in all orientations.
+What is Lorentz invariance? Physics same in all inertial reference frames.
+What breaks Lorentz symmetry? Nothing observed yet - it's a fundamental spacetime symmetry.
+What is time reversal symmetry? Laws work the same running forward or backward in time.
+Where is time reversal broken? In weak interactions and the second law of thermodynamics.
+What is parity symmetry? Mirror reflection - flipping all spatial coordinates.
+Why was parity violation shocking? Everyone assumed nature didn't have handedness preference.
+What is charge conjugation? Swapping particles with antiparticles.
+What is supersymmetry? Proposed symmetry between fermions and bosons.
+Has supersymmetry been found? Not yet - would require superpartner particles.
+What is scale invariance? Physics looks the same at all length scales.
+Where does scale invariance appear? At critical points and phase transitions.
+What is conformal symmetry? Preserves angles but not necessarily distances.
+What conserved quantity comes from gauge symmetry? The gauge charge like electric charge or color charge.
+What is a symmetry group? Mathematical group describing all symmetry transformations.
+What is SU(3) × SU(2) × U(1)? The gauge symmetry group of the Standard Model.
+What happens when symmetry is approximate? Conservation law is approximate - quantity slowly changes.
+What is explicit symmetry breaking? When symmetry is broken by external conditions.
+What is a Ward identity? Relation between correlation functions following from symmetry.
+What is Goldstone's theorem? Spontaneous breaking of continuous symmetry creates massless bosons.
+Why do we seek symmetries? They simplify problems and reveal deep structure.
+What symmetry explains identical particles? Permutation symmetry - swapping identical particles changes nothing.
+What is the symmetry of empty space? Full Poincaré symmetry - translations, rotations, boosts.
+Can symmetries emerge? Yes, effective symmetries can appear at certain scales.
+What is dynamical symmetry breaking? Symmetry broken by dynamics rather than fundamental laws.
+What protects conservation laws? Symmetries - can't violate conservation without breaking symmetry.
+What is holographic symmetry? Proposed equivalence between bulk and boundary theories.
+Are all symmetries fundamental? Some are emergent or approximate at certain scales.
+What is discrete symmetry? Symmetry under discrete transformations like reflection.
+What is continuous symmetry? Symmetry under continuous transformations like rotation.
+How do symmetries guide physics? Constraining theories and predicting new phenomena.
+What is the role of broken symmetry? Creates diversity and structure in the universe.

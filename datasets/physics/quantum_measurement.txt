@@ -1,0 +1,49 @@
+What is the measurement problem? How and why does quantum superposition collapse to definite outcomes?
+What is superposition? Quantum systems exist in multiple states simultaneously until measured.
+What happens during measurement? Wave function appears to instantly collapse to single eigenstate.
+What is wave function collapse? Transition from superposition to definite state upon observation.
+Does consciousness cause collapse? Debated - some interpretations say yes, others find physical causes.
+What is the Copenhagen interpretation? Measurement causes collapse; don't ask what happens between measurements.
+What is many-worlds interpretation? No collapse - all outcomes happen in parallel universes.
+What is decoherence? Environmental interaction causes apparent collapse without true collapse.
+Can we see superposition directly? No - measurement always finds definite states, never superpositions.
+What is Schrödinger's cat? Thought experiment showing absurdity of macroscopic superposition.
+Is the cat really alive and dead? Illustrates measurement problem - when does superposition end?
+What is the Heisenberg cut? Arbitrary boundary between quantum system and classical observer.
+Where do we place the cut? No consensus - could be particle, detector, or conscious observer.
+What makes measurement special? Seemingly violates unitary evolution of quantum mechanics.
+What is the projection postulate? Upon measurement, system projects onto eigenstate of observable.
+Is collapse instantaneous? Appears to be, raising questions about relativity and locality.
+What is objective collapse theory? Physical theories where collapse happens spontaneously at certain scales.
+What is the quantum Zeno effect? Frequent measurements can freeze quantum evolution.
+Can we measure without disturbing? No - measurement necessarily disturbs quantum systems.
+What is weak measurement? Gentle measurements that minimally disturb while gaining limited information.
+What is the delayed choice experiment? Shows measurement choice can seemingly affect past behavior.
+What is quantum erasure? Erasing which-path information can restore interference after the fact.
+What is the quantum-classical boundary? Where quantum behavior transitions to classical - no sharp line.
+Do all interactions cause collapse? No - only certain interactions count as measurements.
+What makes an interaction a measurement? Must create lasting record in environment or apparatus.
+What is the preferred basis problem? Why does collapse happen in position basis, not superpositions?
+What is quantum Darwinism? Environment selects certain states as "fittest" to survive and be observed.
+Can consciousness be measured? Unknown - the hard problem meets quantum measurement problem.
+What is von Neumann chain? Measurement devices are quantum too - where does chain end?
+What is participatory universe? Wheeler's idea that observation creates reality retroactively.
+Do measurements create reality? Depends on interpretation - some say yes, others say reveal.
+What is contextuality? Measurement outcomes depend on what else you measure.
+Can we undo measurement? Generally no - measurement creates irreversible entanglement.
+What is the measurement basis? The specific property being measured determines possible outcomes.
+Why probabilistic outcomes? Quantum mechanics only predicts probabilities, not definite results.
+What is Born rule? Probability equals amplitude squared - but why this rule?
+Is measurement continuous or discrete? Appears discrete but might be rapid continuous process.
+What is quantum feedback? Using measurement results to control quantum systems.
+Can we watch wave function collapse? Some experiments claim to see continuous collapse process.
+What is protective measurement? Theoretical way to measure wave function without collapse.
+Do all interpretations agree on predictions? Yes - they differ on what happens, not what we observe.
+What is the information interpretation? Measurement is fundamentally about information gain.
+Can measurement happen without observers? Yes in most interpretations - environment can measure.
+What is the relational interpretation? Properties only exist relative to observers, not absolutely.
+Why does measurement seem irreversible? Creates entanglement with large environment - practically irreversible.
+What is quantum nondemolition? Measurement that doesn't destroy the measured quantity.
+Can AI solve measurement problem? Would need to understand consciousness first.
+Is measurement problem solved? No - remains central mystery of quantum mechanics.
+Why care about measurement problem? Fundamental to understanding reality's nature.

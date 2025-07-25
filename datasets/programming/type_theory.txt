@@ -1,0 +1,49 @@
+What is type theory? Mathematical framework for classifying values and expressions by their types.
+What's the difference between types and sets? Types are syntactic classifications; sets are semantic collections.
+What is a dependent type? Type that depends on a value, like vectors with length in the type.
+Give an example of dependent types. Vector(Int, 5) - a vector type parameterized by length 5.
+What is the Curry-Howard correspondence? Programs are proofs, types are propositions, computation is proof reduction.
+How does a function type relate to implication? Function A → B corresponds to logical implication "A implies B."
+What is a product type logically? Product type A × B corresponds to logical conjunction "A and B."
+What is a sum type logically? Sum type A + B corresponds to logical disjunction "A or B."
+What does void type represent? False proposition - type with no values means unprovable.
+What does unit type represent? True proposition - type with one value means trivially provable.
+What is a universal type ∀? Forall quantification - generic types are universal statements.
+What is an existential type ∃? Exists quantification - abstract types hide implementation.
+What is type inference? Automatically determining types without explicit annotations.
+What is type checking? Verifying that expressions have claimed types according to rules.
+What's decidable about type checking? Many type systems have decidable checking; some don't.
+What is the bottom type ⊥? Type with no values, subtype of all types, represents divergence.
+What is the top type ⊤? Type containing all values, supertype of all types.
+What is structural typing? Types compatible if structure matches, regardless of names.
+What is nominal typing? Types must be explicitly declared compatible by name.
+What are type constructors? Functions from types to types, like List or Maybe.
+What is higher-kinded type? Type constructor that takes type constructors as arguments.
+What is System F? Polymorphic lambda calculus with type abstraction and application.
+What is System F_ω? System F extended with type operators and kinds.
+What are kinds? Types of types - * for types, * → * for type constructors.
+What is the calculus of constructions? Powerful type system at top of lambda cube.
+What makes a type system sound? Progress (well-typed terms don't get stuck) and preservation.
+What is type safety? Well-typed programs don't have certain runtime errors.
+Can all properties be typed? No - Rice's theorem limits what properties types can express.
+What are refinement types? Types with predicates that further constrain values.
+What is liquid type? Refinement types with decidable SMT-based checking.
+What are session types? Types for communication protocols ensuring correct message sequencing.
+What is linear typing? Each value must be used exactly once - no duplication or discarding.
+What are affine types? Values used at most once - can discard but not duplicate.
+What is uniqueness typing? Ensures single reference to mutable data for safe updates.
+What are phantom types? Type parameters that don't appear in values but enforce invariants.
+What are GADTs? Generalized algebraic data types where constructors can have specific types.
+What is row polymorphism? Polymorphism over record fields enabling extensible records.
+What are effect types? Types that track computational effects like IO or exceptions.
+What is gradual typing? Mix of static and dynamic typing with runtime checks at boundaries.
+What are intersection types? Type A ∩ B for values belonging to both A and B.
+What are union types? Type A ∪ B for values belonging to either A or B.
+Can types prevent all bugs? No - only type-level bugs; logic errors still possible.
+What is type-level programming? Computing with types using type families or fundeps.
+What is proof-carrying code? Code bundled with proof of type safety or other properties.
+What are indexed types? Types indexed by values from another type, enabling precise specifications.
+What is universe polymorphism? Polymorphism over universe levels in dependently typed languages.
+What's the expression problem for types? Adding new cases and operations to datatypes without modifying existing code.
+Why are some type systems undecidable? With enough power, type checking becomes program equivalence.
+What future for type theory? Richer types, better inference, verified programming becoming practical.

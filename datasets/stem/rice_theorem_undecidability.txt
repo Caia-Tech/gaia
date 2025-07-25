@@ -1,0 +1,49 @@
+What is Rice's theorem? Any non-trivial property of the language recognized by a Turing machine is undecidable.
+What makes a property non-trivial? Some programs have it and some don't - not all or nothing.
+Can we decide if a program halts? No, the halting problem is undecidable - core example.
+Can we decide if a program outputs "Hello"? Undecidable - it's a non-trivial semantic property.
+What about syntactic properties? Syntactic properties like "contains a loop" are decidable.
+Why are semantic properties hard? They depend on what the program does, not how it's written.
+Can we decide if two programs do the same thing? No, functional equivalence is undecidable.
+What's the proof strategy for Rice's theorem? Reduce from halting problem - if property decidable, could solve halting.
+Can we decide if a program is a virus? Undecidable - being malicious is semantic property.
+What about deciding if program uses recursion? Decidable - that's syntactic, not semantic.
+Can we detect infinite loops? Only some - can't detect all infinite loops (halting problem).
+Is "program terminates in 100 steps" decidable? Yes - can simulate for finite steps.
+Can we decide if a function is total? No, totality (defined on all inputs) is undecidable.
+What's decidable about programs? Syntax, finite behaviors, but not general semantic properties.
+Can compilers optimize perfectly? No - optimal optimization is undecidable.
+Why can't we eliminate all bugs automatically? Bug detection for semantic bugs is undecidable.
+Can we decide if a program leaks memory? Undecidable in general - it's about runtime behavior.
+What about type checking? Decidable for many type systems - they check syntactic properties.
+Can we decide if program output is sorted? Undecidable - semantic property of computation.
+Is "accepts empty string" decidable for TMs? No, it's a property of the language, not syntax.
+What's the practical impact? Can't build perfect program analyzers, verifiers, or optimizers.
+Can we approximate undecidable properties? Yes - static analysis gives sound approximations.
+What's the difference: decides vs accepts empty language? First undecidable, second is trivial (all reject).
+Can we decide if a program is fast? No - performance properties are generally undecidable.
+What about security properties? Most semantic security properties are undecidable.
+Why do analyzers still work? They're conservative - may reject good programs or miss bad ones.
+Can we decide program equivalence? Undecidable - can't tell if two programs compute same function.
+What's special about finite automata? Many properties decidable for DFAs that aren't for TMs.
+Is minimality decidable? For DFAs yes, for TMs no - minimal TM is undecidable.
+Can we decide if a grammar is ambiguous? Undecidable for context-free grammars.
+What's Post's correspondence problem? Another undecidable problem about matching string sequences.
+Can we decide if program modifies variable x? Decidable if syntactic check, undecidable if "ever modifies."
+What about liveness properties? "Something good eventually happens" - generally undecidable.
+Can we decide safety properties? "Nothing bad ever happens" - also generally undecidable.
+Is termination decidable for simple programs? Yes for some restricted models without loops/recursion.
+What's the busy beaver problem? Finding longest-running TM of given size - uncomputable.
+Can we decide if TM accepts infinite language? Undecidable - non-trivial property of language.
+What about regular expressions? Equivalence is decidable for regular expressions, not TMs.
+Can we decide if program is correct? Undecidable - correctness is semantic property.
+What's decidable in practice? Many useful properties for restricted languages and finite behaviors.
+Why can't AI solve undecidability? Undecidability is mathematical limit, not intelligence limit.
+What about quantum computers? Don't change decidability - Church-Turing thesis still holds.
+Can we decide P = NP by Rice's theorem? No - Rice's is about program properties, not complexity.
+Is virus detection hopeless? No - heuristics work well in practice despite undecidability.
+What's semi-decidable? Can confirm "yes" instances but might loop forever on "no."
+Is halting semi-decidable? Yes - run program; if halts say yes, if not keep waiting.
+Can humans solve undecidable problems? No - undecidability applies to any effective procedure.
+What's the philosophical impact? Fundamental limits to knowledge about computation.
+Should we give up on program analysis? No - approximations and restrictions make analysis practical.
