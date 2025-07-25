@@ -1,0 +1,49 @@
+Bad: if (x != null && x.length > 0). Better: if (!isEmpty(x)). Why? Abstraction hides implementation details, clearer intent.
+Bad: for(int i=0;i<arr.length;i++){sum+=arr[i];}. Better: sum = arr.stream().sum(). Why? Declarative expresses what, not how.
+Bad: Multiple if-else checking types. Better: Polymorphism with method dispatch. Why? Open-closed principle, extensibility.
+Bad: Giant function doing many things. Better: Small functions with single responsibility. Why? Testability, reusability, clarity.
+Bad: Comments explaining complex code. Better: Self-documenting code with clear names. Why? Code and comments can't diverge.
+Bad: Nested callbacks (callback hell). Better: Promises or async/await. Why? Linear flow easier to reason about.
+Bad: Global variables everywhere. Better: Dependency injection. Why? Testability, explicit dependencies, no hidden state.
+Bad: String concatenation in loops. Better: StringBuilder or join. Why? O(n²) becomes O(n), avoids memory churn.
+Bad: if (flag == true). Better: if (flag). Why? Redundant comparison, cleaner reads like English.
+Bad: Catching Exception broadly. Better: Specific exception types. Why? Different errors need different handling.
+Bad: Magic numbers like if (status == 404). Better: Named constants HTTP_NOT_FOUND. Why? Self-documenting, single source of truth.
+Bad: Copy-paste similar code. Better: Extract common functionality. Why? DRY principle, single place to fix bugs.
+Bad: Deep nesting if-in-if-in-if. Better: Early returns/guard clauses. Why? Reduces cognitive load, happy path clear.
+Bad: ArrayList<String> list. Better: List<String> list. Why? Program to interface not implementation.
+Bad: Getters/setters for everything. Better: Immutable objects where sensible. Why? Thread safety, simpler reasoning.
+Bad: while(true) with break inside. Better: Explicit condition in while. Why? Loop termination clear at entry point.
+Bad: Using indices to iterate. Better: Enhanced for loop or iterators. Why? Eliminates off-by-one errors.
+Bad: Null as "no value" indicator. Better: Optional/Maybe types. Why? Explicit absence, forces handling.
+Bad: boolean parameters. Better: Enum or separate methods. Why? isAdmin(true) unclear vs setAdminStatus(Status.ADMIN).
+Bad: Long parameter lists. Better: Parameter objects or builders. Why? Easier to extend, order-independent.
+Bad: switch on type codes. Better: Strategy pattern or polymorphism. Why? New types don't modify existing code.
+Bad: Temporal coupling in method calls. Better: Fluent interface or transaction object. Why? Can't call in wrong order.
+Bad: Side effects in getters. Better: Pure functions where possible. Why? Principle of least surprise.
+Bad: Hardcoded SQL in code. Better: Query builders or ORMs. Why? Type safety, database independence.
+Bad: Thread.sleep in tests. Better: Proper synchronization or test doubles. Why? Flaky tests, slow test suites.
+Bad: Comments for version history. Better: Use version control. Why? Git blame shows real history.
+Bad: Defensive copying everywhere. Better: Immutable data structures. Why? No copies needed if can't mutate.
+Bad: Complex boolean expressions. Better: Extract to well-named methods. Why? if (canProcessOrder()) clearer.
+Bad: Primitive obsession. Better: Value objects. Why? Money class safer than double for currency.
+Bad: Feature envy (method uses other object more). Better: Move method to that object. Why? High cohesion.
+Bad: Return codes for errors. Better: Exceptions or Result types. Why? Can't ignore errors, stack traces help.
+Bad: Shared mutable state. Better: Message passing or immutability. Why? Race conditions, hard to reason about.
+Bad: Inheritance for code reuse. Better: Composition. Why? Inheritance is for "is-a" not "has-a".
+Bad: God object doing everything. Better: Separate concerns into focused objects. Why? Single responsibility.
+Bad: Anemic domain models. Better: Rich models with behavior. Why? OOP is data with behavior, not just data.
+Bad: Stringly typed code. Better: Proper types and enums. Why? Compile-time safety, IDE support.
+Bad: Manual resource management. Better: Try-with-resources or RAII. Why? Guaranteed cleanup, no leaks.
+Bad: Busy waiting/polling. Better: Event-driven or observers. Why? CPU efficiency, responsive design.
+Bad: Overuse of inheritance. Better: Interfaces and composition. Why? Flexibility, multiple behaviors.
+Bad: Static methods everywhere. Better: Dependency injection. Why? Testability with mocks, flexibility.
+Bad: Complex constructors. Better: Factory methods or builders. Why? Named construction, optional parameters.
+Bad: Data clumps traveling together. Better: Group into objects. Why? Single concept, easier to pass around.
+Bad: Parallel inheritance hierarchies. Better: Collapse or use composition. Why? Changes require multiple edits.
+Bad: Switch statements on same value. Better: Polymorphism or map dispatch. Why? Open for extension.
+Bad: Middle man objects just delegating. Better: Direct communication. Why? Unnecessary indirection.
+Bad: Message chains a.getB().getC().getD(). Better: Law of Demeter, ask don't tell. Why? Loose coupling.
+Bad: Speculative generality. Better: YAGNI - you aren't gonna need it. Why? Premature abstraction adds complexity.
+Bad: Dead code "just in case". Better: Delete it, version control remembers. Why? Confuses readers, maintenance burden.
+Bad: Inconsistent naming conventions. Better: Team style guide. Why? Cognitive load switching contexts.

@@ -1,0 +1,50 @@
+What's a common failed approach to proving √2 is irrational? Trying decimal expansion - you can't prove irrationality by computing digits, no matter how many.
+Why does decimal expansion fail for irrationality proofs? Irrationals have infinite non-repeating decimals, but you can't check infinite digits.
+What's the successful approach to prove √2 is irrational? Assume √2 = p/q in lowest terms, show both p and q must be even, contradicting lowest terms.
+Why might someone try induction to prove Cantor's theorem? Sets seem countable by size, but induction only works on natural numbers, not arbitrary cardinalities.
+What's wrong with trying to list all real numbers? Any list misses numbers - Cantor's diagonal shows how to construct a missing real from any list.
+Why can't we prove Fermat's Last Theorem by checking cases? Infinite cases exist; checking finitely many proves nothing about the rest.
+What's a failed approach to the Four Color Theorem? Trying general theoretical proof - succeeded only after computer-checking thousands of cases.
+Why doesn't picture-drawing prove geometric theorems? Pictures show specific cases, not general truth; optical illusions can deceive.
+What's wrong with proving 0.999... ≠ 1 by intuition? Intuition says there's a gap, but rigorous analysis shows they're equal.
+Why do people wrongly think they've solved P vs NP? They often reduce NP to P with exponential hidden costs or miss subtle complexity.
+What's a common error in Goldbach conjecture attempts? Showing it holds for many cases or finding patterns - doesn't prove it for all evens.
+Why can't we prove axiom independence by finding models? You need models both with and without the axiom to prove independence.
+What's wrong with proving continuity by checking many points? Continuity requires checking all points; pathological functions can be discontinuous at rationals only.
+Why do trisection attempts using ruler and compass fail? It's provably impossible - requires solving cubic equations, which ruler/compass can't do.
+What's the error in "proving" 1 = 2 by algebra? Hidden division by zero - when you have (a-b), you can't divide by it if a = b.
+Why doesn't showing many derivatives exist prove smoothness? Functions can have all derivatives at a point but not be smooth (not Taylor series).
+What's wrong with proving theorems by computer calculation? Numerical errors accumulate; theoretical proof needed for certainty.
+Why can't we prove Collatz conjecture by testing numbers? No matter how many numbers reach 1, infinite numbers remain untested.
+What fails when trying to prove Banach-Tarski with intuition? Volume seems conserved, but non-measurable sets break intuition about size.
+Why do naive attempts at Continuum Hypothesis fail? People try to construct bijections, but CH is independent of ZFC.
+What's wrong with proving all groups are abelian by examples? Counterexample exists - even small groups like S₃ are non-abelian.
+Why can't pictures prove the Jordan Curve Theorem? Weird curves exist; rigorous proof needs careful topological arguments.
+What's the flaw in proving Monty Hall by symmetry? The symmetry breaks when host opens a door with knowledge.
+Why do people wrongly think 0^0 = 0? They apply x^0 = 1 incorrectly; 0^0 is actually indeterminate in analysis.
+What's wrong with proving infinite series converge by partial sums? Partial sums can grow slowly but still diverge (harmonic series).
+Why doesn't L'Hôpital's rule always work? Requires checking conditions; can give wrong answer if blindly applied.
+What fails in geometric proofs assuming figures exist? Some constructions are impossible; existence needs proof.
+Why can't we prove Riemann Hypothesis by checking zeros? Infinite zeros exist; computational checks can't cover all.
+What's the issue with proving statements by contradiction carelessly? Must track assumptions carefully; easy to assume what you're proving.
+Why do attempts to prove Axiom of Choice often fail? It's independent; people try constructive proofs but AC is non-constructive.
+What goes wrong trying to prove Pythagorean theorem algebraically only? Miss geometric insight; multiple proofs give different understanding.
+Why can't we prove results about infinite sets by finite analogy? Infinite sets have counterintuitive properties (Hilbert's hotel).
+What's wrong with proving uniqueness by finding one solution? Must show no others exist; uniqueness is separate from existence.
+Why do people fail proving irrationals are uncountable? Try to use countability arguments that work for rationals but not reals.
+What's the error in "all functions are continuous" proofs? Confusing intuitive notion with rigorous epsilon-delta definition.
+Why doesn't proving theorem for rationals extend to reals? Reals have different structure; density isn't completeness.
+What fails when proving by "obvious" pattern matching? Patterns can break; sporadic groups show not all patterns continue.
+Why can't we prove Fundamental Theorem of Algebra purely algebraically? Need analytical or topological methods; pure algebra insufficient.
+What's wrong with circular proofs using the conclusion? Assuming what you want to prove makes any statement "provable."
+Why do probabilistic primality proofs differ from deterministic? Probable prime might be composite; certainty needs different methods.
+What's the issue with proving infinity equals infinity plus one? Different infinite cardinalities exist; need precise definitions.
+Why doesn't strong induction prove false statements? Requires base case; without it, can "prove" anything.
+What fails in proofs ignoring edge cases? Edge cases often break general arguments; completeness requires all cases.
+Why can't we prove 3D rotation commutativity by examples? Rotations don't commute; gimbal lock shows order matters.
+What's wrong with proving limits by getting close? Epsilon-delta requires working for any epsilon, not just small ones.
+Why do fixed-point theorem proofs need continuity? Discontinuous functions can avoid fixed points even on closed intervals.
+What's the error in proving all matrices have eigenvalues over reals? Need complex numbers; real matrices might have complex eigenvalues.
+Why can't we prove infinite products converge like series? Different convergence conditions; product of terms near 1 can diverge.
+What fails when trying to generalize from finite to infinite? Finite intuition breaks; compactness, choice depend on finiteness.
+Why doesn't every "proof by picture" work in higher dimensions? Can't visualize 4D; rigorous algebra needed beyond 3D.

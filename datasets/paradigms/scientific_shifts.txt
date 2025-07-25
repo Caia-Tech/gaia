@@ -1,0 +1,52 @@
+What was the geocentric model? Earth at the center of the universe with everything revolving around it.
+What replaced geocentrism? The heliocentric model placing the sun at the center of the solar system.
+Why was geocentrism compelling? It matched daily observations - sun appears to move across sky.
+What evidence challenged geocentrism? Retrograde motion of planets, phases of Venus, Jupiter's moons.
+How did defenders explain retrograde motion? Complex epicycles - circles moving on circles.
+What made heliocentrism simpler? Retrograde motion naturally explained by Earth passing outer planets.
+What was phlogiston theory? Combustible materials contain phlogiston released during burning.
+What replaced phlogiston? Oxygen theory - burning combines material with oxygen from air.
+Why did phlogiston seem logical? Burning materials lose mass (seemingly), flames rise up.
+What killed phlogiston theory? Some metals gain weight when burned, opposite of prediction.
+What was the luminiferous aether? Invisible medium through which light waves propagate.
+What replaced aether? Special relativity - light needs no medium, space-time is the framework.
+Why did scientists assume aether? All known waves needed a medium (sound needs air, water waves need water).
+What experiment challenged aether? Michelson-Morley found no aether wind as Earth moves through it.
+What was caloric theory? Heat as invisible fluid flowing from hot to cold objects.
+What replaced caloric? Kinetic theory - heat is molecular motion, not a substance.
+Why was caloric appealing? Heat seems to flow like water, can be stored and transferred.
+What observations challenged caloric? Mechanical work generates heat (friction), suggesting motion connection.
+What was spontaneous generation? Living organisms arise from non-living matter spontaneously.
+What replaced it? Biogenesis - life only comes from existing life.
+Why believe spontaneous generation? Maggots appear on meat, microbes in broth seemingly from nowhere.
+What experiments refuted it? Pasteur's swan-neck flasks showed microbes came from air, not spontaneously.
+What was the static universe model? Universe eternal and unchanging on large scales.
+What replaced the static universe? Big Bang theory - universe expanding from initial singularity.
+Why assume static universe? Night sky looks the same across centuries, philosophical preference for eternal.
+What evidence changed this view? Hubble's redshift observations showing galaxies receding.
+What was Lamarckian evolution? Acquired characteristics during life inherited by offspring.
+What replaced Lamarckism? Darwinian natural selection acting on random variations.
+Why was Lamarckism intuitive? Blacksmith's children seem strong, practiced skills seem heritable.
+What evidence favored Darwin? Variations are random, acquired traits (like amputations) not inherited.
+What was the plum pudding atomic model? Positive charge spread evenly with electrons embedded like raisins.
+What replaced plum pudding? Nuclear model - tiny dense nucleus with orbiting electrons.
+Why plum pudding seemed reasonable? Atoms are neutral, components must be evenly distributed.
+What experiment changed this? Rutherford's gold foil - some particles bounced back, implying dense core.
+What was vitalism? Living things contain special vital force distinct from chemistry.
+What replaced vitalism? Biochemistry - life processes are complex chemistry, no special force.
+Why believe in vitalism? Life seems fundamentally different from non-living matter.
+What undermined vitalism? Synthesis of organic compounds (urea) from inorganic materials.
+What was the steady state theory? Universe constantly creating matter to maintain constant density.
+What supported Big Bang instead? Cosmic microwave background radiation, primordial element abundances.
+What was catastrophism? Earth's features formed by sudden, violent events.
+What replaced it? Uniformitarianism - slow, gradual processes over vast time.
+Why catastrophism seemed obvious? Mountain ranges, canyons seem to require dramatic formation.
+What evidence supported gradualism? Current erosion rates could carve canyons given millions of years.
+What was preformationism? Organisms develop from miniature versions already formed.
+What replaced it? Epigenesis - organisms develop gradually from undifferentiated material.
+Why believe preformationism? Development seems too complex to arise from simple beginnings.
+What showed epigenesis correct? Microscopy revealed embryos start simple, complexity emerges.
+What was absolute time and space? Newton's fixed stage independent of matter and motion.
+What replaced absolute space-time? Einstein's relative space-time affected by matter and energy.
+Why was absolute space-time intuitive? Matches everyday experience at human scales and speeds.
+What required relativity? Speed of light constant for all observers, Mercury's orbit precision.
