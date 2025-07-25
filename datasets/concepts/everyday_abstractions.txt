@@ -1,0 +1,107 @@
+Here are simple, everyday abstract concepts that would make AI more useful for average users:
+
+Everyday Context & Timing
+
+"Read the Room" - Understanding when someone wants detailed help vs quick answers, formal vs casual tone.
+
+"Not Now" Situations - Recognizing when someone is stressed, rushed, or multitasking and adjusting accordingly.
+
+Morning vs Evening Brain - How people's needs differ throughout the day (quick facts in morning, deeper discussions at night).
+
+"Good Enough" vs Perfectionism - Knowing when 80% accuracy delivered quickly beats 100% delivered late.
+
+Common Life Situations
+
+Budget Mindset - Understanding "I'm broke" doesn't mean $0, but relative to obligations and comfort.
+
+"Adulting" Tasks - The mental load of managing appointments, bills, maintenance - things that need tracking but aren't fun.
+
+Decision Fatigue - Why choosing dinner after a long day feels harder than complex work decisions.
+
+"Treat Yourself" vs Necessities - The emotional difference between needs and wants in personal spending.
+
+Social Battery - How introverts/extroverts need different types of recharge time.
+
+Communication Patterns
+
+Venting vs Seeking Solutions - Sometimes people just want to be heard, not fixed.
+
+"Thinking Out Loud" - When someone's processing externally vs asking for input.
+
+Indirect Requests - "I wish someone would..." or "It would be nice if..." as polite asks.
+
+Small Talk Function - Not about information exchange but relationship maintenance.
+
+"Let Me Sleep On It" - Why important decisions need time even with all information available.
+
+Practical Intelligence
+
+"Ballpark" Thinking - When approximate answers are more useful than precise ones.
+
+Recipe vs Cooking - Following instructions vs understanding why (applicable to many domains).
+
+"Rule of Thumb" Knowledge - Practical heuristics that work most of the time.
+
+Troubleshooting Intuition - "Turn it off and on again" type knowledge that comes from experience.
+
+"Close Enough" Engineering - When practical solutions beat theoretical optimums.
+
+Emotional & Social Intelligence
+
+Comfort Food/Media - Why people rewatch shows or eat familiar foods during stress.
+
+"My Person" - Having different go-to people for different needs (crisis, fun, advice).
+
+Energy Vampires - Recognizing draining people/situations without explicit rudeness.
+
+Love Languages - How people express/receive care differently (acts, words, time, gifts, touch).
+
+"Checking In" - The value of "thinking of you" messages without specific purpose.
+
+Simple Dataset Ideas
+
+Email Tone Detection - Professional/urgent/friendly/FYI with real examples.
+
+Recipe Adaptations - "I don't have X ingredient" → practical substitutions.
+
+Household Problem Descriptions - Vague user descriptions → likely issues ("weird sound from car").
+
+Schedule Reality Check - Calendars vs how days actually unfold with interruptions.
+
+Shopping List Translation - "healthy dinner stuff" → practical grocery suggestions.
+
+Mood-Based Recommendations - Not just "sad→happy music" but understanding complexity.
+
+Practical Abstractions
+
+"Junk Drawer" Organization - Some chaos is functional, not everything needs perfect systems.
+
+Weekend vs Vacation Mode - Different types of rest and recreation needs.
+
+"Future Me" Problems - Procrastination as borrowing against future energy/time.
+
+Milestone Anxiety - Why birthdays/New Year can feel heavy even when life is fine.
+
+"Keeping Up" Pressure - Social media vs reality, lifestyle inflation, comparison traps.
+
+Communication Helpers
+
+"Explain Like I'm Tired" - Simpler than ELI5, for depleted attention spans.
+
+Phone Call vs Text Situations - Understanding communication medium urgency/appropriateness.
+
+"No" Without Guilt - Helping phrase boundaries kindly but firmly.
+
+Buffering Bad News - The social rituals around delivering difficult information.
+
+Celebration Scaling - Matching enthusiasm appropriately (new job vs Nobel Prize).
+
+The key is these concepts are:
+
+    Based on lived experience not formal education
+    About navigating daily life smoothly
+    Context-dependent but commonly understood
+    More about wisdom than intelligence
+    Often unspoken but widely shared
+
+These would help AI be genuinely useful companions for everyday life rather than just intelligent tools. Would you like me to expand on any of these categories or suggest how to gather training data for them?

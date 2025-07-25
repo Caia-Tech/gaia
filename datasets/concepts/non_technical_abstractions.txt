@@ -1,0 +1,67 @@
+Here are abstract non-technical concepts that would be valuable and challenging for teaching AI:
+
+Philosophy & Consciousness
+Qualia and Subjective Experience - The "redness" of red, the "painfulness" of pain - irreducible first-person experiences.
+The Ship of Theseus Problem - Identity persistence through change, applicable to personal identity, organizations, cultures.
+Intentionality - How mental states can be "about" something, the directedness of consciousness.
+Modal Reasoning - Necessity vs possibility, counterfactuals, "what could have been."
+Phenomenology - The structures of experience itself, how consciousness constitutes meaning.
+
+Social & Cultural Abstractions
+Social Constructs vs Natural Kinds - Money, borders, gender roles as collective agreements rather than physical facts.
+Cultural Relativism vs Universals - Which human behaviors/values are culturally specific vs universal.
+Power Dynamics and Soft Power - Influence without force, how authority emerges and maintains itself.
+Collective Memory and Mythology - How societies remember, forget, and construct shared narratives.
+The Sacred and Profane - How cultures designate certain spaces, times, objects as set apart.
+
+Aesthetic & Artistic Concepts
+Negative Space - The importance of what's not there in art, music, design, and communication.
+Aesthetic Distance - The psychological space needed to appreciate art vs being too close/involved.
+The Uncanny Valley - Why almost-but-not-quite human things disturb us more than clearly non-human ones.
+Kitsch vs Camp - Failed seriousness vs deliberate theatrical badness, and why the distinction matters.
+Wabi-Sabi - Finding beauty in imperfection, impermanence, and incompleteness.
+
+Language & Meaning
+Pragmatics and Implicature - What's meant beyond what's literally said, Gricean maxims.
+Metaphorical Thinking - How abstract concepts are grounded in physical experience (up=good, time=money).
+Irony and Meta-levels - Saying one thing to mean another, and recursive irony (ironic appreciation of irony).
+Speech Acts - How words do things (promises, declarations) not just describe things.
+Deixis - Words whose meaning shifts with context (here, now, you, this).
+
+Psychological Abstractions
+Cognitive Dissonance - The discomfort of holding contradictory beliefs and how we resolve it.
+Flow States - The dissolution of self-awareness during deep engagement.
+Parasocial Relationships - One-sided emotional connections with fictional characters or celebrities.
+The Hedonic Treadmill - Why happiness returns to baseline despite positive/negative events.
+Emotional Granularity - The ability to distinguish subtle emotional states (frustration vs anger vs indignation).
+
+Ethical & Moral Abstractions
+Moral Luck - How circumstances beyond our control affect moral judgment.
+The Is-Ought Problem - Why you can't derive moral prescriptions from factual descriptions.
+Virtue Ethics vs Consequences - Character-based vs outcome-based moral reasoning.
+Moral Intuitions vs Reasoning - Gut feelings about right/wrong vs logical ethical arguments.
+Supererogation - Acts that are good but not obligatory (going beyond duty).
+
+Unique Datasets/Approaches
+Literary Close Reading Corpora - Expert annotations showing how subtle word choices create meaning.
+Humor Dissection Datasets - Jokes explained (which kills them) to understand timing, expectation, social context.
+Ethnographic Thick Descriptions - Rich cultural context around simple actions (Geertz's wink vs twitch).
+Dream Logic Narratives - Stories that make sense by dream rules but not waking logic.
+Therapeutic Dialogue Transcripts - How meaning emerges through interaction, not just content.
+Art Criticism Through History - How the same artwork is interpreted differently across eras.
+Ritual and Ceremony Descriptions - Actions that create meaning through performance, not utility.
+
+Meta-Concepts
+Liminality - Threshold states, being "betwixt and between" categories.
+Dialectical Thinking - Thesis-antithesis-synthesis, how contradictions drive development.
+Hermeneutic Circles - Understanding wholes through parts and parts through wholes.
+Performativity - How describing something can make it true (self-fulfilling prophecies).
+Apophatic Knowledge - Understanding through negation, knowing what something is not.
+
+The challenge with these concepts is they often:
+
+Resist precise definition
+Depend heavily on context and interpretation
+Involve subjective experience
+Operate through ambiguity rather than despite it
+Require understanding human embodiment and culture
