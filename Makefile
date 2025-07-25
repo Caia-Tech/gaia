@@ -5,7 +5,7 @@ CFLAGS = -Wall -Wextra -O2
 OBJS = gate_types.o basic_gates.o memory_gates_modular.o adaptive_gates.o network_builder.o
 
 # All targets
-all: binary_gates experiments test_suite memory_gates test_modular demo_learning test_networks
+all: binary_gates experiments test_suite memory_gates test_modular demo_learning test_networks text_processor
 
 # Original demos
 binary_gates: binary_gates.c
@@ -48,6 +48,38 @@ test_networks: test_networks.c $(OBJS)
 demo_learning: demo_learning.c $(OBJS)
 	$(CC) $(CFLAGS) -o demo_learning demo_learning.c $(OBJS) -lm
 
+# Text processor
+text_processor: text_processor.c $(OBJS)
+	$(CC) $(CFLAGS) -o text_processor text_processor.c $(OBJS)
+
+# Text processor tests
+test_text_processor: test_text_processor.c $(OBJS)
+	$(CC) $(CFLAGS) -o test_text_processor test_text_processor.c $(OBJS)
+
+# Advanced text processor
+text_processor_advanced: text_processor_advanced.c $(OBJS)
+	$(CC) $(CFLAGS) -o text_processor_advanced text_processor_advanced.c $(OBJS)
+
+# Coherent text processor
+text_coherence: text_coherence.c $(OBJS)
+	$(CC) $(CFLAGS) -o text_coherence text_coherence.c $(OBJS)
+
+# Text coherence V2
+text_coherence_v2: text_coherence_v2.c $(OBJS)
+	$(CC) $(CFLAGS) -o text_coherence_v2 text_coherence_v2.c $(OBJS) -lm
+
+# Simple coherence V3
+text_coherence_v3_simple: text_coherence_v3_simple.c $(OBJS)
+	$(CC) $(CFLAGS) -o text_coherence_v3_simple text_coherence_v3_simple.c $(OBJS)
+
+# Coherence proof
+coherence_proof: coherence_proof.c $(OBJS)
+	$(CC) $(CFLAGS) -o coherence_proof coherence_proof.c $(OBJS)
+
+# Text training system
+text_training_system: text_training_system.c $(OBJS)
+	$(CC) $(CFLAGS) -o text_training_system text_training_system.c $(OBJS)
+
 # Run targets
 run: binary_gates
 	./binary_gates
@@ -67,6 +99,6 @@ run_modular: test_modular
 
 # Clean
 clean:
-	rm -f binary_gates experiments test_suite memory_gates test_modular demo_learning test_networks *.o
+	rm -f binary_gates experiments test_suite memory_gates test_modular demo_learning test_networks text_processor *.o
 
 .PHONY: all run run_all run_modular clean
