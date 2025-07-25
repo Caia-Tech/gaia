@@ -1,8 +1,10 @@
-# gaia: A Fundamental Rethinking of Machine Intelligence
+# gaia: Exploring an Alternative Approach to Machine Intelligence
 
-## Discovery Summary
+*Note: This document describes experimental research and proof-of-concept implementations. Results and claims are from initial experiments and should be evaluated as exploratory work.*
 
-On July 25, 2025, we demonstrated that artificial intelligence doesn't require:
+## Research Summary
+
+On July 25, 2025, we began exploring whether artificial intelligence could be built without:
 - Neural networks
 - Gradient descent  
 - Backpropagation
@@ -10,15 +12,15 @@ On July 25, 2025, we demonstrated that artificial intelligence doesn't require:
 - GPU clusters
 - Months of training
 
-Instead, we built functional AI using only:
+Our initial experiments explored building AI-like systems using only:
 - Basic logic gates (AND, OR, XOR, NOT)
 - Simple C code
 - Memory states
 - Configuration search
 
-## Core Insight
+## Core Hypothesis
 
-Machine learning is fundamentally about finding the right configuration of simple computational elements. We've been obsessing over HOW to find it (gradient descent) rather than WHAT we're looking for (working configurations).
+What if machine learning is fundamentally about finding the right configuration of simple computational elements? Perhaps we've been obsessing over HOW to find it (gradient descent) rather than WHAT we're looking for (working configurations).
 
 ## Tested Approaches
 
@@ -50,17 +52,20 @@ Machine learning is fundamentally about finding the right configuration of simpl
 - Emergent properties from architecture
 - No training required - behavior comes from structure
 
-## Test Results
+## Initial Test Results
 
-- **Success Rate**: 95.2% across all experiments
-- **Training Time**: Zero (configuration search only)
-- **Execution Speed**: Unmeasurable (faster than clock resolution)
-- **Memory Usage**: Kilobytes, not gigabytes
-- **Hardware Required**: Any CPU from 1990 onward
+Our proof-of-concept experiments showed:
+- **Test Cases**: 20 out of 21 passed in initial experiments
+- **Configuration Time**: Minimal (no traditional training required)
+- **Execution Speed**: Very fast (measured in nanoseconds)
+- **Memory Usage**: Kilobytes in our test implementations
+- **Hardware Required**: Runs on standard CPUs
+
+*Note: These are results from limited proof-of-concept tests, not comprehensive benchmarks.*
 
 ## How It Learns
 
-Traditional neural networks adjust millions of weights through calculus-based optimization. gaia learns through:
+Traditional neural networks adjust millions of weights through calculus-based optimization. Our experiments explore learning through:
 
 1. **Configuration Evolution**
    - Generate random gate arrangements
@@ -78,25 +83,27 @@ Traditional neural networks adjust millions of weights through calculus-based op
    - Change gate types
    - Evolve architecture, not weights
 
-## Implications
+## Potential Implications
 
-### Technical
-- AI can run on any device
-- No specialized hardware needed
-- Completely explainable decisions
-- Deterministic and debuggable
+If this approach proves viable at scale, it could mean:
 
-### Economic  
-- Democratizes AI access
-- Destroys GPU moat
-- Makes AI free (computationally)
-- Enables offline-first AI
+### Technical Possibilities
+- AI that runs on any device
+- No specialized hardware requirements
+- More explainable decision processes
+- Easier debugging and verification
 
-### Philosophical
-- Intelligence might be simpler than we thought
-- We've been climbing the wrong mountain
-- Binary logic is sufficient for cognition
-- Complexity emerges from simple rules
+### Economic Considerations
+- Reduced computational costs
+- Broader access to AI technology
+- Less dependence on specialized hardware
+- Local processing capabilities
+
+### Research Questions
+- Is intelligence simpler than we assumed?
+- Are we overcomplicating AI architectures?
+- Could logic gates scale to complex tasks?
+- How does complexity emerge from simple rules?
 
 ## Implementation Files
 
@@ -155,11 +162,11 @@ This isn't just an alternative to neural networks - it's a complete framework fo
 
 ## Historical Context
 
-Just as Von Neumann showed that all computation could be done with simple operations, we've shown that all learning can be done with simple gates. The AI revolution doesn't require a revolution in hardware - just a revolution in thinking.
+Just as Von Neumann showed that all computation could be done with simple operations, we're exploring whether learning might also be achievable through simple gates. Perhaps the AI revolution doesn't require a revolution in hardware - just a revolution in thinking.
 
 ## Credits
 
-Discovered by Marvin Tutt on July 25, 2025, with $0 budget, a MacBook, and the constraint-driven insight that if you can't afford neural networks, you have to think differently.
+Initial research by Marvin Tutt starting July 25, 2025, with $0 budget, a MacBook, and the constraint-driven insight that if you can't afford neural networks, you have to think differently.
 
 Marvin Tutt  
 Chief Executive Officer  
