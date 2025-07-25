@@ -1,0 +1,49 @@
+What is the relationship between cause and effect? Cause and effect shows how one event leads to another in a chain of consequences.
+If all birds have wings and penguins are birds, do penguins have wings? Yes, penguins have wings, though they use them for swimming not flying.
+What's the difference between correlation and causation? Correlation means two things occur together, causation means one directly causes the other.
+If A implies B and B implies C, what can we say about A and C? A implies C through transitivity of implication.
+What is deductive reasoning? Deductive reasoning starts with general premises and reaches specific conclusions.
+What is inductive reasoning? Inductive reasoning observes specific instances to form general conclusions.
+If no reptiles are warm-blooded and snakes are reptiles, are snakes warm-blooded? No, snakes are not warm-blooded.
+What is a logical fallacy? A logical fallacy is an error in reasoning that undermines an argument.
+If it rains, the ground gets wet. The ground is wet. Did it rain? Not necessarily - this is affirming the consequent fallacy.
+What is modus ponens? If P then Q, P is true, therefore Q is true.
+What is modus tollens? If P then Q, Q is false, therefore P is false.
+All squares are rectangles. Are all rectangles squares? No, rectangles can have unequal sides.
+What is the difference between necessary and sufficient conditions? Necessary means required, sufficient means enough to guarantee.
+If every student passed and John is a student, did John pass? Yes, John passed.
+What is circular reasoning? Circular reasoning uses the conclusion as a premise.
+Can something be both true and false? No, this violates the law of non-contradiction.
+What is Occam's Razor? The simplest explanation is usually the correct one.
+If all A are B and all B are C, what about A and C? All A are C by syllogistic logic.
+What is a paradox? A paradox is a statement that seems contradictory but may reveal truth.
+This statement is false. Is it true or false? This is the liar paradox - it cannot be consistently assigned a truth value.
+What is the difference between valid and sound arguments? Valid means correct form, sound means valid with true premises.
+If most birds fly and robins are birds, do robins fly? Probably yes, but this is probabilistic not certain.
+What is the principle of explosion? From a contradiction, anything can be proven.
+All men are mortal. Socrates is a man. Is Socrates mortal? Yes, Socrates is mortal - classic syllogism.
+What is the difference between and/or in logic? AND requires both, OR requires at least one.
+If P or Q is true and P is false, what about Q? Q must be true.
+What is De Morgan's Law? NOT (A AND B) equals (NOT A) OR (NOT B).
+Can an argument be valid but not true? Yes, if the premises are false.
+What is the contrapositive? The contrapositive of "if P then Q" is "if not Q then not P".
+All cats are mammals. No mammals are fish. Are cats fish? No, cats are not fish.
+What is the difference between some and all? Some means at least one, all means every instance.
+If no A are B and all C are B, what about A and C? No A are C.
+What is a tautology? A tautology is always true regardless of circumstances.
+What is a contradiction in logic? A contradiction is always false.
+If either A or B but not both, and A is true, what about B? B must be false (exclusive or).
+What is the law of excluded middle? Every statement is either true or false, no middle option.
+All flowers need water. Roses are flowers. Do roses need water? Yes, roses need water.
+What is reductio ad absurdum? Proving something by showing its negation leads to absurdity.
+Can two contradictory statements both be true? No, this violates logical consistency.
+What is the difference between premise and conclusion? Premises are starting assumptions, conclusion is what follows.
+If whenever A then B, and whenever B then C, what about A and C? Whenever A then C (transitivity).
+What is the sorites paradox? Adding one grain doesn't make a heap, yet many grains do make a heap.
+All dogs bark. Fido is a dog. Does Fido bark? Yes, Fido barks.
+What is the difference between material and logical implication? Material is truth-functional, logical involves meaning.
+If not all A are B, are some A not B? Yes, at least one A is not B.
+What is modal logic? Modal logic deals with possibility and necessity.
+Is it possible for something to be necessarily false? Yes, contradictions are necessarily false.
+All prime numbers greater than 2 are odd. Is 17 odd? Yes, 17 is prime and greater than 2.
+What is fuzzy logic? Fuzzy logic allows degrees of truth between 0 and 1.
