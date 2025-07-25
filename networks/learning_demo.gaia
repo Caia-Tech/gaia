@@ -1,0 +1,16 @@
+# gaia Network Configuration
+# Format: GATE name type
+#         CONNECT from_gate to_gate
+
+GATE in1 ZERO
+GATE in2 ZERO
+GATE in3 ZERO
+GATE learner THRESHOLD
+GATE memory PATTERN
+
+CONNECT in1 learner
+CONNECT in2 learner
+CONNECT in3 learner
+CONNECT in1 memory
+CONNECT in2 memory
+CONNECT in3 memory

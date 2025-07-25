@@ -1,0 +1,35 @@
+# gaia Network Configuration
+# Format: GATE name type
+#         CONNECT from_gate to_gate
+
+# This network implements XOR using NAND gates
+# XOR can be built from 4 NAND gates
+
+# Input gates
+GATE input_a ZERO
+GATE input_b ZERO
+
+# First layer - create inverted inputs
+GATE nand1 NAND
+GATE nand2 NAND
+
+# Second layer - cross connections
+GATE nand3 NAND
+GATE nand4 NAND
+
+# Connect first layer (self-NAND creates NOT)
+CONNECT input_a nand1
+CONNECT input_a nand1
+CONNECT input_b nand2
+CONNECT input_b nand2
+
+# Connect second layer
+CONNECT input_a nand3
+CONNECT nand2 nand3
+CONNECT nand1 nand4
+CONNECT input_b nand4
+
+# Final NAND combines the results
+GATE output NAND
+CONNECT nand3 output
+CONNECT nand4 output

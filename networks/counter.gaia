@@ -1,0 +1,12 @@
+# gaia Network Configuration
+# Format: GATE name type
+#         CONNECT from_gate to_gate
+
+GATE clock ZERO
+GATE reset ZERO
+GATE counter COUNTER
+GATE led BUFFER
+
+CONNECT clock counter
+CONNECT reset counter
+CONNECT counter led

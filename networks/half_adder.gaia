@@ -1,0 +1,13 @@
+# gaia Network Configuration
+# Format: GATE name type
+#         CONNECT from_gate to_gate
+
+GATE a ZERO
+GATE b ZERO
+GATE sum XOR
+GATE carry AND
+
+CONNECT a sum
+CONNECT b sum
+CONNECT a carry
+CONNECT b carry
