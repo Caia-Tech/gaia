@@ -1,0 +1,50 @@
+What is an array? A contiguous block of memory storing elements of the same type.
+What is array access complexity? O(1) for random access by index.
+What is a dynamic array? An array that resizes automatically when capacity is exceeded.
+How do dynamic arrays resize? Typically double capacity and copy elements to new array.
+What is amortized time for dynamic array insertion? O(1) amortized despite occasional O(n) resize.
+What is a linked list? Nodes containing data and pointers to next node.
+When to use arrays vs linked lists? Arrays for random access, lists for frequent insertion/deletion.
+What is a doubly linked list? Each node has pointers to both next and previous nodes.
+What is a circular linked list? The last node points back to the first node.
+What is a stack? LIFO (Last In First Out) data structure.
+What are stack operations? Push (add to top), pop (remove from top), peek (view top).
+What is a queue? FIFO (First In First Out) data structure.
+What are queue operations? Enqueue (add to rear), dequeue (remove from front).
+What is a deque? Double-ended queue allowing insertion/deletion at both ends.
+What is a priority queue? Elements are served based on priority, not order.
+How are priority queues implemented? Usually with heaps for O(log n) operations.
+What is a binary heap? Complete binary tree with heap property.
+What is the heap property? Max heap: parent ≥ children, Min heap: parent ≤ children.
+What is heapify? Restoring heap property after insertion or deletion.
+What is a binary search tree? Tree where left subtree < node < right subtree.
+What is BST search complexity? O(log n) average, O(n) worst case if unbalanced.
+What is a balanced BST? Height is O(log n) for n nodes.
+What is an AVL tree? Self-balancing BST with height difference ≤ 1.
+What are AVL rotations? Single and double rotations to maintain balance.
+What is a red-black tree? Self-balancing BST with color properties.
+What are red-black properties? Root is black, no adjacent red nodes, equal black height.
+How do red-black trees compare to AVL? Less strict balancing, faster insertion/deletion.
+What is a B-tree? Self-balancing tree with multiple keys per node.
+Where are B-trees used? Databases and file systems for disk-based storage.
+What is a B+ tree? B-tree variant with all data in leaves, internal nodes for navigation.
+What is a trie? Tree for storing strings with shared prefixes.
+What is trie complexity? O(m) for operations where m is string length.
+What is a suffix tree? Compressed trie of all suffixes of a string.
+What is a hash table? Array with hash function mapping keys to indices.
+What is a hash collision? When different keys hash to same index.
+How to handle collisions? Chaining (linked lists) or open addressing (probing).
+What is load factor? Number of elements divided by table size.
+When to resize hash table? Typically when load factor exceeds 0.75.
+What is a bloom filter? Probabilistic structure testing set membership.
+Can bloom filters have false positives? Yes, but no false negatives.
+What is a skip list? Probabilistic alternative to balanced trees.
+How do skip lists work? Multiple levels of linked lists with shortcuts.
+What is a union-find structure? Tracks disjoint sets with union and find operations.
+What optimizations for union-find? Path compression and union by rank.
+What is a segment tree? Tree for range queries and updates.
+What is segment tree complexity? O(log n) for query and update.
+What is a Fenwick tree? Binary indexed tree for prefix sums.
+How is Fenwick tree more efficient? Uses less memory than segment tree.
+What is a sparse table? Structure for O(1) range minimum queries after O(n log n) preprocessing.
+What is a persistent data structure? Preserves previous versions after modifications.

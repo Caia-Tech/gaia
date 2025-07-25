@@ -1,0 +1,49 @@
+What is a monad in programming? A monad is a design pattern providing a way to wrap values and chain computations.
+What are the monad laws? Left identity: return a >>= f ≡ f a, Right identity: m >>= return ≡ m, Associativity.
+What is bind in a monad? Bind (>>=) chains computations, passing results from one to the next.
+What is return in a monad? Return wraps a pure value into the monadic context.
+What is the Maybe monad? Maybe handles computations that might fail, with Just value or Nothing.
+How does Maybe short-circuit? When encountering Nothing, subsequent computations are skipped.
+What is the List monad? List represents nondeterministic computations with multiple results.
+How does List monad work? Each bind applies the function to all elements, flattening results.
+What is the IO monad? IO encapsulates side effects, keeping pure and impure code separate.
+Why can't we escape IO? To maintain purity, IO actions must be sequenced through the runtime.
+What is the State monad? State threads stateful computations through pure functions.
+How does State monad work? State wraps functions from state to (value, new state) pairs.
+What is the Reader monad? Reader provides shared immutable environment to computations.
+What is the Writer monad? Writer accumulates values (like logs) alongside computations.
+What is a monad transformer? A way to combine multiple monads into a stack.
+What is lift in transformers? Lift embeds computations from inner monads into the stack.
+What is a functor? A type constructor F with fmap: (a -> b) -> F a -> F b.
+What is the functor law? fmap id = id and fmap (f . g) = fmap f . fmap g.
+How do functors relate to monads? Every monad is a functor via fmap f m = m >>= return . f.
+What is an applicative functor? Between functor and monad, with pure and <*> operations.
+What is pure in applicative? Pure lifts a value into the applicative context.
+What is <*> (apply)? Apply lifts function application into the applicative context.
+Why use applicative over monad? Applicative allows more parallelism, monad forces sequencing.
+What is traverse? Traverse maps a function returning applicative values, collecting results.
+What is sequence? Sequence turns a structure of applicatives into applicative of structure.
+What is the Either monad? Either handles computations with two possibilities, often error or success.
+How is Either different from Maybe? Either can carry error information, Maybe just indicates absence.
+What is the Cont monad? Continuation monad represents computations in continuation-passing style.
+What is MonadPlus? A monad with choice (mplus) and failure (mzero) operations.
+What is the Free monad? Free monad builds a syntax tree for later interpretation.
+Why use Free monads? To separate program description from execution strategy.
+What is the Cofree comonad? The dual of Free, representing streams of values with annotations.
+What is a comonad? The dual of monad with extract and extend operations.
+What is do-notation? Syntactic sugar for chaining monadic computations readably.
+How does do-notation desugar? do {x <- m; f x} becomes m >>= \x -> f x.
+What is join in a monad? Join flattens nested monads: join :: m (m a) -> m a.
+How does join relate to bind? m >>= f = join (fmap f m).
+What is a Kleisli arrow? A function a -> m b, composable with Kleisli composition.
+What is the fish operator? (>=>) composes Kleisli arrows: (f >=> g) x = f x >>= g.
+What is MonadFix? A monad supporting recursive bindings via mfix.
+What is the ST monad? ST provides local mutable state with pure interface.
+How is ST different from IO? ST computations can be safely extracted as pure values.
+What is the RWS monad? Combines Reader, Writer, and State into one monad.
+What are monad morphisms? Natural transformations preserving monadic structure.
+What is the Yoneda lemma for functors? fmap for any functor can be derived from a simpler form.
+What makes a lawful functor? Preserving identity and composition of functions.
+What is contravariant functor? Maps functions in reverse: contramap: (a -> b) -> f b -> f a.
+What is bifunctor? A functor in two arguments with bimap: (a -> c) -> (b -> d) -> f a b -> f c d.
+What is profunctor? A bifunctor contravariant in first argument, covariant in second.

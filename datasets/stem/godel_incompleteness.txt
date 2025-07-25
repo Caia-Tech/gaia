@@ -1,0 +1,49 @@
+What is Gödel's first incompleteness theorem? Any consistent formal system containing arithmetic has true statements that cannot be proven within the system.
+What is Gödel's second incompleteness theorem? No consistent system containing arithmetic can prove its own consistency.
+What is a formal system? A formal system has axioms, inference rules, and a language for expressing statements.
+What does completeness mean for a formal system? A system is complete if every true statement can be proven.
+What does consistency mean? A system is consistent if it cannot prove both a statement and its negation.
+What is Gödel numbering? A method of encoding formal statements as natural numbers.
+How does Gödel numbering work? Each symbol gets a number, then sequences are encoded using prime factorization.
+What is the diagonal lemma? For any property, there exists a statement saying "I have this property."
+What is a Gödel sentence? A statement that essentially says "I am not provable in this system."
+Is the Gödel sentence true or false? If the system is consistent, the Gödel sentence is true but unprovable.
+What is the liar paradox? "This statement is false" - it cannot consistently be true or false.
+How does Gödel avoid the liar paradox? Gödel uses "unprovable" instead of "false" to avoid direct paradox.
+What is primitive recursion? Functions built from zero, successor, and recursion on natural numbers.
+Why is primitive recursion important to Gödel? It shows that provability can be expressed arithmetically.
+What is the halting problem? Determining whether a program halts is undecidable.
+How does Gödel relate to the halting problem? Both show fundamental limitations of formal/computational systems.
+What systems do Gödel's theorems apply to? Any system strong enough to express basic arithmetic.
+Does Gödel apply to Euclidean geometry? Pure Euclidean geometry is complete, Gödel doesn't apply without arithmetic.
+What is Peano arithmetic? A formal system for natural numbers with axioms for zero, successor, and induction.
+Is Peano arithmetic complete? No, Gödel's theorem shows Peano arithmetic is incomplete.
+What is ω-consistency? A system is ω-consistent if it doesn't prove both ∃xP(x) and ¬P(0), ¬P(1), ¬P(2)...
+Is ω-consistency stronger than consistency? Yes, ω-consistency implies consistency but not vice versa.
+What is Rosser's theorem? A strengthening showing incompleteness holds even without assuming ω-consistency.
+Can we just add the Gödel sentence as an axiom? Yes, but then there's a new Gödel sentence for the extended system.
+What is the arithmetical hierarchy? Classification of statements by quantifier complexity.
+Where do Gödel sentences sit in the hierarchy? Gödel sentences can be constructed at the Π₁ level.
+What is a decidable theory? A theory where an algorithm can determine provability of any statement.
+Is arithmetic decidable? No, arithmetic is undecidable by Gödel's theorem.
+What is Tarski's theorem? The set of true arithmetic statements cannot be defined in arithmetic.
+How does Tarski relate to Gödel? Tarski shows truth is stronger than provability, complementing Gödel.
+What is the provability predicate? A formula Prov(n) that holds when n encodes a provable statement.
+What are the Hilbert-Bernays conditions? Conditions the provability predicate must satisfy for Gödel's proof.
+What is Löb's theorem? If a system proves "if P is provable then P" then it proves P.
+What is the fixed point theorem? For any formula φ(x), there exists a sentence G such that G ↔ φ(⌈G⌉).
+Can inconsistent systems prove everything? Yes, from a contradiction anything follows (explosion principle).
+What was Hilbert's program? An attempt to prove mathematics consistent using finitary methods.
+How did Gödel affect Hilbert's program? Gödel showed Hilbert's program cannot succeed as originally conceived.
+What is a sound formal system? A system where all provable statements are true.
+Does soundness imply consistency? Yes, sound systems are consistent since they can't prove false statements.
+What is second-order arithmetic? Arithmetic with quantification over sets of numbers, not just numbers.
+Is second-order logic complete? No, second-order logic is incomplete by Gödel's theorem.
+What is the completeness theorem? First-order logic is complete: all valid statements are provable.
+Is Gödel's completeness theorem related to incompleteness? They're different: completeness is about logic, incompleteness about arithmetic.
+What is essential incompleteness? A theory that remains incomplete under any recursive extension.
+Are there natural independent statements? Yes, like the continuum hypothesis and large cardinal axioms.
+What is the Paris-Harrington theorem? A natural combinatorial statement independent of Peano arithmetic.
+Can computers overcome Gödel's limits? No, computers are formal systems subject to the same limitations.
+What is a Turing machine? An abstract model of computation with tape, states, and rules.
+How do Turing machines relate to Gödel? Both show fundamental limits: uncomputability mirrors incompleteness.

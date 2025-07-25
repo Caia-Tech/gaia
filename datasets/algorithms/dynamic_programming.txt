@@ -1,0 +1,50 @@
+What is dynamic programming? Dynamic programming solves problems by combining solutions to overlapping subproblems.
+What are the key elements of DP? Optimal substructure and overlapping subproblems.
+What is optimal substructure? Optimal solution contains optimal solutions to subproblems.
+What are overlapping subproblems? Same subproblems appear multiple times in recursion.
+What is memoization? Top-down DP storing results of subproblems to avoid recomputation.
+What is tabulation? Bottom-up DP filling a table systematically from base cases.
+When to use memoization vs tabulation? Memoization for sparse problems, tabulation for dense ones.
+What is the Fibonacci DP example? F(n) = F(n-1) + F(n-2) with F(0)=0, F(1)=1, store results.
+What is the time complexity improvement? From O(2^n) recursive to O(n) with DP.
+What is the 0/1 knapsack problem? Choose items with weights and values to maximize value within capacity.
+What is the knapsack recurrence? dp[i][w] = max(dp[i-1][w], dp[i-1][w-weight[i]] + value[i]).
+What is the longest common subsequence? Find longest sequence appearing in same order in both strings.
+What is LCS recurrence? If match: 1 + LCS(i-1,j-1), else max(LCS(i-1,j), LCS(i,j-1)).
+What is edit distance? Minimum operations to transform one string into another.
+What operations for edit distance? Insert, delete, and substitute characters.
+What is the coin change problem? Find minimum coins to make given amount.
+What is coin change recurrence? dp[amount] = 1 + min(dp[amount - coin] for each coin).
+What is the rod cutting problem? Cut rod to maximize value given prices for different lengths.
+What is matrix chain multiplication? Find optimal parenthesization to minimize scalar multiplications.
+Why does order matter in matrix multiplication? (AB)C vs A(BC) have different computation costs.
+What is the longest increasing subsequence? Find longest subsequence with strictly increasing elements.
+What is LIS time complexity? O(n²) with DP, O(n log n) with binary search optimization.
+What is the maximum subarray problem? Find contiguous subarray with largest sum.
+What is Kadane's algorithm? Track maximum ending here: max_ending = max(arr[i], max_ending + arr[i]).
+What is the subset sum problem? Determine if subset exists with given sum.
+What is subset sum recurrence? dp[i][sum] = dp[i-1][sum] OR dp[i-1][sum-arr[i]].
+What is the partition problem? Divide array into two subsets with equal sum.
+How does partition relate to subset sum? Partition possible iff subset with sum = total/2 exists.
+What is the palindrome partitioning? Minimum cuts to partition string into palindromes.
+What is optimal BST problem? Build BST minimizing expected search cost given frequencies.
+What is the egg dropping problem? Find minimum trials to find critical floor with k eggs.
+What is the painter's partition? Minimize time to paint boards with k painters.
+What is the word break problem? Check if string can be segmented into dictionary words.
+What is word break recurrence? dp[i] = any(dp[j] AND substring[j:i] in dict for j < i).
+What is the regular expression matching? Check if string matches pattern with . and *.
+What is the wildcard matching? Match string with pattern containing ? and *.
+What is the interleaving string problem? Check if s3 is interleaving of s1 and s2.
+What is the distinct subsequences? Count distinct subsequences of s that equal t.
+What is the maximum profit with k transactions? Buy/sell stock at most k times for maximum profit.
+What is the house robber problem? Maximum money robbing non-adjacent houses.
+What is house robber recurrence? dp[i] = max(dp[i-1], nums[i] + dp[i-2]).
+What is the decode ways problem? Count ways to decode digit string as letters.
+What is the unique paths problem? Count paths from top-left to bottom-right.
+What is unique paths recurrence? dp[i][j] = dp[i-1][j] + dp[i][j-1].
+What is the minimum path sum? Find path with minimum sum in grid.
+What is the jump game? Can you reach last index with jump lengths?
+What is the triangle minimum path? Find minimum path sum from top to bottom of triangle.
+What is the maximal square? Find largest square of 1s in binary matrix.
+What is maximal square recurrence? dp[i][j] = 1 + min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]).
+What makes a problem suitable for DP? Optimal substructure and overlapping subproblems.

@@ -1,0 +1,50 @@
+What is a topological space? A topological space is a set with a collection of open sets satisfying certain axioms.
+What are the axioms of a topology? The empty set and whole space are open, arbitrary unions of open sets are open, finite intersections are open.
+What is a homeomorphism? A homeomorphism is a continuous bijection with a continuous inverse, preserving topological properties.
+Are a coffee cup and donut homeomorphic? Yes, they are topologically equivalent as both have one hole.
+What is a continuous function topologically? A function where preimages of open sets are open sets.
+What is compactness in topology? A space where every open cover has a finite subcover.
+Is the real line compact? No, the real line is not compact but closed bounded intervals are.
+What is connectedness? A space that cannot be separated into two disjoint non-empty open sets.
+What is path connectedness? A space where any two points can be joined by a continuous path.
+Does path connected imply connected? Yes, but connected doesn't always imply path connected.
+What is a manifold? A topological space that locally resembles Euclidean space.
+What dimension is the surface of a sphere? The 2-sphere surface is a 2-dimensional manifold.
+What is the fundamental group? The group of loops at a basepoint up to continuous deformation.
+What is the fundamental group of a circle? The fundamental group of a circle is the integers Z.
+What is a covering space? A space that maps onto another space in a locally homeomorphic way.
+What is the Euler characteristic? A topological invariant, for polyhedra it's vertices minus edges plus faces.
+What is the Euler characteristic of a sphere? The Euler characteristic of a sphere is 2.
+What is a homotopy? A continuous deformation between two continuous functions.
+Are homotopic spaces topologically equivalent? Homotopy equivalent spaces share many topological properties but aren't necessarily homeomorphic.
+What is a metric space? A set with a distance function satisfying certain axioms.
+Does every metric space have a topology? Yes, the metric induces a topology via open balls.
+What is a Hausdorff space? A space where distinct points have disjoint neighborhoods.
+What is the quotient topology? The finest topology making the quotient map continuous.
+What is a topological invariant? A property preserved under homeomorphisms.
+Is dimension a topological invariant? Yes, dimension is preserved under homeomorphisms.
+What is the Brouwer fixed point theorem? Every continuous function from a disk to itself has a fixed point.
+What is a deformation retract? A subspace that the whole space can be continuously shrunk onto.
+What is the genus of a surface? The number of holes or handles in a surface.
+What is a torus topologically? A torus is the product of two circles, having genus 1.
+What is the Klein bottle? A non-orientable surface that cannot be embedded in 3D without self-intersection.
+What is orientability? A property where a consistent choice of "clockwise" can be made everywhere.
+Is a Möbius strip orientable? No, a Möbius strip is non-orientable with only one side.
+What is a simplicial complex? A space built from simplices (triangles, tetrahedra) glued along faces.
+What is homology? An algebraic way to count holes of different dimensions in a space.
+What is the zeroth homology group? It counts the connected components of a space.
+What is a contractible space? A space that can be continuously shrunk to a point.
+Is a contractible space simply connected? Yes, contractible implies simply connected.
+What is the Jordan curve theorem? A simple closed curve in the plane divides it into exactly two regions.
+What is paracompactness? A space where every open cover has a locally finite refinement.
+Are metric spaces paracompact? Yes, all metric spaces are paracompact.
+What is the long line? A topological space longer than the real line but still one-dimensional.
+What is a CW complex? A space built inductively by attaching cells of increasing dimension.
+What is Urysohn's lemma? Normal spaces have enough continuous functions to separate closed sets.
+What is the Tychonoff theorem? The product of compact spaces is compact in the product topology.
+Can uncountable products be compact? Yes, by Tychonoff's theorem even uncountable products of compact spaces are compact.
+What is sequential compactness? Every sequence has a convergent subsequence.
+In metric spaces, is compactness equivalent to sequential compactness? Yes, in metric spaces these concepts coincide.
+What is local compactness? Every point has a compact neighborhood.
+Is the real line locally compact? Yes, every point has a compact interval neighborhood.
+What is the one-point compactification? Adding a point at infinity to make a locally compact space compact.

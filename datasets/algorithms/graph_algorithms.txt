@@ -1,0 +1,50 @@
+What is depth-first search (DFS)? DFS explores as far as possible along each branch before backtracking.
+What is the time complexity of DFS? O(V + E) where V is vertices and E is edges.
+What can DFS detect? DFS can detect cycles, compute topological order, and find connected components.
+What is breadth-first search (BFS)? BFS explores all neighbors before moving to next level.
+What does BFS guarantee? BFS finds shortest paths in unweighted graphs.
+What is Dijkstra's algorithm? Dijkstra finds shortest paths from a source in weighted graphs with non-negative edges.
+What is Dijkstra's time complexity? O((V + E) log V) with a binary heap, O(V² + E) with arrays.
+What is the Bellman-Ford algorithm? Bellman-Ford finds shortest paths even with negative edge weights.
+When does Bellman-Ford detect? Bellman-Ford detects negative weight cycles.
+What is Floyd-Warshall algorithm? Floyd-Warshall finds all shortest paths between all pairs of vertices.
+What is Floyd-Warshall's complexity? O(V³) time and O(V²) space.
+What is A* search? A* uses heuristics to find shortest paths more efficiently than Dijkstra.
+What makes a heuristic admissible? A heuristic is admissible if it never overestimates true cost.
+What is a minimum spanning tree? A tree connecting all vertices with minimum total edge weight.
+What is Kruskal's algorithm? Kruskal builds MST by greedily adding minimum weight edges that don't create cycles.
+What is Prim's algorithm? Prim builds MST by growing a tree from a starting vertex.
+How do Kruskal and Prim differ? Kruskal is edge-based and uses disjoint sets, Prim is vertex-based.
+What is a strongly connected component? A maximal set of vertices where every vertex reaches every other.
+What is Tarjan's SCC algorithm? Tarjan finds SCCs in O(V + E) using DFS and a stack.
+What is Kosaraju's algorithm? Kosaraju finds SCCs using two DFS passes on the graph and its transpose.
+What is topological sorting? Ordering vertices so all edges go from earlier to later vertices.
+When is topological sort possible? Only in directed acyclic graphs (DAGs).
+What is Kahn's algorithm? Kahn's algorithm does topological sort using in-degree counts.
+What is a maximum flow? The maximum amount that can flow from source to sink.
+What is the Ford-Fulkerson method? Ford-Fulkerson finds max flow by repeatedly finding augmenting paths.
+What is the Edmonds-Karp algorithm? Edmonds-Karp is Ford-Fulkerson using BFS for O(VE²) complexity.
+What is the max-flow min-cut theorem? Maximum flow equals minimum cut capacity.
+What is a minimum cut? The minimum capacity of edges whose removal disconnects source from sink.
+What is bipartite matching? Finding maximum pairing between two sets of vertices.
+How to solve bipartite matching? Reduce to max flow or use Hungarian algorithm.
+What is the Hungarian algorithm? Hungarian algorithm solves assignment problem in O(n³).
+What is graph coloring? Assigning colors to vertices so adjacent vertices differ.
+What is the chromatic number? The minimum colors needed to color a graph.
+Is graph coloring easy? No, determining if a graph is 3-colorable is NP-complete.
+What is a Hamiltonian path? A path visiting every vertex exactly once.
+What is an Eulerian path? A path visiting every edge exactly once.
+When does Eulerian path exist? When at most two vertices have odd degree.
+What is the Chinese postman problem? Finding shortest route visiting all edges at least once.
+What is the traveling salesman problem? Finding shortest route visiting all vertices exactly once.
+What are approximations for TSP? 2-approximation exists for metric TSP using MST.
+What is a planar graph? A graph drawable on a plane without edge crossings.
+What is Kuratowski's theorem? A graph is planar iff it contains no subdivision of K₅ or K₃,₃.
+What is the four color theorem? Every planar graph can be colored with four colors.
+What is a perfect matching? A matching covering all vertices in the graph.
+When does perfect matching exist? Hall's theorem gives conditions for bipartite graphs.
+What is the stable marriage problem? Matching two groups with preferences to avoid unstable pairs.
+What is the Gale-Shapley algorithm? Gale-Shapley finds stable matching via proposals.
+What is a vertex cover? A set of vertices covering all edges.
+What is an independent set? A set of vertices with no edges between them.
+How do vertex cover and independent set relate? Their complements in any graph.

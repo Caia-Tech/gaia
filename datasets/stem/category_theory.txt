@@ -1,0 +1,49 @@
+What is a category? A category consists of objects, morphisms between objects, and composition satisfying certain laws.
+What are the category axioms? Identity morphisms exist, composition is associative, and identities are neutral.
+What is a morphism? A morphism is an arrow between objects, generalizing functions, homomorphisms, etc.
+What is a functor? A functor maps objects to objects and morphisms to morphisms preserving composition and identities.
+What makes a functor covariant? A covariant functor preserves the direction of morphisms.
+What is a contravariant functor? A contravariant functor reverses the direction of morphisms.
+What is a natural transformation? A natural transformation is a systematic way to transform one functor into another.
+What is the naturality square? The diagram showing that a natural transformation commutes with morphisms.
+What is an isomorphism in a category? A morphism with a two-sided inverse.
+What does it mean for categories to be equivalent? Categories are equivalent if connected by functors that are inverses up to natural isomorphism.
+What is a small category? A category where objects and morphisms form sets rather than proper classes.
+What is the category Set? The category with sets as objects and functions as morphisms.
+What is the opposite category? The category with all morphisms reversed.
+What is a product in a category? An object with projections satisfying a universal property.
+What is a coproduct? The dual of a product, generalizing disjoint union.
+What is a terminal object? An object with exactly one morphism from every object.
+What is an initial object? An object with exactly one morphism to every object.
+What is a limit? A universal cone over a diagram.
+What is a colimit? A universal cocone under a diagram.
+What is the Yoneda lemma about? Natural transformations from representable functors correspond to elements.
+What is a representable functor? A functor naturally isomorphic to Hom(A,-) for some object A.
+What is an adjunction? A pair of functors with a natural bijection between certain morphism sets.
+What does "left adjoint" mean? The functor that preserves colimits in an adjunction.
+What does "right adjoint" mean? The functor that preserves limits in an adjunction.
+What is a monad in category theory? A functor with multiplication and unit satisfying associativity and unit laws.
+What is a comonad? The dual of a monad, with comultiplication and counit.
+What is a topos? A category that behaves like the category of sets with extra logical structure.
+What is a cartesian closed category? A category with products and exponentials (function objects).
+What is an abelian category? A category where morphisms have kernels and cokernels with nice properties.
+What is a groupoid? A category where every morphism is an isomorphism.
+What is a 2-category? A category with morphisms between morphisms (2-morphisms).
+What is vertical composition? Composition of 2-morphisms along objects.
+What is horizontal composition? Composition of 2-morphisms along 1-morphisms.
+What is a monoidal category? A category with a tensor product and unit object.
+What is braiding in a monoidal category? A natural isomorphism swapping tensor factors.
+What is a closed category? A category where morphism sets are represented by objects.
+What is an enriched category? A category where hom-sets are objects in another category.
+What is a presheaf? A contravariant functor from a category to Set.
+What is the category of elements? The category integrating a presheaf with its indexing category.
+What is a kan extension? The best approximation to extending a functor along another functor.
+What is a profunctor? A functor from C^op × D to Set, generalizing relations.
+What is the walking arrow? The category with two objects and one non-identity morphism.
+What does it mean for a functor to be faithful? Injective on each hom-set.
+What does it mean for a functor to be full? Surjective on each hom-set.
+What is an equivalence of categories concretely? Full, faithful, and essentially surjective functors.
+What is a comma category? A category of morphisms with specified domain and codomain functors.
+What is a slice category? The category of objects over a fixed object.
+What is a coslice category? The category of objects under a fixed object.
+What is the free category on a graph? The category with paths in the graph as morphisms.

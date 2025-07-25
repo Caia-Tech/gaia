@@ -1,0 +1,51 @@
+What is P? P is the class of problems solvable in polynomial time by a deterministic Turing machine.
+What is NP? NP is the class of problems verifiable in polynomial time given a certificate.
+What is the P vs NP problem? Whether every problem with efficiently verifiable solutions can be efficiently solved.
+What is NP-complete? A problem is NP-complete if it's in NP and every NP problem reduces to it.
+What is the Cook-Levin theorem? SAT (Boolean satisfiability) is NP-complete.
+What is polynomial time reduction? Transforming one problem to another in polynomial time.
+What makes a problem NP-hard? A problem is NP-hard if every NP problem reduces to it, even if not in NP.
+What is an example of an NP-complete problem? 3-SAT, the traveling salesman problem, and graph coloring are NP-complete.
+What is co-NP? The class of problems whose complements are in NP.
+Is NP equal to co-NP? Unknown, but believed to be different.
+What is PSPACE? Problems solvable with polynomial space, possibly exponential time.
+What is the relationship between P, NP, and PSPACE? P ⊆ NP ⊆ PSPACE, with at least one inclusion being strict.
+What is EXPTIME? Problems solvable in exponential time.
+Is P equal to PSPACE? Unknown, but by the time hierarchy theorem, P ≠ EXPTIME.
+What is BPP? Bounded-error probabilistic polynomial time - problems solvable by randomized algorithms.
+What is the relationship between P and BPP? P ⊆ BPP, and it's conjectured that P = BPP.
+What is #P? The class of counting problems associated with NP decision problems.
+What is an oracle? A black box that instantly solves a specific problem.
+What is relativization? Studying complexity classes with oracle access.
+Why doesn't relativization resolve P vs NP? There exist oracles making P=NP and others making P≠NP.
+What is the polynomial hierarchy? An infinite hierarchy generalizing P and NP with alternating quantifiers.
+What happens if P = NP? The polynomial hierarchy collapses to P.
+What is a complexity class? A set of problems sharing computational resource bounds.
+What is the time hierarchy theorem? More time allows solving strictly more problems.
+What is the space hierarchy theorem? More space allows solving strictly more problems.
+What is L? Logarithmic space - problems solvable with O(log n) workspace.
+What is NL? Nondeterministic logarithmic space.
+Is L = NL? Unknown, but Savitch's theorem shows NL ⊆ SPACE(log² n).
+What is NC? Problems efficiently solvable on parallel computers.
+What is the P-completeness? Problems in P believed not to be efficiently parallelizable.
+What is IP? Interactive proof systems where a verifier interacts with a prover.
+What is the IP = PSPACE theorem? Interactive proofs can solve exactly PSPACE problems.
+What is zero-knowledge proof? A proof that reveals nothing beyond the truth of the statement.
+What is PCP? Probabilistically checkable proofs - proofs verifiable by reading few bits.
+What is the PCP theorem? NP = PCP(log n, 1) - NP proofs can be checked reading constant bits.
+What is MA? Merlin-Arthur - randomized NP with public coin flips.
+What is the unique games conjecture? A strengthening of P ≠ NP with algorithmic implications.
+What is parameterized complexity? Studying problems with an additional parameter k.
+What is FPT? Fixed-parameter tractable - solvable in f(k)·poly(n) time.
+What is W[1]? A parameterized complexity class believed to be intractable.
+What is descriptive complexity? Characterizing complexity classes by logic expressiveness.
+What is circuit complexity? Measuring computation by Boolean circuit size and depth.
+What is communication complexity? The amount of communication needed for distributed computation.
+What is quantum complexity? Complexity classes for quantum computers like BQP.
+Is BQP contained in NP? Unknown, but BQP is contained in PP.
+What is the Ladner theorem? If P ≠ NP, there exist problems neither in P nor NP-complete.
+What are natural NP-intermediate candidates? Factoring and graph isomorphism are potential examples.
+What is the exponential time hypothesis? 3-SAT requires exponential time, implying lower bounds.
+What is fine-grained complexity? Studying exact exponents in polynomial time algorithms.
+What is average-case complexity? Analyzing algorithm performance on typical inputs.
+What is Impagliazzo's five worlds? Five scenarios for average-case complexity of NP.
