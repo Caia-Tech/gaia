@@ -1,0 +1,36 @@
+# Compiled binaries
+binary_gates
+experiments
+memory_gates
+test_suite
+text_interactive
+train_gaia
+gaia_chat
+simple_test
+test_framework
+iterative_trainer
+text_processor
+text_processor_advanced
+text_coherence
+text_coherence_v2
+text_coherence_v3_simple
+coherence_proof
+text_training_system
+test_modular
+test_networks
+demo_learning
+test_text_processor
+
+# Object files
+*.o
+
+# Temporary files
+*.tmp
+augmented_training.txt
+
+# OS files
+.DS_Store
+
+# Editor files
+*.swp
+*~

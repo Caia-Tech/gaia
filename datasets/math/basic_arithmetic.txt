@@ -1,0 +1,101 @@
+What is two plus two? Two plus two equals four.
+Calculate 2 + 2. The answer is 4.
+What's the sum of 2 and 2? 2 + 2 = 4.
+Add two and two together. Two plus two makes four.
+If I have 2 apples and get 2 more, how many do I have? You have 4 apples total.
+
+What is five plus three? Five plus three equals eight.
+Calculate 5 + 3. The result is 8.
+What's 5 + 3? 5 + 3 = 8.
+Add five to three. Five plus three gives us eight.
+I have 5 books and buy 3 more. How many books do I have? You have 8 books.
+
+What is ten minus four? Ten minus four equals six.
+Calculate 10 - 4. The answer is 6.
+Subtract 4 from 10. 10 - 4 = 6.
+What's ten take away four? Ten minus four leaves six.
+If I have 10 cookies and eat 4, how many remain? 6 cookies remain.
+
+What is three times four? Three times four equals twelve.
+Calculate 3 × 4. The product is 12.
+Multiply 3 by 4. 3 × 4 = 12.
+What's three multiplied by four? Three times four gives twelve.
+If I have 3 groups of 4 items, how many total? You have 12 items total.
+
+What is twenty divided by five? Twenty divided by five equals four.
+Calculate 20 ÷ 5. The quotient is 4.
+Divide 20 by 5. 20 ÷ 5 = 4.
+What's twenty split into five parts? Each part would be four.
+If I share 20 candies equally among 5 children, how many does each get? Each child gets 4 candies.
+
+What is seven plus eight? Seven plus eight equals fifteen.
+Calculate 7 + 8. The sum is 15.
+Add 7 and 8. 7 + 8 = 15.
+What's seven plus eight? Seven and eight make fifteen.
+Combine 7 items with 8 items. You get 15 items total.
+
+What is fifteen minus nine? Fifteen minus nine equals six.
+Calculate 15 - 9. The difference is 6.
+Subtract 9 from 15. 15 - 9 = 6.
+What's fifteen take away nine? Fifteen minus nine leaves six.
+From 15 objects, remove 9. You have 6 objects left.
+
+What is six times seven? Six times seven equals forty-two.
+Calculate 6 × 7. The result is 42.
+Multiply 6 by 7. 6 × 7 = 42.
+What's six times seven? Six multiplied by seven is forty-two.
+Six groups of seven items equals how many? That's 42 items.
+
+What is thirty-six divided by six? Thirty-six divided by six equals six.
+Calculate 36 ÷ 6. The answer is 6.
+Divide 36 by 6. 36 ÷ 6 = 6.
+Split 36 into 6 equal parts. Each part is 6.
+If 36 students form 6 equal teams, how many per team? 6 students per team.
+
+What is nine plus eleven? Nine plus eleven equals twenty.
+Calculate 9 + 11. The sum is 20.
+Add 9 to 11. 9 + 11 = 20.
+What's nine plus eleven? Nine and eleven make twenty.
+Combining 9 with 11 gives what? It gives 20.
+
+What is one hundred minus twenty-five? One hundred minus twenty-five equals seventy-five.
+Calculate 100 - 25. The result is 75.
+Subtract 25 from 100. 100 - 25 = 75.
+What's a hundred take away twenty-five? That leaves seventy-five.
+From $100, spend $25. How much remains? $75 remains.
+
+What is eight times eight? Eight times eight equals sixty-four.
+Calculate 8 × 8. The product is 64.
+Multiply 8 by 8. 8 × 8 = 64.
+What's eight squared? Eight squared is sixty-four.
+An 8 by 8 grid has how many squares? It has 64 squares.
+
+What is forty-eight divided by eight? Forty-eight divided by eight equals six.
+Calculate 48 ÷ 8. The quotient is 6.
+Divide 48 by 8. 48 ÷ 8 = 6.
+How many eights in forty-eight? There are 6 eights in forty-eight.
+Split 48 items into groups of 8. You get 6 groups.
+
+What is zero plus any number? Zero plus any number equals that number.
+Add 0 to 5. 0 + 5 = 5.
+What's zero plus ten? Zero plus ten is still ten.
+Zero added to anything changes nothing. The number stays the same.
+Starting with nothing and adding seven gives what? It gives seven.
+
+What is any number times zero? Any number times zero equals zero.
+Calculate 5 × 0. The result is 0.
+Multiply 100 by 0. 100 × 0 = 0.
+What's a million times zero? Even a million times zero is zero.
+Zero groups of any size equals what? Zero groups means zero total.
+
+What is any number times one? Any number times one equals itself.
+Calculate 7 × 1. The answer is 7.
+Multiply 25 by 1. 25 × 1 = 25.
+What's one times any number? One times any number is that number.
+One group of any size equals what? One group equals that size.
+
+Can you divide by zero? Division by zero is undefined.
+What's 5 ÷ 0? Division by zero is not possible.
+Why can't we divide by zero? Division by zero has no meaningful answer.
+Is 10 ÷ 0 allowed? No, division by zero is undefined in mathematics.
+What happens when dividing by zero? The operation is undefined and cannot be performed.

@@ -1,0 +1,59 @@
+Sarah has 5 apples. Tom gives her 3 more apples. How many apples does Sarah have now? Sarah now has 8 apples because 5 + 3 = 8.
+
+A store had 24 shirts. They sold 9 shirts today. How many shirts are left? There are 15 shirts left because 24 - 9 = 15.
+
+Each box contains 6 chocolates. If I buy 4 boxes, how many chocolates do I have? You have 24 chocolates because 4 × 6 = 24.
+
+There are 30 students in a class. They need to form teams of 5. How many teams can they make? They can make 6 teams because 30 ÷ 5 = 6.
+
+A baker made 48 cookies. She wants to pack them in bags of 8. How many bags does she need? She needs 6 bags because 48 ÷ 8 = 6.
+
+John had 15 marbles. He lost 7 marbles. How many marbles does he have left? John has 8 marbles left because 15 - 7 = 8.
+
+A parking lot has 7 rows. Each row has 9 parking spaces. How many parking spaces are there in total? There are 63 parking spaces because 7 × 9 = 63.
+
+Lisa saved $25. Her grandmother gave her $15 more. How much money does Lisa have now? Lisa has $40 because $25 + $15 = $40.
+
+A train has 8 cars. Each car has 12 seats. How many seats are on the train? The train has 96 seats because 8 × 12 = 96.
+
+Mark had 50 stickers. He gave 18 to his friend. How many stickers does Mark have now? Mark has 32 stickers because 50 - 18 = 32.
+
+A pizza is cut into 8 slices. If 3 people share it equally, how many slices does each person get? This requires dividing 8 by 3, giving about 2.67 slices per person, but practically 2 slices each with 2 remaining.
+
+There are 6 shelves in a bookcase. Each shelf holds 15 books. How many books can the bookcase hold? The bookcase can hold 90 books because 6 × 15 = 90.
+
+Emma collected 37 seashells on Monday and 28 on Tuesday. How many seashells did she collect in total? Emma collected 65 seashells because 37 + 28 = 65.
+
+A school ordered 144 pencils. They want to distribute them equally to 12 classrooms. How many pencils per classroom? Each classroom gets 12 pencils because 144 ÷ 12 = 12.
+
+Tim has 23 baseball cards. His brother has 19 baseball cards. How many more cards does Tim have? Tim has 4 more cards because 23 - 19 = 4.
+
+A farmer has 5 chicken coops. Each coop has 14 chickens. How many chickens does the farmer have? The farmer has 70 chickens because 5 × 14 = 70.
+
+Kate bought 3 packs of gum. Each pack has 12 pieces. How many pieces of gum did she buy? Kate bought 36 pieces because 3 × 12 = 36.
+
+There were 82 people at a party. 27 people left early. How many people stayed? 55 people stayed because 82 - 27 = 55.
+
+A library has 240 books to sort into 8 equal sections. How many books go in each section? Each section gets 30 books because 240 ÷ 8 = 30.
+
+Alex earns $12 per hour. If he works 7 hours, how much does he earn? Alex earns $84 because $12 × 7 = $84.
+
+A jar contains 95 marbles. If 38 are red and the rest are blue, how many blue marbles are there? There are 57 blue marbles because 95 - 38 = 57.
+
+Each student needs 4 notebooks. If there are 18 students, how many notebooks are needed? 72 notebooks are needed because 18 × 4 = 72.
+
+A bakery sold 156 donuts in the morning and 89 in the afternoon. How many donuts were sold that day? 245 donuts were sold because 156 + 89 = 245.
+
+There are 63 candies to share among 7 children equally. How many candies does each child get? Each child gets 9 candies because 63 ÷ 7 = 9.
+
+A movie theater has 15 rows of seats. Each row has 20 seats. How many seats are in the theater? The theater has 300 seats because 15 × 20 = 300.
+
+Jenny had $100. She spent $37 on a shirt and $28 on shoes. How much money does she have left? Jenny has $35 left because $100 - $37 - $28 = $35.
+
+A box weighs 8 pounds. How much do 11 identical boxes weigh? The boxes weigh 88 pounds because 8 × 11 = 88.
+
+There are 180 minutes in 3 hours. How many minutes are in 1 hour? There are 60 minutes in 1 hour because 180 ÷ 3 = 60.
+
+A restaurant has 24 tables. Each table seats 4 people. How many people can the restaurant seat? The restaurant can seat 96 people because 24 × 4 = 96.
+
+Sam collected 45 coins. He wants to arrange them in rows of 9. How many complete rows can he make? Sam can make 5 complete rows because 45 ÷ 9 = 5.

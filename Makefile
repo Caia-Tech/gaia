@@ -80,6 +80,26 @@ coherence_proof: coherence_proof.c $(OBJS)
 text_training_system: text_training_system.c $(OBJS)
 	$(CC) $(CFLAGS) -o text_training_system text_training_system.c $(OBJS)
 
+# Interactive text processor
+text_interactive: text_interactive.c $(OBJS)
+	$(CC) $(CFLAGS) -o text_interactive text_interactive.c $(OBJS)
+
+# Train gaia system
+train_gaia: train_gaia.c $(OBJS)
+	$(CC) $(CFLAGS) -o train_gaia train_gaia.c $(OBJS)
+
+# Gaia chat system
+gaia_chat: gaia_chat.c $(OBJS)
+	$(CC) $(CFLAGS) -o gaia_chat gaia_chat.c $(OBJS)
+
+# Test framework
+test_framework: test_framework.c gaia_chat.c $(OBJS)
+	$(CC) $(CFLAGS) -o test_framework test_framework.c gaia_chat.c $(OBJS)
+
+# Iterative trainer
+iterative_trainer: iterative_trainer.c gaia_chat.c $(OBJS)
+	$(CC) $(CFLAGS) -o iterative_trainer iterative_trainer.c gaia_chat.c $(OBJS)
+
 # Run targets
 run: binary_gates
 	./binary_gates

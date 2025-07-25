@@ -1,0 +1,59 @@
+If all dogs are animals and Max is a dog, what can we conclude? We can conclude that Max is an animal.
+
+All birds have wings. Penguins are birds. Do penguins have wings? Yes, penguins have wings because all birds have wings.
+
+If it's raining, the ground gets wet. The ground is wet. Does this mean it's raining? Not necessarily. The ground could be wet for other reasons like sprinklers or spilled water.
+
+Every student in the class passed the test. Sarah is in the class. Did Sarah pass? Yes, Sarah passed because every student in the class passed.
+
+If A is bigger than B, and B is bigger than C, what's the relationship between A and C? A is bigger than C through transitivity.
+
+All squares are rectangles. Is every rectangle a square? No, not every rectangle is a square. Squares are a special type of rectangle.
+
+If today is Monday, then tomorrow is Tuesday. Tomorrow is Tuesday. Is today Monday? Not necessarily. We only know if today is Monday, then tomorrow is Tuesday, not the reverse.
+
+Some flowers are red. Roses are flowers. Are all roses red? No, we cannot conclude all roses are red. Only some flowers are red.
+
+If you study hard, you will pass the exam. John passed the exam. Did John study hard? We cannot be certain. Passing could happen without studying hard.
+
+All cats are mammals. Some mammals are large. Are some cats large? We cannot conclude this from the given information.
+
+Every time it snows, school is cancelled. School was cancelled today. Did it snow? Not necessarily. School could be cancelled for other reasons.
+
+If X equals Y, and Y equals Z, what can we say about X and Z? X equals Z through the transitive property.
+
+All metals conduct electricity. Gold is a metal. Does gold conduct electricity? Yes, gold conducts electricity because all metals do.
+
+Some books are fiction. Harry Potter is a book. Is Harry Potter fiction? We cannot determine this from the given information alone.
+
+If the light is on, someone is home. The light is off. Is anyone home? We cannot determine this. The statement only tells us what happens when the light is on.
+
+Every prime number greater than 2 is odd. 7 is a prime number greater than 2. Is 7 odd? Yes, 7 is odd because it's a prime number greater than 2.
+
+All vegetables are healthy. Carrots are vegetables. Are carrots healthy? Yes, carrots are healthy because all vegetables are healthy.
+
+If it's a weekend, the office is closed. The office is closed. Is it a weekend? Not necessarily. The office could be closed for a holiday or other reason.
+
+No reptiles have fur. Snakes are reptiles. Do snakes have fur? No, snakes don't have fur because no reptiles have fur.
+
+Some students wear glasses. Tom is a student. Does Tom wear glasses? We cannot determine this from the given information.
+
+If you're late, you miss the beginning. Sarah missed the beginning. Was Sarah late? Not necessarily. She could have missed the beginning for another reason.
+
+All swans we've seen are white. Does this mean all swans are white? No, this is inductive reasoning. There could be non-white swans we haven't seen.
+
+Every even number is divisible by 2. 14 is divisible by 2. Is 14 even? Yes, 14 is even because being divisible by 2 defines even numbers.
+
+If the door is locked, you need a key. You have a key. Is the door locked? We cannot determine this. Having a key doesn't mean the door is locked.
+
+All teachers have degrees. Ms. Smith has a degree. Is Ms. Smith a teacher? Not necessarily. Many non-teachers also have degrees.
+
+Some cars are electric. Tesla makes cars. Are all Teslas electric? We cannot conclude this from the given statements alone.
+
+If you eat too much, you feel sick. John feels sick. Did John eat too much? Not necessarily. There are many reasons to feel sick.
+
+Every circle has 360 degrees. This shape has 360 degrees. Is it a circle? Not necessarily. The total degrees doesn't uniquely identify a circle.
+
+All fish live in water. Dolphins live in water. Are dolphins fish? No, we cannot conclude this. Many non-fish also live in water.
+
+If the alarm rings, there's danger. There's danger. Is the alarm ringing? Not necessarily. Danger can exist without the alarm ringing.
