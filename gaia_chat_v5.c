@@ -7,6 +7,7 @@
 #include <dirent.h>
 #include <sys/stat.h>
 #include <math.h>
+#include <unistd.h>
 #include "gate_types.h"
 #include "function_registry.h"
 #include "gaia_functions.h"
@@ -689,8 +690,10 @@ int main(int argc, char* argv[]) {
         }
     }
     
-    // Seed random for superposition sampling
-    srand(time(NULL));
+    // Seed random for superposition sampling with microsecond precision
+    struct timespec ts;
+    clock_gettime(CLOCK_REALTIME, &ts);
+    srand(ts.tv_sec * 1000000 + ts.tv_nsec / 1000 + getpid());
     
     // Initialize gates
     gate_registry_init();

@@ -1,0 +1,92 @@
+# Mathematics
+What is two plus two?
+What is five times three?
+What is the square root of sixteen?
+Calculate pi to five decimal places
+
+# Science
+What is gravity?
+How fast does light travel?
+What is photosynthesis?
+What is quantum mechanics?
+
+# Philosophy
+What is consciousness?
+What is the meaning of life?
+Is there free will?
+What is reality?
+
+# Technology
+What is a computer?
+How does the internet work?
+What is artificial intelligence?
+What is blockchain?
+
+# Nature
+What do trees need to grow?
+How do birds fly?
+Why is the sky blue?
+What causes rain?
+
+# Abstract/Ambiguous
+The bank
+The light
+The wave
+The spring
+Time
+Love
+Hope
+Dreams
+
+# Conversational
+Hello, how are you?
+What's your name?
+Can you help me?
+Tell me a story
+What do you think about life?
+How was your day?
+
+# Knowledge queries
+What is a mammal?
+What are neurons?
+Define entropy
+What is democracy?
+
+# Sequential/Fibonacci
+What comes after 5 in fibonacci?
+What number follows 8 in the sequence?
+Continue the pattern: 1, 1, 2, 3, 5
+
+# Derivatives/Calculus
+What is the derivative of x squared?
+Derivative of sin(x)?
+What is an integral?
+
+# Incomplete sentences
+The cat sat on the
+Once upon a time there was
+To be or not to
+In the beginning
+
+# Complex questions
+If Felix is a cat, what is Felix?
+If all roses are flowers and this is a rose, what is it?
+When water freezes, what does it become?
+
+# Contextual
+After the rain comes
+Before the storm there is
+During winter we see
+In spring the flowers
+
+# Technical
+What is HTTP?
+Explain TCP/IP
+What is a database?
+How do algorithms work?
+
+# Creative
+Describe a sunset
+What does happiness feel like?
+Paint a picture with words
+Imagine a perfect world

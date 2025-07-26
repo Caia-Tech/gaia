@@ -1,0 +1,84 @@
+GAIA V5 Comprehensive Test Suite
+================================
+
+=== Testing BASELINE (no superposition) ===
+
+
+--- Statistics for BASELINE (no superposition) ---
+Total questions: 63
+Responses: 0 (0%)
+Empty responses: 63
+Function calls: 0
+Multi-word: 0
+Single-word: 0
+
+=== Testing SUPERPOSITION mode ===
+
+
+--- Statistics for SUPERPOSITION mode ---
+Total questions: 63
+Responses: 0 (0%)
+Empty responses: 63
+Function calls: 0
+Multi-word: 0
+Single-word: 0
+
+=== Variety Test (10 runs each on ambiguous prompts) ===
+
+
+Prompt: 'The bank'
+Baseline (deterministic):
+   5 is near the river the bank holds money t
+
+Superposition (probabilistic):
+   5 
+   5 holds money the bank provides loans
+
+Prompt: 'Time'
+Baseline (deterministic):
+  10 
+
+Superposition (probabilistic):
+  10 
+
+Prompt: 'Love'
+Baseline (deterministic):
+  10 
+
+Superposition (probabilistic):
+  10 
+
+Prompt: 'The spring'
+Baseline (deterministic):
+   5 brings flowers the spring is coiled the 
+
+Superposition (probabilistic):
+   5 
+   5 is coiled the spring flows water
+
+Prompt: 'Light'
+Baseline (deterministic):
+  10 
+
+Superposition (probabilistic):
+  10 
+
+=== Debug Mode - When Superposition Activates ===
+
+
+Prompt: 'The bank'
+You: SUPERPOSITION: Selected 'holds' (prob=0.33) from 3 similar candidates
+gaia: holds money the bank provides loans
+
+Prompt: 'Light'
+You: gaia: 
+
+Prompt: 'Dreams'
+You: gaia: 
+
+Prompt: 'Hope'
+You: gaia: 
+
+Prompt: 'The wave'
+You: SUPERPOSITION: Selected 'carried' (prob=0.33) from 3 similar candidates
+gaia: carried surfers the wave of enthusiasm
