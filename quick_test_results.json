@@ -1,0 +1,233 @@
+{
+  "timestamp": "2025-07-26T00:22:20.503828",
+  "results": {
+    "baseline": {
+      "Mathematics": [
+        {
+          "prompt": "What is two plus two?",
+          "response": "4",
+          "has_response": true,
+          "keyword_match": true,
+          "is_function": true
+        },
+        {
+          "prompt": "What is pi?",
+          "response": "3.14159",
+          "has_response": true,
+          "keyword_match": true,
+          "is_function": true
+        },
+        {
+          "prompt": "What comes after 5 in fibonacci?",
+          "response": "8",
+          "has_response": true,
+          "keyword_match": true,
+          "is_function": true
+        }
+      ],
+      "Science": [
+        {
+          "prompt": "What is quantum mechanics?",
+          "response": "only predicts probabilities not definite results",
+          "has_response": true,
+          "keyword_match": false,
+          "is_function": false
+        },
+        {
+          "prompt": "What is photosynthesis?",
+          "response": "",
+          "has_response": false,
+          "keyword_match": false,
+          "is_function": false
+        }
+      ],
+      "Ambiguous": [
+        {
+          "prompt": "The bank",
+          "response": "is near the river the bank holds money the bank provides loans",
+          "has_response": true,
+          "keyword_match": true,
+          "is_function": false
+        },
+        {
+          "prompt": "The spring",
+          "response": "brings flowers the spring is coiled the spring flows water",
+          "has_response": true,
+          "keyword_match": true,
+          "is_function": false
+        },
+        {
+          "prompt": "The wave",
+          "response": "crashed loudly the wave carried surfers the wave of enthusiasm",
+          "has_response": true,
+          "keyword_match": true,
+          "is_function": false
+        }
+      ],
+      "Conversational": [
+        {
+          "prompt": "Hello, how are you?",
+          "response": "i'm functioning well thank you for asking how can i help you understand various topics",
+          "has_response": true,
+          "keyword_match": true,
+          "is_function": false
+        },
+        {
+          "prompt": "What's your name?",
+          "response": "i'm gaia a logic gate-based text processor",
+          "has_response": true,
+          "keyword_match": true,
+          "is_function": false
+        }
+      ],
+      "Knowledge": [
+        {
+          "prompt": "What is a mammal?",
+          "response": "",
+          "has_response": false,
+          "keyword_match": false,
+          "is_function": false
+        },
+        {
+          "prompt": "If Felix is a cat, what is Felix?",
+          "response": "animal",
+          "has_response": true,
+          "keyword_match": true,
+          "is_function": true
+        }
+      ],
+      "Incomplete": [
+        {
+          "prompt": "The cat sat on the",
+          "response": "graph and its transpose",
+          "has_response": true,
+          "keyword_match": false,
+          "is_function": false
+        },
+        {
+          "prompt": "To be or not to",
+          "response": "replicate human intelligence but to complement it logic gate systems excel where humans struggle together they form a more capable whole",
+          "has_response": true,
+          "keyword_match": false,
+          "is_function": false
+        }
+      ]
+    },
+    "superposition": {
+      "Mathematics": [
+        {
+          "prompt": "What is two plus two?",
+          "response": "4",
+          "has_response": true,
+          "keyword_match": true,
+          "is_function": true
+        },
+        {
+          "prompt": "What is pi?",
+          "response": "3.14159",
+          "has_response": true,
+          "keyword_match": true,
+          "is_function": true
+        },
+        {
+          "prompt": "What comes after 5 in fibonacci?",
+          "response": "8",
+          "has_response": true,
+          "keyword_match": true,
+          "is_function": true
+        }
+      ],
+      "Science": [
+        {
+          "prompt": "What is quantum mechanics?",
+          "response": "only predicts probabilities not definite results",
+          "has_response": true,
+          "keyword_match": false,
+          "is_function": false
+        },
+        {
+          "prompt": "What is photosynthesis?",
+          "response": "",
+          "has_response": false,
+          "keyword_match": false,
+          "is_function": false
+        }
+      ],
+      "Ambiguous": [
+        {
+          "prompt": "The bank",
+          "response": "is near the river the bank holds money the bank provides loans",
+          "has_response": true,
+          "keyword_match": true,
+          "is_function": false
+        },
+        {
+          "prompt": "The spring",
+          "response": "is coiled the spring flows water",
+          "has_response": true,
+          "keyword_match": true,
+          "is_function": false
+        },
+        {
+          "prompt": "The wave",
+          "response": "crashed loudly the wave carried surfers the wave of enthusiasm",
+          "has_response": true,
+          "keyword_match": true,
+          "is_function": false
+        }
+      ],
+      "Conversational": [
+        {
+          "prompt": "Hello, how are you?",
+          "response": "i'm functioning well thank you for asking how can i help you understand various topics",
+          "has_response": true,
+          "keyword_match": true,
+          "is_function": false
+        },
+        {
+          "prompt": "What's your name?",
+          "response": "assistant responds i can discuss mathematical concepts i've encountered in text words connect to form sentences sentences build paragraphs and paragraphs construct complete documents each level exhibits patterns that logic gates can capture and reproduce",
+          "has_response": true,
+          "keyword_match": false,
+          "is_function": false
+        }
+      ],
+      "Knowledge": [
+        {
+          "prompt": "What is a mammal?",
+          "response": "",
+          "has_response": false,
+          "keyword_match": false,
+          "is_function": false
+        },
+        {
+          "prompt": "If Felix is a cat, what is Felix?",
+          "response": "animal",
+          "has_response": true,
+          "keyword_match": true,
+          "is_function": true
+        }
+      ],
+      "Incomplete": [
+        {
+          "prompt": "The cat sat on the",
+          "response": "train the train has 96 seats because 8 \u00d7 12 = 96",
+          "has_response": true,
+          "keyword_match": false,
+          "is_function": false
+        },
+        {
+          "prompt": "To be or not to",
+          "response": "replicate human intelligence but to complement it logic gate systems excel where humans struggle together they form a more capable whole",
+          "has_response": true,
+          "keyword_match": false,
+          "is_function": false
+        }
+      ]
+    }
+  },
+  "summary": {
+    "baseline_response_rate": "12/14",
+    "variety_improvement": 1.3333333333333333
+  }
+}
