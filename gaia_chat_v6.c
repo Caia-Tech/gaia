@@ -12,6 +12,7 @@
 #include "function_registry.h"
 #include "gaia_functions.h"
 #include "analysis_functions.h"
+#include "experiment_logger.h"
 
 // Forward declarations
 char* handle_function_call(const char* input);
@@ -247,6 +248,11 @@ void calculate_coherence_score(char context[][MAX_WORD_LENGTH], int context_leng
     // Use analysis functions to score coherence
     CoherenceScore score = analyze_coherence(context_str, candidate->word);
     candidate->coherence_score = score.overall_score;
+    
+    // Log coherence experiment
+    log_coherence_experiment(context_str, candidate->word, 
+                           score.semantic_similarity, score.grammatical_fit,
+                           score.topic_consistency, score.overall_score);
 }
 
 // Enhanced superposition states
@@ -328,6 +334,12 @@ char* collapse_superposition(SuperpositionState* states, int state_count) {
     for (int i = 0; i < state_count; i++) {
         cumulative += states[i].probability;
         if (random_val <= cumulative) {
+            // Log superposition experiment
+            float probs[MAX_SUPERPOSITION];
+            for (int j = 0; j < state_count && j < MAX_SUPERPOSITION; j++) {
+                probs[j] = states[j].probability;
+            }
+            log_superposition_experiment("", state_count, probs, states[i].word);
             return states[i].word;
         }
     }
@@ -474,9 +486,8 @@ char* handle_function_call(const char* input) {
             return NULL;
         }
         
-        char* result_str = malloc(20);
-        snprintf(result_str, 20, "%d", result);
-        return result_str;
+        // Use formatted calculation response
+        return format_calculation_response(op, a, b, result);
     }
     
     return NULL;
@@ -508,6 +519,37 @@ void generate_response_v6(ChatSystem* system, const char* input) {
             printf("You're welcome! Is there anything else I can help with?\n");
             free_analysis_result(analysis);
             return;
+        } else if (analysis->requires_list) {
+            // Handle list requests with proper formatting
+            const char* colors[] = {"red", "blue", "green"};
+            const char* animals[] = {"cat", "dog", "bird"};
+            const char* numbers[] = {"one", "two", "three"};
+            
+            if (strstr(input, "color")) {
+                char* formatted = format_list_response("colors", colors, 3);
+                if (formatted) {
+                    printf("%s", formatted);
+                    free(formatted);
+                    free_analysis_result(analysis);
+                    return;
+                }
+            } else if (strstr(input, "animal")) {
+                char* formatted = format_list_response("animals", animals, 3);
+                if (formatted) {
+                    printf("%s", formatted);
+                    free(formatted);
+                    free_analysis_result(analysis);
+                    return;
+                }
+            } else if (strstr(input, "number")) {
+                char* formatted = format_list_response("numbers", numbers, 3);
+                if (formatted) {
+                    printf("%s", formatted);
+                    free(formatted);
+                    free_analysis_result(analysis);
+                    return;
+                }
+            }
         }
         
         free_analysis_result(analysis);
@@ -685,9 +727,10 @@ int main(int argc, char* argv[]) {
         }
     }
     
-    // Initialize function registry
+    // Initialize function registry and experiment logger
     function_registry_init();
     register_gaia_functions();
+    init_experiment_logger();
     
     // Initialize chat system
     ChatSystem* system = init_chat_system();
@@ -710,7 +753,8 @@ int main(int argc, char* argv[]) {
     // Interactive chat loop
     char input[MAX_INPUT_LENGTH];
     printf("V6 Chat ready! (Type 'quit' to exit, 'stats' for statistics)\n");
-    printf("Special commands: 'toggle-superposition', 'toggle-analysis', 'toggle-debug'\n\n");
+    printf("Special commands: 'toggle-superposition', 'toggle-analysis', 'toggle-debug'\n");
+    printf("Experiment commands: 'log-summary', 'save-experiments'\n\n");
     
     while (1) {
         printf("You: ");
@@ -738,13 +782,23 @@ int main(int argc, char* argv[]) {
             debug_superposition = !debug_superposition;
             printf("Superposition debug: %s\n", debug_superposition ? "ENABLED" : "DISABLED");
             continue;
+        } else if (strcmp(input, "log-summary") == 0) {
+            print_experiment_summary();
+            continue;
+        } else if (strcmp(input, "save-experiments") == 0) {
+            save_experiment_log("gaia_v6_experiments.json");
+            continue;
         }
         
         generate_response_v6(system, input);
     }
     
     print_system_stats(system);
+    print_experiment_summary();
+    save_experiment_log("gaia_v6_session.json");
+    
     function_registry_cleanup();
+    cleanup_experiment_logger();
     
     // Cleanup (basic - in real system would need proper cleanup)
     printf("GAIA V6 session ended.\n");

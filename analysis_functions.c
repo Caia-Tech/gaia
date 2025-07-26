@@ -623,6 +623,86 @@ const char* topic_type_to_string(TopicType type) {
     }
 }
 
+// Response formatting helpers
+char* format_list_response(const char* category, const char* items[], int count) {
+    if (!category || !items || count <= 0) return NULL;
+    
+    // Calculate total length needed
+    int total_len = strlen("Here are ") + strlen(category) + strlen(":\n");
+    for (int i = 0; i < count; i++) {
+        if (items[i]) {
+            total_len += strlen("  - ") + strlen(items[i]) + 1; // +1 for newline
+        }
+    }
+    total_len += 1; // null terminator
+    
+    char* response = malloc(total_len);
+    if (!response) return NULL;
+    
+    sprintf(response, "Here are %s:\n", category);
+    for (int i = 0; i < count; i++) {
+        if (items[i]) {
+            strcat(response, "  - ");
+            strcat(response, items[i]);
+            strcat(response, "\n");
+        }
+    }
+    
+    return response;
+}
+
+char* format_yes_no_response(int is_yes, const char* explanation) {
+    const char* answer = is_yes ? "Yes" : "No";
+    int total_len = strlen(answer) + 1; // +1 for period or space
+    
+    if (explanation) {
+        total_len += strlen(explanation) + 2; // +2 for ". " or space
+    }
+    total_len += 1; // null terminator
+    
+    char* response = malloc(total_len);
+    if (!response) return NULL;
+    
+    strcpy(response, answer);
+    if (explanation && strlen(explanation) > 0) {
+        strcat(response, ". ");
+        strcat(response, explanation);
+    }
+    
+    return response;
+}
+
+char* format_number_response(int number, const char* context) {
+    char number_str[20];
+    sprintf(number_str, "%d", number);
+    
+    int total_len = strlen(number_str) + 1; // +1 for null terminator
+    if (context) {
+        total_len += strlen(context) + 1; // +1 for space
+    }
+    
+    char* response = malloc(total_len);
+    if (!response) return NULL;
+    
+    strcpy(response, number_str);
+    if (context && strlen(context) > 0) {
+        strcat(response, " ");
+        strcat(response, context);
+    }
+    
+    return response;
+}
+
+char* format_calculation_response(const char* operation, int num1, int num2, int result) {
+    if (!operation) return NULL;
+    
+    char* response = malloc(100); // Should be enough for most calculations
+    if (!response) return NULL;
+    
+    sprintf(response, "%d %s %d = %d", num1, operation, num2, result);
+    return response;
+}
+
 // Print analysis result for debugging
 void print_analysis_result(const AnalysisResult* result) {
     if (!result) return;
