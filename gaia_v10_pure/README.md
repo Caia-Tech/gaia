@@ -89,3 +89,11 @@ make              # Build all
 ## The Bottom Line
 
 V10 is the most honest version of GAIA. It doesn't pretend to understand language or have conversations. It's just gates learning to transform signals - which is what intelligence might actually be.
+
+## Latest Findings
+
+See `FINDINGS.md` and `8gate_limits.md` for comprehensive test results showing:
+- 8 gates can solve XOR, 3-bit parity, and sequence detection
+- Memory gates enable temporal pattern recognition
+- Binary gates outperform complex superposition approaches
+- Clear computational boundaries at multi-bit arithmetic
