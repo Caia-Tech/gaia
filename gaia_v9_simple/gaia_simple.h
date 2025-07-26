@@ -55,5 +55,7 @@ char* find_relevant_fact(const char* input, MemoryBank* memory);
 
 // Pattern matching
 char* find_similar_pattern(const char* input, MemoryBank* memory);
+void extract_keywords(const char* input, char keywords[][50], int* count);
+int pattern_similarity(const char* pattern1, const char* pattern2);
 
 #endif // GAIA_SIMPLE_H

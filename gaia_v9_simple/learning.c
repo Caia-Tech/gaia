@@ -56,21 +56,41 @@ void extract_keywords(const char* input, char keywords[][50], int* count) {
     char temp[MAX_STRING];
     strncpy(temp, input, MAX_STRING - 1);
     
+    // Convert to lowercase for processing
+    for (int i = 0; temp[i]; i++) {
+        temp[i] = tolower(temp[i]);
+    }
+    
     *count = 0;
-    char* token = strtok(temp, " .,?!");
+    char* token = strtok(temp, " .,?!;:'\"\n\t");
     
     while (token && *count < 10) {
-        // Skip common words
+        // Skip common words (expanded list)
         if (strcmp(token, "the") != 0 && 
             strcmp(token, "is") != 0 &&
             strcmp(token, "a") != 0 &&
             strcmp(token, "an") != 0 &&
-            strlen(token) > 2) {
+            strcmp(token, "are") != 0 &&
+            strcmp(token, "was") != 0 &&
+            strcmp(token, "were") != 0 &&
+            strcmp(token, "what") != 0 &&
+            strcmp(token, "who") != 0 &&
+            strcmp(token, "when") != 0 &&
+            strcmp(token, "where") != 0 &&
+            strcmp(token, "how") != 0 &&
+            strcmp(token, "to") != 0 &&
+            strcmp(token, "of") != 0 &&
+            strcmp(token, "in") != 0 &&
+            strcmp(token, "for") != 0 &&
+            strcmp(token, "on") != 0 &&
+            strcmp(token, "at") != 0 &&
+            strcmp(token, "with") != 0 &&
+            strlen(token) > 1) {  // Changed from > 2 to > 1 to catch more words
             
             strcpy(keywords[*count], token);
             (*count)++;
         }
-        token = strtok(NULL, " .,?!");
+        token = strtok(NULL, " .,?!;:'\"\n\t");
     }
 }
 

@@ -10,6 +10,7 @@
 #include <string.h>
 #include <ctype.h>
 #include <time.h>
+#include <ctype.h>
 #include "gaia_simple.h"
 
 #define MAX_INPUT 256
@@ -80,8 +81,15 @@ void process_input(const char* input, char* response, MemoryBank* memory) {
         return;
     }
     
-    // Check for learning intents
-    if (strstr(input, "remember that") || strstr(input, "my favorite")) {
+    // Check for learning intents (case insensitive)
+    char lower_input[MAX_INPUT];
+    strcpy(lower_input, input);
+    for (int i = 0; lower_input[i]; i++) {
+        lower_input[i] = tolower(lower_input[i]);
+    }
+    
+    if (strstr(lower_input, "remember that") || strstr(lower_input, "my favorite") ||
+        strstr(lower_input, "i like") || strstr(lower_input, "my name is")) {
         learn_fact(input, memory);
         strcpy(response, "I'll remember that.");
         return;
@@ -96,16 +104,29 @@ void process_input(const char* input, char* response, MemoryBank* memory) {
     }
     
     // Check for questions about stored facts
-    char* answer = find_relevant_fact(input, memory);
-    if (answer) {
-        strcpy(response, answer);
-        return;
+    // Prioritize fact lookup for question words
+    if (strstr(input, "?") || strstr(input, "what") || strstr(input, "who") || 
+        strstr(input, "where") || strstr(input, "when") || strstr(input, "why") ||
+        strstr(input, "how") || strstr(input, "tell me")) {
+        
+        char* answer = find_relevant_fact(input, memory);
+        if (answer) {
+            strcpy(response, answer);
+            return;
+        }
     }
     
     // Check similar patterns from past conversations
     char* pattern_response = find_similar_pattern(input, memory);
     if (pattern_response) {
         strcpy(response, pattern_response);
+        return;
+    }
+    
+    // Try fact lookup even if not a question (might be implicit query)
+    char* answer = find_relevant_fact(input, memory);
+    if (answer) {
+        strcpy(response, answer);
         return;
     }
     

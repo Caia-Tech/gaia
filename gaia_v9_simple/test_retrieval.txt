@@ -1,0 +1,25 @@
+Test scenarios for improved fact retrieval:
+
+1. Store a fact: "Python is a programming language"
+   Query variations:
+   - "What is Python?"
+   - "Tell me about Python"
+   - "python" (lowercase)
+   - "programming language"
+
+2. Store user fact: "My favorite color is blue"
+   Query variations:
+   - "What's my favorite color?"
+   - "favorite color"
+   - "Tell me my favorite"
+   - "What do you remember about my favorites?"
+
+3. Store multiple facts:
+   - "The sky is blue"
+   - "Water is wet"
+   - "Fire is hot"
+   Query: "Tell me about water"
+
+4. Pattern matching:
+   First interaction: "How are you?" -> "I'm doing well, thank you!"
+   Later query: "How are you doing?"

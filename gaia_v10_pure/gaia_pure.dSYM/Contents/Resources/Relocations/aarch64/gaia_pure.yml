@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     gaia_pure
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _gate_identity, symObjAddr: 0x0, symBinAddr: 0x100003360, symSize: 0xC }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _gate_identity, symObjAddr: 0x0, symBinAddr: 0x100003360, symSize: 0xC }
+  - { offsetInCU: 0x6C, offset: 0x6C, size: 0x8, addend: 0x0, symName: _gate_amplify, symObjAddr: 0xC, symBinAddr: 0x10000336C, symSize: 0x20 }
+  - { offsetInCU: 0x90, offset: 0x90, size: 0x8, addend: 0x0, symName: _gate_sigmoid, symObjAddr: 0x2C, symBinAddr: 0x10000338C, symSize: 0x30 }
+  - { offsetInCU: 0xBB, offset: 0xBB, size: 0x8, addend: 0x0, symName: _gate_threshold, symObjAddr: 0x5C, symBinAddr: 0x1000033BC, symSize: 0x20 }
+  - { offsetInCU: 0xE8, offset: 0xE8, size: 0x8, addend: 0x0, symName: _gate_memory, symObjAddr: 0x7C, symBinAddr: 0x1000033DC, symSize: 0x48 }
+  - { offsetInCU: 0x10C, offset: 0x10C, size: 0x8, addend: 0x0, symName: _init_network, symObjAddr: 0xC4, symBinAddr: 0x100003424, symSize: 0xE0 }
+  - { offsetInCU: 0x26A, offset: 0x26A, size: 0x8, addend: 0x0, symName: _forward_pass, symObjAddr: 0x1A4, symBinAddr: 0x100003504, symSize: 0x208 }
+  - { offsetInCU: 0x3F7, offset: 0x3F7, size: 0x8, addend: 0x0, symName: _learn, symObjAddr: 0x3AC, symBinAddr: 0x10000370C, symSize: 0x108 }
+  - { offsetInCU: 0x520, offset: 0x520, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x4B4, symBinAddr: 0x100003814, symSize: 0x568 }
+...
