@@ -1,0 +1,97 @@
+[
+  {
+    "timestamp": "2025-07-26T03:20:42.074Z",
+    "input": "what is two plus two",
+    "results": {
+      "traditional": {
+        "output": "equals",
+        "path": "what is two plus two → equals (70)"
+      },
+      "superposition": {
+        "output": "equals",
+        "statesLog": "Step 0: 2 states, Step 1: 0 states",
+        "collapses": ""
+      },
+      "hybrid": {
+        "output": "equals",
+        "lookaheadScores": "equals(0)"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-07-26T03:20:42.074Z",
+    "input": "what is the meaning",
+    "results": {
+      "traditional": {
+        "output": "",
+        "path": ""
+      },
+      "superposition": {
+        "output": "",
+        "statesLog": "Step 0: 0 states",
+        "collapses": ""
+      },
+      "hybrid": {
+        "output": "",
+        "lookaheadScores": ""
+      }
+    }
+  },
+  {
+    "timestamp": "2025-07-26T03:20:42.074Z",
+    "input": "the cat sat on",
+    "results": {
+      "traditional": {
+        "output": "",
+        "path": ""
+      },
+      "superposition": {
+        "output": "",
+        "statesLog": "Step 0: 0 states",
+        "collapses": ""
+      },
+      "hybrid": {
+        "output": "",
+        "lookaheadScores": ""
+      }
+    }
+  },
+  {
+    "timestamp": "2025-07-26T03:20:42.075Z",
+    "input": "to be or not",
+    "results": {
+      "traditional": {
+        "output": "",
+        "path": ""
+      },
+      "superposition": {
+        "output": "",
+        "statesLog": "Step 0: 0 states",
+        "collapses": ""
+      },
+      "hybrid": {
+        "output": "",
+        "lookaheadScores": ""
+      }
+    }
+  },
+  {
+    "timestamp": "2025-07-26T03:20:42.075Z",
+    "input": "what is a monad",
+    "results": {
+      "traditional": {
+        "output": "",
+        "path": ""
+      },
+      "superposition": {
+        "output": "",
+        "statesLog": "Step 0: 0 states",
+        "collapses": ""
+      },
+      "hybrid": {
+        "output": "",
+        "lookaheadScores": ""
+      }
+    }
+  }
+]

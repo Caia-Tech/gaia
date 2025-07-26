@@ -1,0 +1,884 @@
+[
+  {
+    "timestamp": "2025-07-26T03:19:19.223Z",
+    "experimentId": "exp_1753499959223",
+    "type": "traditional",
+    "input": "what is two plus two",
+    "patterns": [
+      {
+        "context": [
+          "what"
+        ],
+        "candidates": [
+          {
+            "word": "is",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "what",
+          "is"
+        ],
+        "candidates": [
+          {
+            "word": "the",
+            "probability": 0.3
+          },
+          {
+            "word": "a",
+            "probability": 0.25
+          },
+          {
+            "word": "two",
+            "probability": 0.2
+          },
+          {
+            "word": "that",
+            "probability": 0.15
+          },
+          {
+            "word": "it",
+            "probability": 0.1
+          }
+        ]
+      },
+      {
+        "context": [
+          "what",
+          "is",
+          "two"
+        ],
+        "candidates": [
+          {
+            "word": "the",
+            "probability": 0.3
+          },
+          {
+            "word": "a",
+            "probability": 0.25
+          },
+          {
+            "word": "two",
+            "probability": 0.2
+          },
+          {
+            "word": "that",
+            "probability": 0.15
+          },
+          {
+            "word": "it",
+            "probability": 0.1
+          },
+          {
+            "word": "plus",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "is",
+          "two",
+          "plus"
+        ],
+        "candidates": [
+          {
+            "word": "two",
+            "probability": 0.4
+          },
+          {
+            "word": "equals",
+            "probability": 0.3
+          },
+          {
+            "word": "is",
+            "probability": 0.2
+          },
+          {
+            "word": "makes",
+            "probability": 0.1
+          }
+        ]
+      }
+    ],
+    "superpositionStates": [
+      [
+        "G1",
+        {
+          "type": "AND",
+          "collapsed": true,
+          "states": [
+            {
+              "probability": 0.09999999999999998,
+              "value": 0
+            },
+            {
+              "probability": 0.9,
+              "value": 1
+            }
+          ],
+          "description": "|0⟩:10% + |1⟩:90%"
+        }
+      ]
+    ],
+    "collapseEvents": [
+      {
+        "gate": "G1",
+        "value": "1"
+      }
+    ],
+    "finalOutput": "is the the two",
+    "coherenceScore": 0.4,
+    "notes": "Average 4.0 candidates per position"
+  },
+  {
+    "timestamp": "2025-07-26T03:19:19.224Z",
+    "experimentId": "exp_1753499959224",
+    "type": "superposition",
+    "input": "what is two plus two",
+    "patterns": [
+      {
+        "context": [
+          "what"
+        ],
+        "candidates": [
+          {
+            "word": "is",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "what",
+          "is"
+        ],
+        "candidates": [
+          {
+            "word": "the",
+            "probability": 0.3
+          },
+          {
+            "word": "a",
+            "probability": 0.25
+          },
+          {
+            "word": "two",
+            "probability": 0.2
+          },
+          {
+            "word": "that",
+            "probability": 0.15
+          },
+          {
+            "word": "it",
+            "probability": 0.1
+          }
+        ]
+      },
+      {
+        "context": [
+          "what",
+          "is",
+          "two"
+        ],
+        "candidates": [
+          {
+            "word": "the",
+            "probability": 0.3
+          },
+          {
+            "word": "a",
+            "probability": 0.25
+          },
+          {
+            "word": "two",
+            "probability": 0.2
+          },
+          {
+            "word": "that",
+            "probability": 0.15
+          },
+          {
+            "word": "it",
+            "probability": 0.1
+          },
+          {
+            "word": "plus",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "is",
+          "two",
+          "plus"
+        ],
+        "candidates": [
+          {
+            "word": "two",
+            "probability": 0.4
+          },
+          {
+            "word": "equals",
+            "probability": 0.3
+          },
+          {
+            "word": "is",
+            "probability": 0.2
+          },
+          {
+            "word": "makes",
+            "probability": 0.1
+          }
+        ]
+      }
+    ],
+    "superpositionStates": [
+      [
+        "G1",
+        {
+          "type": "AND",
+          "collapsed": true,
+          "states": [
+            {
+              "probability": 0.09999999999999998,
+              "value": 0
+            },
+            {
+              "probability": 0.9,
+              "value": 1
+            }
+          ],
+          "description": "|0⟩:10% + |1⟩:90%"
+        }
+      ]
+    ],
+    "collapseEvents": [
+      {
+        "gate": "G1",
+        "value": "0"
+      }
+    ],
+    "finalOutput": "is the a equals",
+    "coherenceScore": 0.7,
+    "notes": "Maintained 1 superposition states, 1 collapsed. Average 4.0 candidates per position"
+  },
+  {
+    "timestamp": "2025-07-26T03:19:19.224Z",
+    "experimentId": "exp_1753499959224",
+    "type": "traditional",
+    "input": "what is the meaning of life",
+    "patterns": [
+      {
+        "context": [
+          "what"
+        ],
+        "candidates": [
+          {
+            "word": "is",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "what",
+          "is"
+        ],
+        "candidates": [
+          {
+            "word": "the",
+            "probability": 0.3
+          },
+          {
+            "word": "a",
+            "probability": 0.25
+          },
+          {
+            "word": "two",
+            "probability": 0.2
+          },
+          {
+            "word": "that",
+            "probability": 0.15
+          },
+          {
+            "word": "it",
+            "probability": 0.1
+          }
+        ]
+      },
+      {
+        "context": [
+          "what",
+          "is",
+          "the"
+        ],
+        "candidates": [
+          {
+            "word": "the",
+            "probability": 0.3
+          },
+          {
+            "word": "a",
+            "probability": 0.25
+          },
+          {
+            "word": "two",
+            "probability": 0.2
+          },
+          {
+            "word": "that",
+            "probability": 0.15
+          },
+          {
+            "word": "it",
+            "probability": 0.1
+          },
+          {
+            "word": "meaning",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "is",
+          "the",
+          "meaning"
+        ],
+        "candidates": [
+          {
+            "word": "of",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "the",
+          "meaning",
+          "of"
+        ],
+        "candidates": [
+          {
+            "word": "life",
+            "probability": 0.05
+          }
+        ]
+      }
+    ],
+    "superpositionStates": [
+      [
+        "G1",
+        {
+          "type": "AND",
+          "collapsed": true,
+          "states": [
+            {
+              "probability": 0.09999999999999998,
+              "value": 0
+            },
+            {
+              "probability": 0.9,
+              "value": 1
+            }
+          ],
+          "description": "|0⟩:10% + |1⟩:90%"
+        }
+      ]
+    ],
+    "collapseEvents": [
+      {
+        "gate": "G1",
+        "value": "1"
+      }
+    ],
+    "finalOutput": "is the the of life",
+    "coherenceScore": 0.4,
+    "notes": "Average 2.8 candidates per position"
+  },
+  {
+    "timestamp": "2025-07-26T03:19:19.224Z",
+    "experimentId": "exp_1753499959224",
+    "type": "superposition",
+    "input": "what is the meaning of life",
+    "patterns": [
+      {
+        "context": [
+          "what"
+        ],
+        "candidates": [
+          {
+            "word": "is",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "what",
+          "is"
+        ],
+        "candidates": [
+          {
+            "word": "the",
+            "probability": 0.3
+          },
+          {
+            "word": "a",
+            "probability": 0.25
+          },
+          {
+            "word": "two",
+            "probability": 0.2
+          },
+          {
+            "word": "that",
+            "probability": 0.15
+          },
+          {
+            "word": "it",
+            "probability": 0.1
+          }
+        ]
+      },
+      {
+        "context": [
+          "what",
+          "is",
+          "the"
+        ],
+        "candidates": [
+          {
+            "word": "the",
+            "probability": 0.3
+          },
+          {
+            "word": "a",
+            "probability": 0.25
+          },
+          {
+            "word": "two",
+            "probability": 0.2
+          },
+          {
+            "word": "that",
+            "probability": 0.15
+          },
+          {
+            "word": "it",
+            "probability": 0.1
+          },
+          {
+            "word": "meaning",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "is",
+          "the",
+          "meaning"
+        ],
+        "candidates": [
+          {
+            "word": "of",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "the",
+          "meaning",
+          "of"
+        ],
+        "candidates": [
+          {
+            "word": "life",
+            "probability": 0.05
+          }
+        ]
+      }
+    ],
+    "superpositionStates": [
+      [
+        "G1",
+        {
+          "type": "AND",
+          "collapsed": true,
+          "states": [
+            {
+              "probability": 0.09999999999999998,
+              "value": 0
+            },
+            {
+              "probability": 0.9,
+              "value": 1
+            }
+          ],
+          "description": "|0⟩:10% + |1⟩:90%"
+        }
+      ]
+    ],
+    "collapseEvents": [
+      {
+        "gate": "G1",
+        "value": "1"
+      }
+    ],
+    "finalOutput": "is a the of life",
+    "coherenceScore": 0.4,
+    "notes": "Maintained 1 superposition states, 1 collapsed. Average 2.8 candidates per position"
+  },
+  {
+    "timestamp": "2025-07-26T03:19:19.224Z",
+    "experimentId": "exp_1753499959224",
+    "type": "traditional",
+    "input": "the cat sat on the",
+    "patterns": [
+      {
+        "context": [
+          "the"
+        ],
+        "candidates": [
+          {
+            "word": "cat",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "the",
+          "cat"
+        ],
+        "candidates": [
+          {
+            "word": "sat",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "the",
+          "cat",
+          "sat"
+        ],
+        "candidates": [
+          {
+            "word": "on",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "cat",
+          "sat",
+          "on"
+        ],
+        "candidates": [
+          {
+            "word": "the",
+            "probability": 0.05
+          }
+        ]
+      }
+    ],
+    "superpositionStates": [
+      [
+        "G1",
+        {
+          "type": "AND",
+          "collapsed": true,
+          "states": [
+            {
+              "probability": 0.9,
+              "value": 0
+            },
+            {
+              "probability": 0.09999999999999998,
+              "value": 1
+            }
+          ],
+          "description": "|0⟩:90% + |1⟩:10%"
+        }
+      ]
+    ],
+    "collapseEvents": [
+      {
+        "gate": "G1",
+        "value": "0"
+      }
+    ],
+    "finalOutput": "cat sat on the",
+    "coherenceScore": 0.2,
+    "notes": "Average 1.0 candidates per position"
+  },
+  {
+    "timestamp": "2025-07-26T03:19:19.224Z",
+    "experimentId": "exp_1753499959224",
+    "type": "superposition",
+    "input": "the cat sat on the",
+    "patterns": [
+      {
+        "context": [
+          "the"
+        ],
+        "candidates": [
+          {
+            "word": "cat",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "the",
+          "cat"
+        ],
+        "candidates": [
+          {
+            "word": "sat",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "the",
+          "cat",
+          "sat"
+        ],
+        "candidates": [
+          {
+            "word": "on",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "cat",
+          "sat",
+          "on"
+        ],
+        "candidates": [
+          {
+            "word": "the",
+            "probability": 0.05
+          }
+        ]
+      }
+    ],
+    "superpositionStates": [
+      [
+        "G1",
+        {
+          "type": "AND",
+          "collapsed": true,
+          "states": [
+            {
+              "probability": 0.9,
+              "value": 0
+            },
+            {
+              "probability": 0.09999999999999998,
+              "value": 1
+            }
+          ],
+          "description": "|0⟩:90% + |1⟩:10%"
+        }
+      ]
+    ],
+    "collapseEvents": [
+      {
+        "gate": "G1",
+        "value": "0"
+      }
+    ],
+    "finalOutput": "cat sat on the",
+    "coherenceScore": 0.2,
+    "notes": "Maintained 1 superposition states, 1 collapsed. Average 1.0 candidates per position"
+  },
+  {
+    "timestamp": "2025-07-26T03:19:19.224Z",
+    "experimentId": "exp_1753499959224",
+    "type": "traditional",
+    "input": "to be or not to",
+    "patterns": [
+      {
+        "context": [
+          "to"
+        ],
+        "candidates": [
+          {
+            "word": "be",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "to",
+          "be"
+        ],
+        "candidates": [
+          {
+            "word": "or",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "to",
+          "be",
+          "or"
+        ],
+        "candidates": [
+          {
+            "word": "not",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "be",
+          "or",
+          "not"
+        ],
+        "candidates": [
+          {
+            "word": "to",
+            "probability": 0.05
+          }
+        ]
+      }
+    ],
+    "superpositionStates": [
+      [
+        "G1",
+        {
+          "type": "AND",
+          "collapsed": true,
+          "states": [
+            {
+              "probability": 0.9,
+              "value": 0
+            },
+            {
+              "probability": 0.09999999999999998,
+              "value": 1
+            }
+          ],
+          "description": "|0⟩:90% + |1⟩:10%"
+        }
+      ]
+    ],
+    "collapseEvents": [
+      {
+        "gate": "G1",
+        "value": "0"
+      }
+    ],
+    "finalOutput": "be or not to",
+    "coherenceScore": 0.2,
+    "notes": "Average 1.0 candidates per position"
+  },
+  {
+    "timestamp": "2025-07-26T03:19:19.225Z",
+    "experimentId": "exp_1753499959225",
+    "type": "superposition",
+    "input": "to be or not to",
+    "patterns": [
+      {
+        "context": [
+          "to"
+        ],
+        "candidates": [
+          {
+            "word": "be",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "to",
+          "be"
+        ],
+        "candidates": [
+          {
+            "word": "or",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "to",
+          "be",
+          "or"
+        ],
+        "candidates": [
+          {
+            "word": "not",
+            "probability": 0.05
+          }
+        ]
+      },
+      {
+        "context": [
+          "be",
+          "or",
+          "not"
+        ],
+        "candidates": [
+          {
+            "word": "to",
+            "probability": 0.05
+          }
+        ]
+      }
+    ],
+    "superpositionStates": [
+      [
+        "G1",
+        {
+          "type": "AND",
+          "collapsed": true,
+          "states": [
+            {
+              "probability": 0.9,
+              "value": 0
+            },
+            {
+              "probability": 0.09999999999999998,
+              "value": 1
+            }
+          ],
+          "description": "|0⟩:90% + |1⟩:10%"
+        }
+      ]
+    ],
+    "collapseEvents": [
+      {
+        "gate": "G1",
+        "value": "0"
+      }
+    ],
+    "finalOutput": "be or not to",
+    "coherenceScore": 0.2,
+    "notes": "Maintained 1 superposition states, 1 collapsed. Average 1.0 candidates per position"
+  }
+]
