@@ -95,8 +95,8 @@ void test_gaia(TestCase* test) {
         fprintf(tmp, "%s\nquit\n", test->prompt);
         fclose(tmp);
         
-        // Run gaia_chat_full and capture the response line after "gaia:"
-        FILE* pipe = popen("./gaia_chat_full < test_prompt.txt 2>/dev/null | grep 'gaia:' | tail -n 1", "r");
+        // Run gaia_chat_v3 and capture the response line after "gaia:"
+        FILE* pipe = popen("./gaia_chat_v3 < test_prompt.txt 2>/dev/null | grep 'gaia:' | tail -n 1", "r");
         if (pipe) {
             fgets(response, sizeof(response), pipe);
             pclose(pipe);
@@ -163,9 +163,9 @@ void print_summary() {
     }
 }
 
-// Check if gaia_chat_full exists
+// Check if gaia_chat_v3 exists
 int check_gaia_exists() {
-    FILE* f = fopen("./gaia_chat_full", "r");
+    FILE* f = fopen("./gaia_chat_v3", "r");
     if (f) {
         fclose(f);
         return 1;
@@ -205,9 +205,9 @@ int main() {
     printf("%s=== GAIA Simple Testing Suite ===%s\n", YELLOW, RESET);
     printf("Testing gaia across knowledge domains...\n\n");
     
-    // Check if gaia_chat_full exists
+    // Check if gaia_chat_v3 exists
     if (!check_gaia_exists()) {
-        printf("%sError: gaia_chat_full not found. Please build it first%s\n", RED, RESET);
+        printf("%sError: gaia_chat_v3 not found. Please build it first%s\n", RED, RESET);
         return 1;
     }
     

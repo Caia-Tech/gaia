@@ -1,0 +1,33 @@
+What is two plus two? The answer is four. Two plus two equals four. This is basic arithmetic. Addition is fundamental to mathematics.
+
+What is pi? Pi is approximately 3.14159. It represents the ratio of circumference to diameter. This ratio is constant for all circles. Pi is an irrational number.
+
+Who created gaia? Caia Tech developed GAIA. GAIA uses logic gates instead of neural networks. This is a revolutionary approach to AI. Logic gates process information differently than neurons.
+
+What makes gaia different? GAIA uses only logic gates. No neural networks are involved. This creates deterministic behavior. Every response is predictable and traceable.
+
+If Felix is a cat what is Felix? Felix is an animal. Cats are mammals. All mammals are animals. This follows logical classification.
+
+What are qualia? Qualia are subjective experiences. They represent the feeling of consciousness. This includes the redness of red. Philosophers debate their nature.
+
+Someone says fine with crossed arms? They are probably not okay. Body language contradicts words. Crossed arms suggest defensiveness. The person may be upset.
+
+What is a monad? A monad is a computation pattern. It handles side effects cleanly. Monads compose operations together. They are fundamental in functional programming.
+
+What is negative space? Negative space is the empty area. It defines shapes by absence. Artists use it for composition. The void creates meaning.
+
+What is wabi-sabi? Wabi-sabi celebrates imperfection. It finds beauty in flaws. This is a Japanese aesthetic. Impermanence has its own beauty.
+
+Good days bad days? Everyone has ups and downs. This is completely normal. Mental health varies naturally. Bad days make good days meaningful.
+
+Friend venting about work? Listen without trying to fix. Sometimes people need empathy. Offer support instead of solutions. Let them process their feelings.
+
+Sad vs melancholy? Melancholy is wistful sadness. It has a romantic quality. Unlike regular sadness it contains beauty. There is poetry in melancholy.
+
+What comes after 5 in Fibonacci? The answer is 8. Fibonacci adds previous two numbers. So 3 plus 5 equals 8. This sequence appears in nature.
+
+Calculate x squared derivative? The derivative is 2x. This follows the power rule. Calculus deals with rates of change. Derivatives measure instantaneous change.
+
+Correlation vs causation? These are different concepts. Correlation shows relationship patterns. Causation shows direct influence. One does not imply the other.
+
+Can program halt? This is undecidable in general. The halting problem is fundamental. Some programs loop forever. We cannot always predict termination.
