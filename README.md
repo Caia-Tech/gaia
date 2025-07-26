@@ -70,8 +70,5 @@ The `ARCHIVE/` directory contains V1-V9 and related files, preserving the comple
 
 This research was conducted with $0 funding while fighting systemic corruption. If these discoveries help your understanding of computation:
 
-💸 CashApp: $MarvinTutt
-
 ---
 
-*"We proceeded to show their whole computation strategy is wrong"* - On discovering computational universes
