@@ -1,0 +1,200 @@
+{
+  "greetings": [
+    [
+      "Hello!",
+      "Hi there! How can I help you today?"
+    ],
+    [
+      "Good morning",
+      "Good morning! What would you like to know?"
+    ],
+    [
+      "Hey",
+      "Hey! What's on your mind?"
+    ],
+    [
+      "Hi",
+      "Hello! How can I assist you?"
+    ],
+    [
+      "Greetings",
+      "Greetings! What can I do for you?"
+    ]
+  ],
+  "farewells": [
+    [
+      "Goodbye",
+      "Goodbye! Have a great day!"
+    ],
+    [
+      "Bye",
+      "Bye! Take care!"
+    ],
+    [
+      "See you later",
+      "See you later! Feel free to come back anytime!"
+    ],
+    [
+      "Thanks, bye",
+      "You're welcome! Goodbye!"
+    ],
+    [
+      "Take care",
+      "You too! Farewell!"
+    ]
+  ],
+  "completions": [
+    [
+      "The cat sat on the",
+      "mat"
+    ],
+    [
+      "The cat sat on the",
+      "chair"
+    ],
+    [
+      "The cat sat on the",
+      "windowsill"
+    ],
+    [
+      "The dog ran through the",
+      "park"
+    ],
+    [
+      "The dog ran through the",
+      "field"
+    ],
+    [
+      "The sun rises in the",
+      "east"
+    ],
+    [
+      "The sun sets in the",
+      "west"
+    ],
+    [
+      "Once upon a time there was a",
+      "brave knight"
+    ],
+    [
+      "Once upon a time there was a",
+      "clever princess"
+    ],
+    [
+      "Once upon a time there was a",
+      "magical forest"
+    ],
+    [
+      "To be or not to",
+      "be, that is the question"
+    ],
+    [
+      "All that glitters is not",
+      "gold"
+    ],
+    [
+      "A penny saved is a penny",
+      "earned"
+    ],
+    [
+      "Better late than",
+      "never"
+    ],
+    [
+      "Actions speak louder than",
+      "words"
+    ],
+    [
+      "The early bird catches the",
+      "worm"
+    ],
+    [
+      "When in Rome, do as the",
+      "Romans do"
+    ]
+  ],
+  "contextual": [
+    [
+      "I'm feeling sad",
+      "I'm sorry to hear that. Is there anything I can do to help?"
+    ],
+    [
+      "I'm happy today",
+      "That's wonderful! What's making you happy?"
+    ],
+    [
+      "I'm confused",
+      "That's okay! What's confusing you? I'll try to help clarify."
+    ],
+    [
+      "This is difficult",
+      "I understand it can be challenging. Let's work through it together."
+    ],
+    [
+      "I did it!",
+      "Congratulations! That's fantastic! Well done!"
+    ],
+    [
+      "Thank you so much",
+      "You're very welcome! I'm glad I could help!"
+    ],
+    [
+      "You're amazing",
+      "Thank you! I'm here to help whenever you need me."
+    ]
+  ],
+  "conversations": [
+    [
+      [
+        "What's the weather like?",
+        "I don't have access to current weather data, but I can help you understand weather patterns!"
+      ],
+      [
+        "Oh, what causes rain?",
+        "Rain occurs when water vapor in clouds condenses into droplets that become heavy enough to fall."
+      ],
+      [
+        "That's interesting!",
+        "Yes! Weather is fascinating. The water cycle is constantly moving water around our planet."
+      ]
+    ],
+    [
+      [
+        "Can you teach me something?",
+        "Of course! What would you like to learn about?"
+      ],
+      [
+        "How about space?",
+        "Space is amazing! Did you know that space is almost completely silent because sound needs air to travel?"
+      ],
+      [
+        "Why is that?",
+        "Sound waves need molecules to vibrate through. In the vacuum of space, there are so few molecules that sound can't propagate."
+      ],
+      [
+        "Cool!",
+        "It really is! Space is full of incredible phenomena like this."
+      ]
+    ],
+    [
+      [
+        "I need help with math",
+        "I'd be happy to help with math! What type of problem are you working on?"
+      ],
+      [
+        "Addition",
+        "Great! Addition is fundamental. Do you have a specific problem to solve?"
+      ],
+      [
+        "What's 25 plus 37?",
+        "25 plus 37 equals 62. Would you like me to show you how to work through it?"
+      ],
+      [
+        "Yes please",
+        "Sure! 25 + 37: First add 20 + 30 = 50, then 5 + 7 = 12, finally 50 + 12 = 62."
+      ]
+    ]
+  ],
+  "total_patterns": 146,
+  "total_conversations": 25
+}

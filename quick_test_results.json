@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-07-26T00:28:23.376174",
+  "timestamp": "2025-07-26T00:54:51.890646",
   "results": {
     "baseline": {
       "Mathematics": [
@@ -35,9 +35,9 @@
         },
         {
           "prompt": "What is photosynthesis?",
-          "response": "",
-          "has_response": false,
-          "keyword_match": false,
+          "response": "photosynthesis is the process plants use to convert sunlight into energy what is the difference between tired and depleted tired is physical depleted includes emotional and mental exhaustion from making many choices reducing quality of later decisions",
+          "has_response": true,
+          "keyword_match": true,
           "is_function": false
         }
       ],
@@ -67,7 +67,7 @@
       "Conversational": [
         {
           "prompt": "Hello, how are you?",
-          "response": "i'm functioning well thank you for asking how can i help you understand various topics",
+          "response": "i'm functioning well thank you for asking how can i assist you got it perfect what else can i help with various tasks what comes after 21 in counting after 21 comes 22 is 19 positive yes 19 is positive what is the difference between tired and depleted tired is",
           "has_response": true,
           "keyword_match": true,
           "is_function": false
@@ -99,9 +99,9 @@
       "Incomplete": [
         {
           "prompt": "The cat sat on the",
-          "response": "graph and its transpose",
+          "response": "mat what is the difference between tired and depleted tired is physical depleted includes emotional and mental exhaustion from making many choices reducing quality of later decisions",
           "has_response": true,
-          "keyword_match": false,
+          "keyword_match": true,
           "is_function": false
         },
         {
@@ -147,30 +147,30 @@
         },
         {
           "prompt": "What is photosynthesis?",
-          "response": "",
-          "has_response": false,
-          "keyword_match": false,
+          "response": "photosynthesis is the process plants use to convert sunlight into energy what is the difference between and/or in logic and requires both or requires at least one inclusion being strict",
+          "has_response": true,
+          "keyword_match": true,
           "is_function": false
         }
       ],
       "Ambiguous": [
         {
           "prompt": "The bank",
-          "response": "is near the river the bank holds money the bank provides loans",
+          "response": "holds money the bank provides loans",
           "has_response": true,
           "keyword_match": true,
           "is_function": false
         },
         {
           "prompt": "The spring",
-          "response": "flows water",
+          "response": "is coiled the spring flows water",
           "has_response": true,
           "keyword_match": true,
           "is_function": false
         },
         {
           "prompt": "The wave",
-          "response": "carried surfers the wave of enthusiasm",
+          "response": "of enthusiasm",
           "has_response": true,
           "keyword_match": true,
           "is_function": false
@@ -179,14 +179,14 @@
       "Conversational": [
         {
           "prompt": "Hello, how are you?",
-          "response": "assistant responds i can discuss time concepts",
+          "response": "i'm functioning well thank you for asking how can i assist you define photosynthesis the definition of photosynthesis is the process plants use to convert sunlight into energy what is the difference between some and all some means at least one all means every instance",
           "has_response": true,
-          "keyword_match": false,
+          "keyword_match": true,
           "is_function": false
         },
         {
           "prompt": "What's your name?",
-          "response": "i'm gaia a logic gate systems can be designed with accessibility in mind their deterministic nature enables predictable adaptations for different needs (crisis fun advice)",
+          "response": "answer i'm gaia a logic gate-based text processor",
           "has_response": true,
           "keyword_match": true,
           "is_function": false
@@ -211,9 +211,9 @@
       "Incomplete": [
         {
           "prompt": "The cat sat on the",
-          "response": "turns is much better thanks for asking how can i help you understand various topics",
+          "response": "chair thanks bye you're welcome goodbye",
           "has_response": true,
-          "keyword_match": false,
+          "keyword_match": true,
           "is_function": false
         },
         {
@@ -227,7 +227,7 @@
     }
   },
   "summary": {
-    "baseline_response_rate": "12/14",
+    "baseline_response_rate": "13/14",
     "variety_improvement": 2.0
   }
 }
