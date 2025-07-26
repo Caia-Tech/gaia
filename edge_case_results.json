@@ -1,0 +1,228 @@
+{
+  "edge_results": {
+    "Empty/Minimal": [
+      {
+        "prompt": "",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": " ",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": "?",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": "a",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": "...",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      }
+    ],
+    "Very Long": [
+      {
+        "prompt": "What What What What What What What What What What ...",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": "word0 word1 word2 word3 word4 word5 word6 word7 wo...",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      }
+    ],
+    "Special Characters": [
+      {
+        "prompt": "Hello! @#$%^&*()",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": "What is 2+2=?",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": "Test\nwith\nnewlines",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": "Test\twith\ttabs",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": "Unicode: \u4f60\u597d \u0645\u0631\u062d\u0628\u0627 \u05e9\u05dc\u05d5\u05dd",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      }
+    ],
+    "Nonsense": [
+      {
+        "prompt": "xyzqwerty asdfgh",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": "123 456 789",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": "the the the the",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": "wdgjvbzeyvdjyyugzlkj",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      }
+    ],
+    "Edge Math": [
+      {
+        "prompt": "What is 0 plus 0?",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": "What is -5 plus 3?",
+        "status": "OK",
+        "baseline_response": "8",
+        "super_response": "8",
+        "differs": false
+      },
+      {
+        "prompt": "What is 999999999 plus 1?",
+        "status": "OK",
+        "baseline_response": "10",
+        "super_response": "10",
+        "differs": false
+      },
+      {
+        "prompt": "What is 1.5 plus 2.5?",
+        "status": "OK",
+        "baseline_response": "7",
+        "super_response": "7",
+        "differs": false
+      }
+    ],
+    "Malformed Questions": [
+      {
+        "prompt": "What is",
+        "status": "[LONG: 170 chars]",
+        "baseline_response": "the difference between tired and depleted tired is",
+        "super_response": "the difference between necessary and sufficient co",
+        "differs": true
+      },
+      {
+        "prompt": "plus two three",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": "The the bank bank",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": "?????",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      }
+    ],
+    "Context Bombs": [
+      {
+        "prompt": "word word word word word word word word word word ...",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": "The item0 and the item1 and the item2 and the item...",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      }
+    ],
+    "Mixed Languages": [
+      {
+        "prompt": "Hello, comment \u00e7a va?",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      },
+      {
+        "prompt": "What is dos plus dos?",
+        "status": "[EMPTY]",
+        "baseline_response": "",
+        "super_response": "",
+        "differs": false
+      }
+    ]
+  },
+  "summary": {
+    "total_cases": 29,
+    "failed_cases": 1,
+    "crash_count": 0
+  }
+}

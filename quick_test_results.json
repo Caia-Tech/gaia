@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-07-26T00:22:20.503828",
+  "timestamp": "2025-07-26T00:28:23.376174",
   "results": {
     "baseline": {
       "Mathematics": [
@@ -163,14 +163,14 @@
         },
         {
           "prompt": "The spring",
-          "response": "is coiled the spring flows water",
+          "response": "flows water",
           "has_response": true,
           "keyword_match": true,
           "is_function": false
         },
         {
           "prompt": "The wave",
-          "response": "crashed loudly the wave carried surfers the wave of enthusiasm",
+          "response": "carried surfers the wave of enthusiasm",
           "has_response": true,
           "keyword_match": true,
           "is_function": false
@@ -179,16 +179,16 @@
       "Conversational": [
         {
           "prompt": "Hello, how are you?",
-          "response": "i'm functioning well thank you for asking how can i help you understand various topics",
+          "response": "assistant responds i can discuss time concepts",
           "has_response": true,
-          "keyword_match": true,
+          "keyword_match": false,
           "is_function": false
         },
         {
           "prompt": "What's your name?",
-          "response": "assistant responds i can discuss mathematical concepts i've encountered in text words connect to form sentences sentences build paragraphs and paragraphs construct complete documents each level exhibits patterns that logic gates can capture and reproduce",
+          "response": "i'm gaia a logic gate systems can be designed with accessibility in mind their deterministic nature enables predictable adaptations for different needs (crisis fun advice)",
           "has_response": true,
-          "keyword_match": false,
+          "keyword_match": true,
           "is_function": false
         }
       ],
@@ -211,7 +211,7 @@
       "Incomplete": [
         {
           "prompt": "The cat sat on the",
-          "response": "train the train has 96 seats because 8 \u00d7 12 = 96",
+          "response": "turns is much better thanks for asking how can i help you understand various topics",
           "has_response": true,
           "keyword_match": false,
           "is_function": false
@@ -228,6 +228,6 @@
   },
   "summary": {
     "baseline_response_rate": "12/14",
-    "variety_improvement": 1.3333333333333333
+    "variety_improvement": 2.0
   }
 }
