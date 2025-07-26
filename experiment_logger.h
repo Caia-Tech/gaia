@@ -10,7 +10,8 @@ typedef enum {
     EXP_LOOKAHEAD,
     EXP_ANALYSIS,
     EXP_PERFORMANCE,
-    EXP_DISCOVERY
+    EXP_DISCOVERY,
+    EXP_REFINEMENT
 } ExperimentType;
 
 // Experiment log entry

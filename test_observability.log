@@ -1,0 +1,138 @@
+[2025-07-26 12:05:16.454] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: DEBUG)
+[2025-07-26 12:05:16.455] [INFO] [gaia_observability.c:23 observability_init] Observability system initialized
+[2025-07-26 12:05:16.455] [INFO] [gaia_observability.c:146 v8_metrics_init] V8 metrics initialized
+[2025-07-26 12:05:16.455] [INFO] [test_v8_observability.c:186 main] === GAIA V8 Observability Test Suite ===
+[2025-07-26 12:05:16.455] [INFO] [test_v8_observability.c:169 test_log_levels] === Testing Log Levels ===
+[2025-07-26 12:05:16.455] [DEBUG] [test_v8_observability.c:172 test_log_levels] This is a DEBUG message
+[2025-07-26 12:05:16.455] [INFO] [test_v8_observability.c:173 test_log_levels] This is an INFO message
+[2025-07-26 12:05:16.455] [WARN] [test_v8_observability.c:174 test_log_levels] This is a WARNING message
+[2025-07-26 12:05:16.455] [ERROR] [test_v8_observability.c:175 test_log_levels] This is an ERROR message
+[2025-07-26 12:05:16.455] [FATAL] [test_v8_observability.c:176 test_log_levels] This is a FATAL message (most severe)
+[2025-07-26 12:05:16.455] [INFO] [test_v8_observability.c:9 test_error_handling] === Testing Error Handling ===
+[2025-07-26 12:05:16.455] [ERROR] [test_v8_observability.c:22 test_error_handling] Simulated error: Out of memory (code: -2)
+[2025-07-26 12:05:16.455] [DEBUG] [test_v8_observability.c:30 test_error_handling] Allocated 100 bytes at 0x600002538000
+[2025-07-26 12:05:16.455] [DEBUG] [test_v8_observability.c:32 test_error_handling] Freed buffer (now 0x0)
+[2025-07-26 12:05:16.455] [INFO] [test_v8_observability.c:38 test_performance_tracking] === Testing Performance Tracking ===
+[2025-07-26 12:05:16.456] [DEBUG] [test_v8_observability.c:48 test_performance_tracking] Sub-operation 1 took 0.92 ms
+[2025-07-26 12:05:16.456] [DEBUG] [test_v8_observability.c:55 test_performance_tracking] Sub-operation 2 took 0.46 ms
+[2025-07-26 12:05:16.456] [INFO] [test_v8_observability.c:58 test_performance_tracking] Total operation took 1.39 ms
+[2025-07-26 12:05:16.456] [INFO] [test_v8_observability.c:63 test_metrics] === Testing Metrics ===
+[2025-07-26 12:05:16.457] [INFO] [test_v8_observability.c:83 test_metrics] Metrics test completed
+[2025-07-26 12:05:16.457] [INFO] [test_v8_observability.c:100 test_tracing] === Testing Execution Tracing ===
+[2025-07-26 12:05:16.457] [DEBUG] [test_v8_observability.c:90 helper_function] Helper function processing value: -1
+[2025-07-26 12:05:16.457] [WARN] [test_v8_observability.c:93 helper_function] Negative value provided: -1
+[2025-07-26 12:05:16.457] [DEBUG] [test_v8_observability.c:90 helper_function] Helper function processing value: 0
+[2025-07-26 12:05:16.457] [DEBUG] [test_v8_observability.c:90 helper_function] Helper function processing value: 1
+[2025-07-26 12:05:16.457] [INFO] [test_v8_observability.c:113 test_request_tracking] === Testing Request Tracking ===
+[2025-07-26 12:05:16.457] [DEBUG] [gaia_observability.c:129 request_begin] Request TEST-REQ-1 started
+[2025-07-26 12:05:16.457] [INFO] [test_v8_observability.c:120 test_request_tracking] Processing request TEST-REQ-1
+[2025-07-26 12:05:16.457] [DEBUG] [gaia_observability.c:139 request_end] Request TEST-REQ-1 completed in 0.11 ms
+[2025-07-26 12:05:16.457] [INFO] [test_v8_observability.c:131 test_request_tracking] Request TEST-REQ-1 completed
+[2025-07-26 12:05:16.457] [DEBUG] [gaia_observability.c:129 request_begin] Request TEST-REQ-2 started
+[2025-07-26 12:05:16.457] [INFO] [test_v8_observability.c:120 test_request_tracking] Processing request TEST-REQ-2
+[2025-07-26 12:05:16.457] [DEBUG] [gaia_observability.c:139 request_end] Request TEST-REQ-2 completed in 0.20 ms
+[2025-07-26 12:05:16.457] [INFO] [test_v8_observability.c:131 test_request_tracking] Request TEST-REQ-2 completed
+[2025-07-26 12:05:16.457] [DEBUG] [gaia_observability.c:129 request_begin] Request TEST-REQ-3 started
+[2025-07-26 12:05:16.457] [INFO] [test_v8_observability.c:120 test_request_tracking] Processing request TEST-REQ-3
+[2025-07-26 12:05:16.458] [DEBUG] [gaia_observability.c:139 request_end] Request TEST-REQ-3 completed in 0.29 ms
+[2025-07-26 12:05:16.458] [INFO] [test_v8_observability.c:131 test_request_tracking] Request TEST-REQ-3 completed
+[2025-07-26 12:05:16.458] [INFO] [test_v8_observability.c:137 test_v8_metrics] === Testing V8 Metrics ===
+[2025-07-26 12:05:16.458] [INFO] [gaia_observability.c:239 v8_metrics_report] === V8 Metrics Report ===
+[2025-07-26 12:05:16.458] [INFO] [gaia_observability.c:242 v8_metrics_report] Workflows: 3 total, 2 successful, 1 failed (avg time: 157.93 ms)
+[2025-07-26 12:05:16.458] [INFO] [gaia_observability.c:245 v8_metrics_report] Attention: 3 computations (avg confidence: 0.85, total time: 46.50 ms)
+[2025-07-26 12:05:16.458] [INFO] [gaia_observability.c:248 v8_metrics_report] Refinements: 3 attempts, 2 successful (avg improvement: 0.18, avg iterations: 6.00)
+[2025-07-26 12:05:16.458] [INFO] [gaia_observability.c:251 v8_metrics_report] Responses: 3 total, 1 empty (avg length: 20.7, avg time: 125.17 ms)
+[2025-07-26 12:05:16.458] [INFO] [gaia_observability.c:255 v8_metrics_report] Quality Scores - Coherence: 0.82, Relevance: 0.88, Completeness: 0.78, Grammar: 0.93, Overall: 0.84
+[2025-07-26 12:05:16.458] [INFO] [gaia_observability.c:297 export_metrics_json] Metrics exported to test_metrics.json
+[2025-07-26 12:05:16.458] [INFO] [test_v8_observability.c:201 main] === Test Complete ===
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:300 logger_print_stats]   DEBUG: 14
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 31
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:300 logger_print_stats]   WARN: 2
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:300 logger_print_stats]   ERROR: 2
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:300 logger_print_stats]   FATAL: 1
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 2
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 2
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:300 logger_print_stats]   DEBUG: 14
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 42
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:300 logger_print_stats]   WARN: 2
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:300 logger_print_stats]   ERROR: 2
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:300 logger_print_stats]   FATAL: 1
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 2
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 2
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:05:16.458] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.240] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: DEBUG)
+[2025-07-26 12:27:40.241] [INFO] [gaia_observability.c:23 observability_init] Observability system initialized
+[2025-07-26 12:27:40.241] [INFO] [gaia_observability.c:146 v8_metrics_init] V8 metrics initialized
+[2025-07-26 12:27:40.241] [INFO] [test_v8_observability.c:186 main] === GAIA V8 Observability Test Suite ===
+[2025-07-26 12:27:40.241] [INFO] [test_v8_observability.c:169 test_log_levels] === Testing Log Levels ===
+[2025-07-26 12:27:40.241] [DEBUG] [test_v8_observability.c:172 test_log_levels] This is a DEBUG message
+[2025-07-26 12:27:40.241] [INFO] [test_v8_observability.c:173 test_log_levels] This is an INFO message
+[2025-07-26 12:27:40.241] [WARN] [test_v8_observability.c:174 test_log_levels] This is a WARNING message
+[2025-07-26 12:27:40.241] [ERROR] [test_v8_observability.c:175 test_log_levels] This is an ERROR message
+[2025-07-26 12:27:40.241] [FATAL] [test_v8_observability.c:176 test_log_levels] This is a FATAL message (most severe)
+[2025-07-26 12:27:40.241] [INFO] [test_v8_observability.c:9 test_error_handling] === Testing Error Handling ===
+[2025-07-26 12:27:40.241] [ERROR] [test_v8_observability.c:22 test_error_handling] Simulated error: Out of memory (code: -2)
+[2025-07-26 12:27:40.241] [DEBUG] [test_v8_observability.c:30 test_error_handling] Allocated 100 bytes at 0x600002b90070
+[2025-07-26 12:27:40.241] [DEBUG] [test_v8_observability.c:32 test_error_handling] Freed buffer (now 0x0)
+[2025-07-26 12:27:40.241] [INFO] [test_v8_observability.c:38 test_performance_tracking] === Testing Performance Tracking ===
+[2025-07-26 12:27:40.242] [DEBUG] [test_v8_observability.c:48 test_performance_tracking] Sub-operation 1 took 0.88 ms
+[2025-07-26 12:27:40.242] [DEBUG] [test_v8_observability.c:55 test_performance_tracking] Sub-operation 2 took 0.45 ms
+[2025-07-26 12:27:40.242] [INFO] [test_v8_observability.c:58 test_performance_tracking] Total operation took 1.34 ms
+[2025-07-26 12:27:40.242] [INFO] [test_v8_observability.c:63 test_metrics] === Testing Metrics ===
+[2025-07-26 12:27:40.243] [INFO] [test_v8_observability.c:83 test_metrics] Metrics test completed
+[2025-07-26 12:27:40.243] [INFO] [test_v8_observability.c:100 test_tracing] === Testing Execution Tracing ===
+[2025-07-26 12:27:40.243] [DEBUG] [test_v8_observability.c:90 helper_function] Helper function processing value: -1
+[2025-07-26 12:27:40.243] [WARN] [test_v8_observability.c:93 helper_function] Negative value provided: -1
+[2025-07-26 12:27:40.243] [DEBUG] [test_v8_observability.c:90 helper_function] Helper function processing value: 0
+[2025-07-26 12:27:40.243] [DEBUG] [test_v8_observability.c:90 helper_function] Helper function processing value: 1
+[2025-07-26 12:27:40.243] [INFO] [test_v8_observability.c:113 test_request_tracking] === Testing Request Tracking ===
+[2025-07-26 12:27:40.243] [DEBUG] [gaia_observability.c:129 request_begin] Request TEST-REQ-1 started
+[2025-07-26 12:27:40.243] [INFO] [test_v8_observability.c:120 test_request_tracking] Processing request TEST-REQ-1
+[2025-07-26 12:27:40.243] [DEBUG] [gaia_observability.c:139 request_end] Request TEST-REQ-1 completed in 0.10 ms
+[2025-07-26 12:27:40.243] [INFO] [test_v8_observability.c:131 test_request_tracking] Request TEST-REQ-1 completed
+[2025-07-26 12:27:40.243] [DEBUG] [gaia_observability.c:129 request_begin] Request TEST-REQ-2 started
+[2025-07-26 12:27:40.243] [INFO] [test_v8_observability.c:120 test_request_tracking] Processing request TEST-REQ-2
+[2025-07-26 12:27:40.243] [DEBUG] [gaia_observability.c:139 request_end] Request TEST-REQ-2 completed in 0.19 ms
+[2025-07-26 12:27:40.243] [INFO] [test_v8_observability.c:131 test_request_tracking] Request TEST-REQ-2 completed
+[2025-07-26 12:27:40.243] [DEBUG] [gaia_observability.c:129 request_begin] Request TEST-REQ-3 started
+[2025-07-26 12:27:40.243] [INFO] [test_v8_observability.c:120 test_request_tracking] Processing request TEST-REQ-3
+[2025-07-26 12:27:40.243] [DEBUG] [gaia_observability.c:139 request_end] Request TEST-REQ-3 completed in 0.28 ms
+[2025-07-26 12:27:40.243] [INFO] [test_v8_observability.c:131 test_request_tracking] Request TEST-REQ-3 completed
+[2025-07-26 12:27:40.243] [INFO] [test_v8_observability.c:137 test_v8_metrics] === Testing V8 Metrics ===
+[2025-07-26 12:27:40.243] [INFO] [gaia_observability.c:239 v8_metrics_report] === V8 Metrics Report ===
+[2025-07-26 12:27:40.243] [INFO] [gaia_observability.c:242 v8_metrics_report] Workflows: 3 total, 2 successful, 1 failed (avg time: 157.93 ms)
+[2025-07-26 12:27:40.243] [INFO] [gaia_observability.c:245 v8_metrics_report] Attention: 3 computations (avg confidence: 0.85, total time: 46.50 ms)
+[2025-07-26 12:27:40.243] [INFO] [gaia_observability.c:248 v8_metrics_report] Refinements: 3 attempts, 2 successful (avg improvement: 0.18, avg iterations: 6.00)
+[2025-07-26 12:27:40.243] [INFO] [gaia_observability.c:251 v8_metrics_report] Responses: 3 total, 1 empty (avg length: 20.7, avg time: 125.17 ms)
+[2025-07-26 12:27:40.243] [INFO] [gaia_observability.c:255 v8_metrics_report] Quality Scores - Coherence: 0.82, Relevance: 0.88, Completeness: 0.78, Grammar: 0.93, Overall: 0.84
+[2025-07-26 12:27:40.243] [INFO] [gaia_observability.c:297 export_metrics_json] Metrics exported to test_metrics.json
+[2025-07-26 12:27:40.243] [INFO] [test_v8_observability.c:201 main] === Test Complete ===
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:300 logger_print_stats]   DEBUG: 14
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 31
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:300 logger_print_stats]   WARN: 2
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:300 logger_print_stats]   ERROR: 2
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:300 logger_print_stats]   FATAL: 1
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 2
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 2
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:300 logger_print_stats]   DEBUG: 14
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 42
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:300 logger_print_stats]   WARN: 2
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:300 logger_print_stats]   ERROR: 2
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:300 logger_print_stats]   FATAL: 1
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 2
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 2
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.243] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0

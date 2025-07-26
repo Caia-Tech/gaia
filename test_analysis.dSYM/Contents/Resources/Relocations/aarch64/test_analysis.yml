@@ -1,0 +1,46 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     test_analysis
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _test_prompt_classification, symObjAddr: 0x0, symBinAddr: 0x1000031B4, symSize: 0x154 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _tests_run, symObjAddr: 0x4D7C, symBinAddr: 0x10000C290, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _tests_passed, symObjAddr: 0x4D80, symBinAddr: 0x10000C294, symSize: 0x0 }
+  - { offsetInCU: 0x151, offset: 0x151, size: 0x8, addend: 0x0, symName: _test_prompt_classification, symObjAddr: 0x0, symBinAddr: 0x1000031B4, symSize: 0x154 }
+  - { offsetInCU: 0x1DF, offset: 0x1DF, size: 0x8, addend: 0x0, symName: _test_question_classification, symObjAddr: 0x154, symBinAddr: 0x100003308, symSize: 0x154 }
+  - { offsetInCU: 0x26D, offset: 0x26D, size: 0x8, addend: 0x0, symName: _test_topic_detection, symObjAddr: 0x2A8, symBinAddr: 0x10000345C, symSize: 0x154 }
+  - { offsetInCU: 0x2FB, offset: 0x2FB, size: 0x8, addend: 0x0, symName: _test_entity_extraction, symObjAddr: 0x3FC, symBinAddr: 0x1000035B0, symSize: 0x268 }
+  - { offsetInCU: 0x3CC, offset: 0x3CC, size: 0x8, addend: 0x0, symName: _test_text_metrics, symObjAddr: 0x664, symBinAddr: 0x100003818, symSize: 0x1C4 }
+  - { offsetInCU: 0x474, offset: 0x474, size: 0x8, addend: 0x0, symName: _test_coherence_analysis, symObjAddr: 0x828, symBinAddr: 0x1000039DC, symSize: 0x194 }
+  - { offsetInCU: 0x517, offset: 0x517, size: 0x8, addend: 0x0, symName: _test_comprehensive_analysis, symObjAddr: 0x9BC, symBinAddr: 0x100003B70, symSize: 0x288 }
+  - { offsetInCU: 0x5D2, offset: 0x5D2, size: 0x8, addend: 0x0, symName: _test_edge_cases, symObjAddr: 0xC44, symBinAddr: 0x100003DF8, symSize: 0x1A4 }
+  - { offsetInCU: 0x637, offset: 0x637, size: 0x8, addend: 0x0, symName: _interactive_test, symObjAddr: 0xDE8, symBinAddr: 0x100003F9C, symSize: 0x154 }
+  - { offsetInCU: 0x689, offset: 0x689, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xF3C, symBinAddr: 0x1000040F0, symSize: 0x4F4 }
+  - { offsetInCU: 0x26, offset: 0x8FB, size: 0x8, addend: 0x0, symName: _count_words, symObjAddr: 0x0, symBinAddr: 0x1000045E4, symSize: 0xE4 }
+  - { offsetInCU: 0x4D, offset: 0x922, size: 0x8, addend: 0x0, symName: _number_word_to_digit, symObjAddr: 0x149C, symBinAddr: 0x100005A80, symSize: 0x114 }
+  - { offsetInCU: 0x74, offset: 0x949, size: 0x8, addend: 0x0, symName: _number_word_to_digit.digit, symObjAddr: 0x7DC8, symBinAddr: 0x10000C298, symSize: 0x0 }
+  - { offsetInCU: 0xE5, offset: 0x9BA, size: 0x8, addend: 0x0, symName: _question_words, symObjAddr: 0x2900, symBinAddr: 0x10000C000, symSize: 0x0 }
+  - { offsetInCU: 0x110, offset: 0x9E5, size: 0x8, addend: 0x0, symName: _greetings, symObjAddr: 0x2990, symBinAddr: 0x10000C090, symSize: 0x0 }
+  - { offsetInCU: 0x131, offset: 0xA06, size: 0x8, addend: 0x0, symName: _farewells, symObjAddr: 0x29E0, symBinAddr: 0x10000C0E0, symSize: 0x0 }
+  - { offsetInCU: 0x146, offset: 0xA1B, size: 0x8, addend: 0x0, symName: _number_words, symObjAddr: 0x2A30, symBinAddr: 0x10000C130, symSize: 0x0 }
+  - { offsetInCU: 0x167, offset: 0xA3C, size: 0x8, addend: 0x0, symName: _math_operators, symObjAddr: 0x2B28, symBinAddr: 0x10000C228, symSize: 0x0 }
+  - { offsetInCU: 0x262, offset: 0xB37, size: 0x8, addend: 0x0, symName: _count_words, symObjAddr: 0x0, symBinAddr: 0x1000045E4, symSize: 0xE4 }
+  - { offsetInCU: 0x2C2, offset: 0xB97, size: 0x8, addend: 0x0, symName: _count_sentences, symObjAddr: 0xE4, symBinAddr: 0x1000046C8, symSize: 0x124 }
+  - { offsetInCU: 0x314, offset: 0xBE9, size: 0x8, addend: 0x0, symName: _calculate_text_metrics, symObjAddr: 0x208, symBinAddr: 0x1000047EC, symSize: 0x270 }
+  - { offsetInCU: 0x3AD, offset: 0xC82, size: 0x8, addend: 0x0, symName: _is_question_word, symObjAddr: 0x478, symBinAddr: 0x100004A5C, symSize: 0x2C }
+  - { offsetInCU: 0x3D5, offset: 0xCAA, size: 0x8, addend: 0x0, symName: _word_in_list, symObjAddr: 0x4A4, symBinAddr: 0x100004A88, symSize: 0x94 }
+  - { offsetInCU: 0x427, offset: 0xCFC, size: 0x8, addend: 0x0, symName: _is_greeting, symObjAddr: 0x538, symBinAddr: 0x100004B1C, symSize: 0x100 }
+  - { offsetInCU: 0x479, offset: 0xD4E, size: 0x8, addend: 0x0, symName: _to_lowercase, symObjAddr: 0x638, symBinAddr: 0x100004C1C, symSize: 0x74 }
+  - { offsetInCU: 0x4B9, offset: 0xD8E, size: 0x8, addend: 0x0, symName: _is_farewell, symObjAddr: 0x6AC, symBinAddr: 0x100004C90, symSize: 0x100 }
+  - { offsetInCU: 0x50B, offset: 0xDE0, size: 0x8, addend: 0x0, symName: _classify_prompt, symObjAddr: 0x7AC, symBinAddr: 0x100004D90, symSize: 0x588 }
+  - { offsetInCU: 0x5D9, offset: 0xEAE, size: 0x8, addend: 0x0, symName: _starts_with, symObjAddr: 0xD34, symBinAddr: 0x100005318, symSize: 0x54 }
+  - { offsetInCU: 0x60F, offset: 0xEE4, size: 0x8, addend: 0x0, symName: _classify_question, symObjAddr: 0xD88, symBinAddr: 0x10000536C, symSize: 0x35C }
+  - { offsetInCU: 0x655, offset: 0xF2A, size: 0x8, addend: 0x0, symName: _detect_topic, symObjAddr: 0x10E4, symBinAddr: 0x1000056C8, symSize: 0x3B8 }
+  - { offsetInCU: 0x742, offset: 0x1017, size: 0x8, addend: 0x0, symName: _extract_entities, symObjAddr: 0x15B0, symBinAddr: 0x100005B94, symSize: 0x58C }
+  - { offsetInCU: 0x836, offset: 0x110B, size: 0x8, addend: 0x0, symName: _analyze_coherence, symObjAddr: 0x1B3C, symBinAddr: 0x100006120, symSize: 0x4A0 }
+  - { offsetInCU: 0x94D, offset: 0x1222, size: 0x8, addend: 0x0, symName: _analyze_input, symObjAddr: 0x1FDC, symBinAddr: 0x1000065C0, symSize: 0x298 }
+  - { offsetInCU: 0x9C4, offset: 0x1299, size: 0x8, addend: 0x0, symName: _free_analysis_result, symObjAddr: 0x2274, symBinAddr: 0x100006858, symSize: 0x3C }
+  - { offsetInCU: 0x9EA, offset: 0x12BF, size: 0x8, addend: 0x0, symName: _prompt_type_to_string, symObjAddr: 0x22B0, symBinAddr: 0x100006894, symSize: 0xC8 }
+  - { offsetInCU: 0xA14, offset: 0x12E9, size: 0x8, addend: 0x0, symName: _question_type_to_string, symObjAddr: 0x2394, symBinAddr: 0x100006978, symSize: 0xD8 }
+  - { offsetInCU: 0xA3E, offset: 0x1313, size: 0x8, addend: 0x0, symName: _topic_type_to_string, symObjAddr: 0x248C, symBinAddr: 0x100006A70, symSize: 0xC8 }
+  - { offsetInCU: 0xA68, offset: 0x133D, size: 0x8, addend: 0x0, symName: _print_analysis_result, symObjAddr: 0x2570, symBinAddr: 0x100006B54, symSize: 0x360 }
+...

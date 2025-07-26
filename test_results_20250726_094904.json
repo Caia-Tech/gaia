@@ -1,0 +1,1201 @@
+{
+  "timestamp": "20250726_094904",
+  "total_tests": 106,
+  "passed": 46,
+  "results": [
+    {
+      "name": "Add small numbers",
+      "category": "Arithmetic",
+      "passed": true,
+      "expected": [
+        "2 plus 2 = 4"
+      ],
+      "actual": "2 plus 2 = 4 2 plus 2 = 4",
+      "duration": 0.1386568546295166,
+      "error": ""
+    },
+    {
+      "name": "Add large numbers",
+      "category": "Arithmetic",
+      "passed": true,
+      "expected": [
+        "999 plus 1 = 1000"
+      ],
+      "actual": "999 plus 1 = 1000 999 plus 1 = 1000",
+      "duration": 0.13280415534973145,
+      "error": ""
+    },
+    {
+      "name": "Add three numbers",
+      "category": "Arithmetic",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "5 plus 3 = 8 5 plus 3 = 8",
+      "duration": 0.12500309944152832,
+      "error": ""
+    },
+    {
+      "name": "Subtract positive",
+      "category": "Arithmetic",
+      "passed": true,
+      "expected": [
+        "10 minus 3 = 7"
+      ],
+      "actual": "10 minus 3 = 7 10 minus 3 = 7",
+      "duration": 0.12721610069274902,
+      "error": ""
+    },
+    {
+      "name": "Subtract to zero",
+      "category": "Arithmetic",
+      "passed": true,
+      "expected": [
+        "5 minus 5 = 0"
+      ],
+      "actual": "5 minus 5 = 0 5 minus 5 = 0",
+      "duration": 0.12738895416259766,
+      "error": ""
+    },
+    {
+      "name": "Subtract to negative",
+      "category": "Arithmetic",
+      "passed": true,
+      "expected": [
+        "3 minus 5 = -2"
+      ],
+      "actual": "3 minus 5 = -2 3 minus 5 = -2",
+      "duration": 0.12728404998779297,
+      "error": ""
+    },
+    {
+      "name": "Multiply small",
+      "category": "Arithmetic",
+      "passed": true,
+      "expected": [
+        "3 times 4 = 12"
+      ],
+      "actual": "3 times 4 = 12 3 times 4 = 12",
+      "duration": 0.12484097480773926,
+      "error": ""
+    },
+    {
+      "name": "Multiply by zero",
+      "category": "Arithmetic",
+      "passed": true,
+      "expected": [
+        "100 times 0 = 0"
+      ],
+      "actual": "100 times 0 = 0 100 times 0 = 0",
+      "duration": 0.11851716041564941,
+      "error": ""
+    },
+    {
+      "name": "Multiply negative",
+      "category": "Arithmetic",
+      "passed": false,
+      "expected": [
+        "-5 times 3 = -15"
+      ],
+      "actual": "Analyzing: What is -5 times 3? Processing request: What is -5 times 3?",
+      "duration": 0.12416505813598633,
+      "error": ""
+    },
+    {
+      "name": "Divide evenly",
+      "category": "Arithmetic",
+      "passed": true,
+      "expected": [
+        "20 divided 4 = 5"
+      ],
+      "actual": "20 divided 4 = 5 20 divided 4 = 5",
+      "duration": 0.1206200122833252,
+      "error": ""
+    },
+    {
+      "name": "Divide with remainder",
+      "category": "Arithmetic",
+      "passed": true,
+      "expected": [
+        "10 divided 3 = 3"
+      ],
+      "actual": "10 divided 3 = 3 10 divided 3 = 3",
+      "duration": 0.11974239349365234,
+      "error": ""
+    },
+    {
+      "name": "Divide by one",
+      "category": "Arithmetic",
+      "passed": true,
+      "expected": [
+        "7 divided 1 = 7"
+      ],
+      "actual": "7 divided 1 = 7 7 divided 1 = 7",
+      "duration": 0.12686634063720703,
+      "error": ""
+    },
+    {
+      "name": "Divide zero",
+      "category": "Arithmetic",
+      "passed": true,
+      "expected": [
+        "0 divided 5 = 0"
+      ],
+      "actual": "0 divided 5 = 0 0 divided 5 = 0",
+      "duration": 0.13225913047790527,
+      "error": ""
+    },
+    {
+      "name": "Divide by zero",
+      "category": "Arithmetic",
+      "passed": true,
+      "expected": [
+        "Error: division by zero"
+      ],
+      "actual": "Error: division by zero Error: division by zero",
+      "duration": 0.1261458396911621,
+      "error": ""
+    },
+    {
+      "name": "Mixed arithmetic",
+      "category": "Arithmetic",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "10 plus 5 = 15 10 plus 5 = 15",
+      "duration": 0.1272430419921875,
+      "error": ""
+    },
+    {
+      "name": "Word add",
+      "category": "Word Problems",
+      "passed": true,
+      "expected": [
+        "5 plus 3 = 8"
+      ],
+      "actual": "5 plus 3 = 8 5 plus 3 = 8",
+      "duration": 0.13086795806884766,
+      "error": ""
+    },
+    {
+      "name": "Word subtract",
+      "category": "Word Problems",
+      "passed": true,
+      "expected": [
+        "10 minus 4 = 6"
+      ],
+      "actual": "10 minus 4 = 6 10 minus 4 = 6",
+      "duration": 0.12957072257995605,
+      "error": ""
+    },
+    {
+      "name": "Word multiply",
+      "category": "Word Problems",
+      "passed": true,
+      "expected": [
+        "6 times 7 = 42"
+      ],
+      "actual": "6 times 7 = 42 6 times 7 = 42",
+      "duration": 0.13199090957641602,
+      "error": ""
+    },
+    {
+      "name": "Word divide",
+      "category": "Word Problems",
+      "passed": true,
+      "expected": [
+        "20 divided 5 = 4"
+      ],
+      "actual": "20 divided 5 = 4 20 divided 5 = 4",
+      "duration": 0.13125300407409668,
+      "error": ""
+    },
+    {
+      "name": "Mixed words/numbers",
+      "category": "Word Problems",
+      "passed": true,
+      "expected": [
+        "5 plus 3 = 8"
+      ],
+      "actual": "5 plus 3 = 8 5 plus 3 = 8",
+      "duration": 0.1348412036895752,
+      "error": ""
+    },
+    {
+      "name": "Calculate verb",
+      "category": "Word Problems",
+      "passed": true,
+      "expected": [
+        "15 plus 25 = 40"
+      ],
+      "actual": "15 plus 25 = 40 15 plus 25 = 40",
+      "duration": 0.13004589080810547,
+      "error": ""
+    },
+    {
+      "name": "Compute verb",
+      "category": "Word Problems",
+      "passed": true,
+      "expected": [
+        "100 minus 37 = 63"
+      ],
+      "actual": "100 minus 37 = 63 100 minus 37 = 63",
+      "duration": 0.12886714935302734,
+      "error": ""
+    },
+    {
+      "name": "Find verb",
+      "category": "Word Problems",
+      "passed": false,
+      "expected": [
+        "8",
+        "12",
+        "20"
+      ],
+      "actual": "Analyzing: Find the sum of 8 and 12 Processing request: Find the sum of 8 and 12",
+      "duration": 0.13390898704528809,
+      "error": ""
+    },
+    {
+      "name": "What equals",
+      "category": "Word Problems",
+      "passed": false,
+      "expected": [
+        "5 times 5 = 25"
+      ],
+      "actual": "Analyzing: What equals 5 times 5? Processing request: What equals 5 times 5?",
+      "duration": 0.13228917121887207,
+      "error": ""
+    },
+    {
+      "name": "Result of",
+      "category": "Word Problems",
+      "passed": true,
+      "expected": [
+        "10 divided 2 = 5"
+      ],
+      "actual": "10 divided 2 = 5 10 divided 2 = 5",
+      "duration": 0.1296992301940918,
+      "error": ""
+    },
+    {
+      "name": "Two calculations",
+      "category": "Multi-part",
+      "passed": true,
+      "expected": [
+        "5 plus 3 = 8",
+        "10 minus 2 = 8"
+      ],
+      "actual": "5 plus 3 = 8 10 minus 2 = 8",
+      "duration": 0.14189910888671875,
+      "error": ""
+    },
+    {
+      "name": "Three calculations",
+      "category": "Multi-part",
+      "passed": true,
+      "expected": [
+        "2 times 3 = 6",
+        "12 divided 4 = 3",
+        "10 plus 5 = 15"
+      ],
+      "actual": "2 times 3 = 6 12 divided 4 = 3 10 plus 5 = 15",
+      "duration": 0.1426548957824707,
+      "error": ""
+    },
+    {
+      "name": "With 'also'",
+      "category": "Multi-part",
+      "passed": true,
+      "expected": [
+        "15 plus 27 = 42",
+        "50 minus 20 = 30"
+      ],
+      "actual": "15 plus 27 = 42 50 minus 20 = 30",
+      "duration": 0.14603590965270996,
+      "error": ""
+    },
+    {
+      "name": "With 'and'",
+      "category": "Multi-part",
+      "passed": false,
+      "expected": [
+        "5 times 5 = 25",
+        "10 times 10 = 100"
+      ],
+      "actual": "5 times 5 = 25 5 times 5 = 25",
+      "duration": 0.16390275955200195,
+      "error": ""
+    },
+    {
+      "name": "Question and explain",
+      "category": "Multi-part",
+      "passed": true,
+      "expected": [
+        "10 plus 20 = 30",
+        "Addition is"
+      ],
+      "actual": "10 plus 20 = 30 Addition is a mathematical operation that combines two or more numbers to get their total sum.",
+      "duration": 0.1411571502685547,
+      "error": ""
+    },
+    {
+      "name": "Multiple with also",
+      "category": "Multi-part",
+      "passed": false,
+      "expected": [
+        "100 minus 25 = 75",
+        "50 plus 50 = 100",
+        "10 times 5 = 50"
+      ],
+      "actual": "100 minus 25 = 75 50 plus 50 = 100",
+      "duration": 0.1328580379486084,
+      "error": ""
+    },
+    {
+      "name": "Comma separated",
+      "category": "Multi-part",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Processing request: Calculate 5+5, 10+10, 15+15",
+      "duration": 0.1280989646911621,
+      "error": ""
+    },
+    {
+      "name": "Different operations",
+      "category": "Multi-part",
+      "passed": true,
+      "expected": [
+        "5",
+        "3",
+        "8"
+      ],
+      "actual": "5 add 3 = 8 5 add 3 = 8",
+      "duration": 0.13450098037719727,
+      "error": ""
+    },
+    {
+      "name": "Complex multi",
+      "category": "Multi-part",
+      "passed": true,
+      "expected": [
+        "2 plus 2 = 4"
+      ],
+      "actual": "2 plus 2 = 4 3 times 3 = 9 Analyzing:  Is it odd?",
+      "duration": 0.13177776336669922,
+      "error": ""
+    },
+    {
+      "name": "Nested questions",
+      "category": "Multi-part",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "5 plus 3 = 8 5 plus 3 = 8",
+      "duration": 0.1333472728729248,
+      "error": ""
+    },
+    {
+      "name": "Sequential calc",
+      "category": "Multi-part",
+      "passed": true,
+      "expected": [
+        "10 plus 5 = 15"
+      ],
+      "actual": "10 plus 5 = 15 10 plus 5 = 15",
+      "duration": 0.13649511337280273,
+      "error": ""
+    },
+    {
+      "name": "Comparison",
+      "category": "Multi-part",
+      "passed": true,
+      "expected": [
+        "10 plus 5 = 15",
+        "20 minus 5 = 15"
+      ],
+      "actual": "10 plus 5 = 15 20 minus 5 = 15 Analyzing:  Which is larger?",
+      "duration": 0.13197588920593262,
+      "error": ""
+    },
+    {
+      "name": "Related calcs",
+      "category": "Multi-part",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Analyzing: What is 5 squared? Analyzing:  What is the square root of 25?",
+      "duration": 0.14530038833618164,
+      "error": ""
+    },
+    {
+      "name": "With context",
+      "category": "Multi-part",
+      "passed": false,
+      "expected": [
+        "10",
+        "3",
+        "7"
+      ],
+      "actual": "Analyzing: If I have 10 apples and eat 3, how many are left? Analyzing:  What if I eat 2 more?",
+      "duration": 0.12682485580444336,
+      "error": ""
+    },
+    {
+      "name": "Chain calc",
+      "category": "Multi-part",
+      "passed": true,
+      "expected": [
+        "100",
+        "20",
+        "80"
+      ],
+      "actual": "100 subtract 20 = 80 100 subtract 20 = 80",
+      "duration": 0.12806081771850586,
+      "error": ""
+    },
+    {
+      "name": "Factorial 5",
+      "category": "Functions",
+      "passed": false,
+      "expected": [
+        "factorial",
+        "120"
+      ],
+      "actual": "Processing request: What is factorial of 5?",
+      "duration": 0.13065028190612793,
+      "error": ""
+    },
+    {
+      "name": "Factorial 0",
+      "category": "Functions",
+      "passed": false,
+      "expected": [
+        "factorial",
+        "1"
+      ],
+      "actual": "Processing request: What is factorial of 0?",
+      "duration": 0.1350710391998291,
+      "error": ""
+    },
+    {
+      "name": "Factorial 10",
+      "category": "Functions",
+      "passed": true,
+      "expected": [
+        "factorial"
+      ],
+      "actual": "Processing request: Calculate the factorial of 10",
+      "duration": 0.13114309310913086,
+      "error": ""
+    },
+    {
+      "name": "Prime 17",
+      "category": "Functions",
+      "passed": true,
+      "expected": [
+        "prime",
+        "17"
+      ],
+      "actual": "Processing request: Is 17 a prime number?",
+      "duration": 0.12698674201965332,
+      "error": ""
+    },
+    {
+      "name": "Prime 20",
+      "category": "Functions",
+      "passed": true,
+      "expected": [
+        "prime",
+        "20"
+      ],
+      "actual": "Processing request: Is 20 prime?",
+      "duration": 0.12569594383239746,
+      "error": ""
+    },
+    {
+      "name": "Fibonacci 10",
+      "category": "Functions",
+      "passed": false,
+      "expected": [
+        "fibonacci",
+        "55"
+      ],
+      "actual": "Processing request: What is the 10th Fibonacci number?",
+      "duration": 0.12437605857849121,
+      "error": ""
+    },
+    {
+      "name": "Fibonacci 1",
+      "category": "Functions",
+      "passed": false,
+      "expected": [
+        "fibonacci",
+        "1"
+      ],
+      "actual": "Processing request: What is the 1st Fibonacci number?",
+      "duration": 0.1282341480255127,
+      "error": ""
+    },
+    {
+      "name": "Pi precision",
+      "category": "Functions",
+      "passed": false,
+      "expected": [
+        "pi",
+        "3.14"
+      ],
+      "actual": "Processing request: Calculate pi to 5 decimal places",
+      "duration": 0.12659287452697754,
+      "error": ""
+    },
+    {
+      "name": "Define word",
+      "category": "Functions",
+      "passed": false,
+      "expected": [
+        "define"
+      ],
+      "actual": "Processing request: Define the word 'algorithm'",
+      "duration": 0.12547898292541504,
+      "error": ""
+    },
+    {
+      "name": "Explain concept",
+      "category": "Functions",
+      "passed": false,
+      "expected": [
+        "explain"
+      ],
+      "actual": "Processing request: Explain quantum computing",
+      "duration": 0.12377595901489258,
+      "error": ""
+    },
+    {
+      "name": "Hello",
+      "category": "Greetings",
+      "passed": true,
+      "expected": [
+        "Hello"
+      ],
+      "actual": "Processing request: Hello",
+      "duration": 0.12019777297973633,
+      "error": ""
+    },
+    {
+      "name": "Hi there",
+      "category": "Greetings",
+      "passed": false,
+      "expected": [
+        "Hello"
+      ],
+      "actual": "Processing request: Hi there!",
+      "duration": 0.1232452392578125,
+      "error": ""
+    },
+    {
+      "name": "Good morning",
+      "category": "Greetings",
+      "passed": false,
+      "expected": [
+        "Hello"
+      ],
+      "actual": "Processing request: Good morning",
+      "duration": 0.11835169792175293,
+      "error": ""
+    },
+    {
+      "name": "Goodbye",
+      "category": "Greetings",
+      "passed": true,
+      "expected": [
+        "Goodbye"
+      ],
+      "actual": "Processing request: Goodbye",
+      "duration": 0.12144684791564941,
+      "error": ""
+    },
+    {
+      "name": "Bye",
+      "category": "Greetings",
+      "passed": false,
+      "expected": [
+        "Goodbye"
+      ],
+      "actual": "Processing request: Bye!",
+      "duration": 0.11682772636413574,
+      "error": ""
+    },
+    {
+      "name": "See you",
+      "category": "Greetings",
+      "passed": false,
+      "expected": [
+        "Goodbye"
+      ],
+      "actual": "Processing request: See you later",
+      "duration": 0.11708998680114746,
+      "error": ""
+    },
+    {
+      "name": "How are you",
+      "category": "Greetings",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Processing request: How are you?",
+      "duration": 0.12610793113708496,
+      "error": ""
+    },
+    {
+      "name": "Thanks",
+      "category": "Greetings",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Processing request: Thank you!",
+      "duration": 0.12420201301574707,
+      "error": ""
+    },
+    {
+      "name": "List colors",
+      "category": "Lists",
+      "passed": true,
+      "expected": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "actual": "Here are colors:\n  - red\n  - blue\n  - green",
+      "duration": 0.1291670799255371,
+      "error": ""
+    },
+    {
+      "name": "List animals",
+      "category": "Lists",
+      "passed": true,
+      "expected": [
+        "Here are"
+      ],
+      "actual": "Here are colors:\n  - red\n  - blue\n  - green",
+      "duration": 0.12256526947021484,
+      "error": ""
+    },
+    {
+      "name": "List numbers",
+      "category": "Lists",
+      "passed": false,
+      "expected": [
+        "2",
+        "3",
+        "5"
+      ],
+      "actual": "Here are colors:\n  - red\n  - blue\n  - green",
+      "duration": 0.12468695640563965,
+      "error": ""
+    },
+    {
+      "name": "List request",
+      "category": "Lists",
+      "passed": true,
+      "expected": [
+        "Here are"
+      ],
+      "actual": "Here are colors:\n  - red\n  - blue\n  - green",
+      "duration": 0.1284470558166504,
+      "error": ""
+    },
+    {
+      "name": "Enumerate",
+      "category": "Lists",
+      "passed": false,
+      "expected": [
+        "Here are"
+      ],
+      "actual": "Processing request: Enumerate types of vehicles",
+      "duration": 0.12676787376403809,
+      "error": ""
+    },
+    {
+      "name": "Name some",
+      "category": "Lists",
+      "passed": true,
+      "expected": [
+        "Here are"
+      ],
+      "actual": "Here are colors:\n  - red\n  - blue\n  - green",
+      "duration": 0.1262209415435791,
+      "error": ""
+    },
+    {
+      "name": "What are",
+      "category": "Lists",
+      "passed": false,
+      "expected": [
+        "Here are"
+      ],
+      "actual": "Processing request: What are some planets?",
+      "duration": 0.125777006149292,
+      "error": ""
+    },
+    {
+      "name": "Show me",
+      "category": "Lists",
+      "passed": true,
+      "expected": [
+        "Here are"
+      ],
+      "actual": "Here are colors:\n  - red\n  - blue\n  - green",
+      "duration": 0.1268599033355713,
+      "error": ""
+    },
+    {
+      "name": "Empty input",
+      "category": "Edge Cases",
+      "passed": false,
+      "expected": [
+        "Please provide some input"
+      ],
+      "actual": "No GAIA response found",
+      "duration": 0.12583088874816895,
+      "error": ""
+    },
+    {
+      "name": "Just spaces",
+      "category": "Edge Cases",
+      "passed": false,
+      "expected": [
+        "Please provide some input"
+      ],
+      "actual": "Processing complete.",
+      "duration": 0.1233530044555664,
+      "error": ""
+    },
+    {
+      "name": "Very long",
+      "category": "Edge Cases",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "1 plus 1 = 2 1 plus 1 = 2",
+      "duration": 0.11900472640991211,
+      "error": ""
+    },
+    {
+      "name": "Special chars",
+      "category": "Edge Cases",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Processing request: What is 5 + 3?",
+      "duration": 0.1283721923828125,
+      "error": ""
+    },
+    {
+      "name": "Unicode",
+      "category": "Edge Cases",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Analyzing: What is \u4e94 plus \u4e09? Processing request: What is \u4e94 plus \u4e09?",
+      "duration": 0.1275482177734375,
+      "error": ""
+    },
+    {
+      "name": "Mixed case",
+      "category": "Edge Cases",
+      "passed": true,
+      "expected": [
+        "5 plus 3 = 8"
+      ],
+      "actual": "5 plus 3 = 8 5 plus 3 = 8",
+      "duration": 0.1268019676208496,
+      "error": ""
+    },
+    {
+      "name": "Extra spaces",
+      "category": "Edge Cases",
+      "passed": true,
+      "expected": [
+        "5 plus 3 = 8"
+      ],
+      "actual": "5 plus 3 = 8 5 plus 3 = 8",
+      "duration": 0.12279987335205078,
+      "error": ""
+    },
+    {
+      "name": "Punctuation",
+      "category": "Edge Cases",
+      "passed": true,
+      "expected": [
+        "5 plus 3 = 8"
+      ],
+      "actual": "5 plus 3 = 8",
+      "duration": 0.12354111671447754,
+      "error": ""
+    },
+    {
+      "name": "Quotes",
+      "category": "Edge Cases",
+      "passed": false,
+      "expected": [
+        "5 plus 3 = 8"
+      ],
+      "actual": "Analyzing: What is \"five\" plus \"three\"? Processing request: What is \"five\" plus \"three\"?",
+      "duration": 0.12034201622009277,
+      "error": ""
+    },
+    {
+      "name": "Parentheses",
+      "category": "Edge Cases",
+      "passed": false,
+      "expected": [
+        "5 plus 3 = 8"
+      ],
+      "actual": "Analyzing: What is (5 plus 3)? Processing request: What is (5 plus 3)?",
+      "duration": 0.1216268539428711,
+      "error": ""
+    },
+    {
+      "name": "Newlines",
+      "category": "Edge Cases",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Processing request: What is 5",
+      "duration": 0.12035393714904785,
+      "error": ""
+    },
+    {
+      "name": "Tabs",
+      "category": "Edge Cases",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "5 plus 3 = 8 5 plus 3 = 8",
+      "duration": 0.12040090560913086,
+      "error": ""
+    },
+    {
+      "name": "HTML tags",
+      "category": "Edge Cases",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Analyzing: What is <b>5</b> plus <i>3</i>? Processing request: What is <b>5</b> plus <i>3</i>?",
+      "duration": 0.1232903003692627,
+      "error": ""
+    },
+    {
+      "name": "Repeated",
+      "category": "Edge Cases",
+      "passed": true,
+      "expected": [
+        "5 plus 3 = 8"
+      ],
+      "actual": "5 plus 3 = 8 5 plus 3 = 8 5 plus 3 = 8 5 plus 3 = 8 5 plus 3 = 8",
+      "duration": 0.1268939971923828,
+      "error": ""
+    },
+    {
+      "name": "Nonsense",
+      "category": "Edge Cases",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Processing request: asdfghjkl zxcvbnm qwerty",
+      "duration": 0.12176823616027832,
+      "error": ""
+    },
+    {
+      "name": "Explain addition",
+      "category": "Explanations",
+      "passed": false,
+      "expected": [
+        "Addition is a mathematical operation"
+      ],
+      "actual": "Processing request: Explain what addition is",
+      "duration": 0.12147903442382812,
+      "error": ""
+    },
+    {
+      "name": "Explain multiply",
+      "category": "Explanations",
+      "passed": false,
+      "expected": [
+        "Addition is a mathematical operation"
+      ],
+      "actual": "Processing request: What is multiplication?",
+      "duration": 0.11721205711364746,
+      "error": ""
+    },
+    {
+      "name": "How subtract",
+      "category": "Explanations",
+      "passed": false,
+      "expected": [
+        "Addition is a mathematical operation"
+      ],
+      "actual": "Processing request: How does subtraction work?",
+      "duration": 0.11974716186523438,
+      "error": ""
+    },
+    {
+      "name": "Why divide",
+      "category": "Explanations",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Analyzing: Why do we divide numbers? Processing request: Why do we divide numbers?",
+      "duration": 0.11869478225708008,
+      "error": ""
+    },
+    {
+      "name": "Describe calc",
+      "category": "Explanations",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Analyzing: Describe how to calculate percentages Addition is a mathematical operation that combines two or more numbers to get their total sum.",
+      "duration": 0.1161038875579834,
+      "error": ""
+    },
+    {
+      "name": "What is math",
+      "category": "Explanations",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Processing request: What is mathematics?",
+      "duration": 0.12151694297790527,
+      "error": ""
+    },
+    {
+      "name": "Define number",
+      "category": "Explanations",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Processing request: Define what a number is",
+      "duration": 0.12389397621154785,
+      "error": ""
+    },
+    {
+      "name": "Explain zero",
+      "category": "Explanations",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Processing request: Explain the concept of zero",
+      "duration": 0.11884117126464844,
+      "error": ""
+    },
+    {
+      "name": "How to add",
+      "category": "Explanations",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Analyzing: How do you add two numbers? Processing request: How do you add two numbers?",
+      "duration": 0.125626802444458,
+      "error": ""
+    },
+    {
+      "name": "Purpose of",
+      "category": "Explanations",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Processing request: What is the purpose of arithmetic?",
+      "duration": 0.1228337287902832,
+      "error": ""
+    },
+    {
+      "name": "Div by zero",
+      "category": "Errors",
+      "passed": true,
+      "expected": [
+        "Error: division by zero"
+      ],
+      "actual": "Error: division by zero Error: division by zero",
+      "duration": 0.11735010147094727,
+      "error": ""
+    },
+    {
+      "name": "Invalid calc",
+      "category": "Errors",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Analyzing: What is blue plus red? Processing request: What is blue plus red?",
+      "duration": 0.11917805671691895,
+      "error": ""
+    },
+    {
+      "name": "Syntax error",
+      "category": "Errors",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "5 plus 3 = 8 5 plus 3 = 8",
+      "duration": 0.12149667739868164,
+      "error": ""
+    },
+    {
+      "name": "Missing number",
+      "category": "Errors",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Analyzing: What is plus 5? Processing request: What is plus 5?",
+      "duration": 0.12196612358093262,
+      "error": ""
+    },
+    {
+      "name": "Wrong operator",
+      "category": "Errors",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Processing request: What is 5 pls 3?",
+      "duration": 0.11707878112792969,
+      "error": ""
+    },
+    {
+      "name": "Incomplete",
+      "category": "Errors",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Analyzing: What is 5 plus Processing request: What is 5 plus",
+      "duration": 0.12415003776550293,
+      "error": ""
+    },
+    {
+      "name": "Just operator",
+      "category": "Errors",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Analyzing: plus Processing request: plus",
+      "duration": 0.11945509910583496,
+      "error": ""
+    },
+    {
+      "name": "Random symbols",
+      "category": "Errors",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Processing request: @#$% * &^%$",
+      "duration": 0.12537908554077148,
+      "error": ""
+    },
+    {
+      "name": "SQL injection",
+      "category": "Errors",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Processing request: '; DROP TABLE users; --",
+      "duration": 0.11676597595214844,
+      "error": ""
+    },
+    {
+      "name": "Command inject",
+      "category": "Errors",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Processing request: $(rm -rf /)",
+      "duration": 0.12275099754333496,
+      "error": ""
+    },
+    {
+      "name": "Quick calc",
+      "category": "Performance",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Processing request: 5+3",
+      "duration": 0.12551331520080566,
+      "error": ""
+    },
+    {
+      "name": "Large factorial",
+      "category": "Performance",
+      "passed": true,
+      "expected": [
+        "factorial"
+      ],
+      "actual": "Processing request: What is factorial of 20?",
+      "duration": 0.12671899795532227,
+      "error": ""
+    },
+    {
+      "name": "Many parts",
+      "category": "Performance",
+      "passed": true,
+      "expected": [
+        "1 plus 1 = 2"
+      ],
+      "actual": "1 plus 1 = 2 2 plus 2 = 4 3 plus 3 = 6 4 plus 4 = 8 5 plus 5 = 10 6 plus 6 = 12 7 plus 7 = 14 8 plus 8 = 16 9 plus 9 = 18 10 plus 10 = 20",
+      "duration": 0.1289658546447754,
+      "error": ""
+    },
+    {
+      "name": "Rapid fire",
+      "category": "Performance",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "Analyzing:  3+3? Analyzing:  4+4? Analyzing:  5+5?",
+      "duration": 0.12728404998779297,
+      "error": ""
+    },
+    {
+      "name": "Complex workflow",
+      "category": "Performance",
+      "passed": false,
+      "expected": [
+        "GAIA V7:"
+      ],
+      "actual": "200 add 50 = 250 200 add 50 = 250",
+      "duration": 0.1195211410522461,
+      "error": ""
+    }
+  ]
+}

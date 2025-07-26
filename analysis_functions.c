@@ -385,16 +385,25 @@ int extract_entities(const char* input, Entity* entities, int max_entities) {
         strcpy(word, token);
         to_lowercase(word);
         
-        // Check for numbers (digits)
+        // Check for numbers (digits, including negative)
         int is_number = 1;
-        for (int i = 0; token[i]; i++) {
+        int start_idx = 0;
+        
+        // Handle negative sign
+        if (token[0] == '-' && token[1] != '\0') {
+            start_idx = 1;
+        }
+        
+        // Check remaining characters are digits
+        for (int i = start_idx; token[i]; i++) {
             if (!isdigit(token[i])) {
                 is_number = 0;
                 break;
             }
         }
         
-        if (is_number) {
+        // Must have at least one digit
+        if (is_number && strlen(token + start_idx) > 0) {
             entities[entity_count].type = ENTITY_NUMBER;
             strcpy(entities[entity_count].value, token);
             entities[entity_count].position = position;

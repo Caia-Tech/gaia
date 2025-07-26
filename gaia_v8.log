@@ -1,0 +1,989 @@
+[2025-07-26 12:08:27.454] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:08:27.455] [INFO] [gaia_chat_v8_enhanced.c:549 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:08:27.455] [INFO] [gaia_chat_v8_enhanced.c:568 main] Initializing function registry
+[2025-07-26 12:08:27.455] [INFO] [gaia_chat_v8_enhanced.c:572 main] Initializing experiment logger
+[2025-07-26 12:08:27.455] [INFO] [gaia_chat_v8_enhanced.c:576 main] Creating chat system
+[2025-07-26 12:08:27.455] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:08:27.455] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:08:27.455] [INFO] [gaia_chat_v8_enhanced.c:585 main] System initialization complete in 0.26 ms
+[2025-07-26 12:08:27.455] [INFO] [gaia_chat_v8_enhanced.c:640 main] Shutting down GAIA V8
+[2025-07-26 12:08:27.461] [INFO] [gaia_chat_v8_enhanced.c:662 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:08:27.461] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:08:27.461] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:08:27.461] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 12
+[2025-07-26 12:08:27.461] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:08:27.461] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:08:27.461] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:08:27.461] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:14:20.528] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:14:20.528] [INFO] [gaia_chat_v8_enhanced.c:549 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:14:20.528] [INFO] [gaia_chat_v8_enhanced.c:568 main] Initializing function registry
+[2025-07-26 12:14:20.528] [INFO] [gaia_chat_v8_enhanced.c:572 main] Initializing experiment logger
+[2025-07-26 12:14:20.529] [INFO] [gaia_chat_v8_enhanced.c:576 main] Creating chat system
+[2025-07-26 12:14:20.529] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:14:20.529] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:14:20.529] [INFO] [gaia_chat_v8_enhanced.c:585 main] System initialization complete in 0.28 ms
+[2025-07-26 12:14:20.529] [INFO] [gaia_chat_v8_enhanced.c:614 main] === Request REQ-1-1753546460 started ===
+[2025-07-26 12:14:20.529] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753546460] Processing query: 2 plus 2
+[2025-07-26 12:14:20.529] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:14:20.529] [INFO] [gaia_chat_v8_enhanced.c:266 handle_function_call_safe] Calculation result: 2 plus 2 equals 4
+[2025-07-26 12:14:20.529] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.84
+[2025-07-26 12:14:20.529] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753546460] Response generated successfully
+[2025-07-26 12:14:20.529] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753546460] Total response time: 0.46 ms
+[2025-07-26 12:14:20.529] [INFO] [gaia_chat_v8_enhanced.c:636 main] === Request REQ-1-1753546460 completed ===
+[2025-07-26 12:14:20.529] [INFO] [gaia_chat_v8_enhanced.c:614 main] === Request REQ-2-1753546460 started ===
+[2025-07-26 12:14:20.529] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-2-1753546460] Processing query: 5 times 3
+[2025-07-26 12:14:20.530] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:14:20.530] [INFO] [gaia_chat_v8_enhanced.c:266 handle_function_call_safe] Calculation result: 5 times 3 equals 15
+[2025-07-26 12:14:20.530] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.84
+[2025-07-26 12:14:20.530] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-2-1753546460] Response generated successfully
+[2025-07-26 12:14:20.530] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-2-1753546460] Total response time: 0.40 ms
+[2025-07-26 12:14:20.530] [INFO] [gaia_chat_v8_enhanced.c:636 main] === Request REQ-2-1753546460 completed ===
+[2025-07-26 12:14:20.530] [INFO] [gaia_chat_v8_enhanced.c:614 main] === Request REQ-3-1753546460 started ===
+[2025-07-26 12:14:20.530] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-3-1753546460] Processing query: is 11 a prime number?
+[2025-07-26 12:14:20.530] [INFO] [gaia_chat_v8_enhanced.c:187 handle_function_call_safe] Prime check result: 11 is not a prime number
+[2025-07-26 12:14:20.530] [INFO] [gaia_chat_v8_enhanced.c:636 main] === Request REQ-3-1753546460 completed ===
+[2025-07-26 12:14:20.530] [INFO] [gaia_chat_v8_enhanced.c:601 main] User requested quit
+[2025-07-26 12:14:20.530] [INFO] [gaia_chat_v8_enhanced.c:640 main] Shutting down GAIA V8
+[2025-07-26 12:14:20.535] [INFO] [gaia_chat_v8_enhanced.c:662 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:14:20.535] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:14:20.535] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:14:20.535] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 33
+[2025-07-26 12:14:20.535] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:14:20.535] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:14:20.535] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:14:20.535] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:19:34.888] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: DEBUG)
+[2025-07-26 12:19:34.888] [INFO] [gaia_chat_v8_enhanced.c:549 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:19:34.888] [INFO] [gaia_chat_v8_enhanced.c:568 main] Initializing function registry
+[2025-07-26 12:19:34.889] [INFO] [gaia_chat_v8_enhanced.c:572 main] Initializing experiment logger
+[2025-07-26 12:19:34.889] [INFO] [gaia_chat_v8_enhanced.c:576 main] Creating chat system
+[2025-07-26 12:19:34.889] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:19:34.889] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:19:34.889] [DEBUG] [gaia_chat_v8_enhanced.c:82 init_chat_system] Chat system initialization took 0.02 ms
+[2025-07-26 12:19:34.889] [INFO] [gaia_chat_v8_enhanced.c:585 main] System initialization complete in 0.30 ms
+[2025-07-26 12:19:34.889] [INFO] [gaia_chat_v8_enhanced.c:614 main] === Request REQ-1-1753546774 started ===
+[2025-07-26 12:19:34.889] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753546774] Processing query: is 11 a prime number?
+[2025-07-26 12:19:34.889] [DEBUG] [gaia_chat_v8_enhanced.c:300 generate_response_v8_safe] Prime query detected, using direct function call
+[2025-07-26 12:19:34.889] [DEBUG] [gaia_chat_v8_enhanced.c:157 handle_function_call_safe] Detected prime number query
+[2025-07-26 12:19:34.889] [DEBUG] [gaia_chat_v8_enhanced.c:173 handle_function_call_safe] Checking if 11 is prime
+[2025-07-26 12:19:34.889] [INFO] [gaia_chat_v8_enhanced.c:187 handle_function_call_safe] Prime check result: 11 is not a prime number
+[2025-07-26 12:19:34.889] [INFO] [gaia_chat_v8_enhanced.c:636 main] === Request REQ-1-1753546774 completed ===
+[2025-07-26 12:19:34.889] [INFO] [gaia_chat_v8_enhanced.c:601 main] User requested quit
+[2025-07-26 12:19:34.889] [INFO] [gaia_chat_v8_enhanced.c:640 main] Shutting down GAIA V8
+[2025-07-26 12:19:34.889] [DEBUG] [gaia_chat_v8_enhanced.c:650 main] Freeing 0 patterns
+[2025-07-26 12:19:34.894] [INFO] [gaia_chat_v8_enhanced.c:662 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:19:34.894] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:19:34.894] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:19:34.894] [INFO] [gaia_logger.c:300 logger_print_stats]   DEBUG: 5
+[2025-07-26 12:19:34.894] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 18
+[2025-07-26 12:19:34.894] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:19:34.894] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:19:34.894] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:19:34.894] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:21:00.727] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:21:00.727] [INFO] [gaia_chat_v8_enhanced.c:549 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:21:00.727] [INFO] [gaia_chat_v8_enhanced.c:568 main] Initializing function registry
+[2025-07-26 12:21:00.727] [INFO] [gaia_chat_v8_enhanced.c:572 main] Initializing experiment logger
+[2025-07-26 12:21:00.727] [INFO] [gaia_chat_v8_enhanced.c:576 main] Creating chat system
+[2025-07-26 12:21:00.727] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:21:00.727] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:21:00.727] [INFO] [gaia_chat_v8_enhanced.c:585 main] System initialization complete in 0.24 ms
+[2025-07-26 12:21:00.728] [INFO] [gaia_chat_v8_enhanced.c:614 main] === Request REQ-1-1753546860 started ===
+[2025-07-26 12:21:00.728] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753546860] Processing query: is 11 a prime number?
+[2025-07-26 12:21:00.728] [INFO] [gaia_chat_v8_enhanced.c:187 handle_function_call_safe] Prime check result: 11 is a prime number
+[2025-07-26 12:21:00.728] [INFO] [gaia_chat_v8_enhanced.c:636 main] === Request REQ-1-1753546860 completed ===
+[2025-07-26 12:21:00.728] [INFO] [gaia_chat_v8_enhanced.c:614 main] === Request REQ-2-1753546860 started ===
+[2025-07-26 12:21:00.728] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-2-1753546860] Processing query: is 12 a prime number?
+[2025-07-26 12:21:00.728] [INFO] [gaia_chat_v8_enhanced.c:187 handle_function_call_safe] Prime check result: 12 is not a prime number
+[2025-07-26 12:21:00.728] [INFO] [gaia_chat_v8_enhanced.c:636 main] === Request REQ-2-1753546860 completed ===
+[2025-07-26 12:21:00.728] [INFO] [gaia_chat_v8_enhanced.c:614 main] === Request REQ-3-1753546860 started ===
+[2025-07-26 12:21:00.728] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-3-1753546860] Processing query: is 17 a prime number?
+[2025-07-26 12:21:00.728] [INFO] [gaia_chat_v8_enhanced.c:187 handle_function_call_safe] Prime check result: 17 is a prime number
+[2025-07-26 12:21:00.728] [INFO] [gaia_chat_v8_enhanced.c:636 main] === Request REQ-3-1753546860 completed ===
+[2025-07-26 12:21:00.728] [INFO] [gaia_chat_v8_enhanced.c:601 main] User requested quit
+[2025-07-26 12:21:00.728] [INFO] [gaia_chat_v8_enhanced.c:640 main] Shutting down GAIA V8
+[2025-07-26 12:21:00.732] [INFO] [gaia_chat_v8_enhanced.c:662 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:21:00.732] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:21:00.732] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:21:00.732] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 25
+[2025-07-26 12:21:00.732] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:21:00.732] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:21:00.732] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:21:00.732] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:22:04.810] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: TRACE)
+[2025-07-26 12:22:04.810] [INFO] [gaia_chat_v8_enhanced.c:549 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:22:04.810] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: system_initialization
+[2025-07-26 12:22:04.810] [INFO] [gaia_chat_v8_enhanced.c:568 main] Initializing function registry
+[2025-07-26 12:22:04.810] [INFO] [gaia_chat_v8_enhanced.c:572 main] Initializing experiment logger
+[2025-07-26 12:22:04.811] [INFO] [gaia_chat_v8_enhanced.c:576 main] Creating chat system
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER init_chat_system: initializing chat system
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: init_chat_system
+[2025-07-26 12:22:04.811] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:22:04.811] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:175 perf_end] PERF END: init_chat_system (0.03 ms)
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:82 init_chat_system] Chat system initialization took 0.03 ms
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:245 trace_exit] <<< EXIT init_chat_system: success
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:175 perf_end] PERF END: system_initialization (0.23 ms)
+[2025-07-26 12:22:04.811] [INFO] [gaia_chat_v8_enhanced.c:585 main] System initialization complete in 0.23 ms
+[2025-07-26 12:22:04.811] [INFO] [gaia_chat_v8_enhanced.c:614 main] === Request REQ-1-1753546924 started ===
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_v8_safe: request_id=REQ-1-1753546924, input='what is 2 plus 2?'
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: generate_response_v8
+[2025-07-26 12:22:04.811] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753546924] Processing query: what is 2 plus 2?
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER create_v8_enhancement: creating V8 enhancement for request REQ-1-1753546924
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: create_v8_enhancement
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:104 create_v8_enhancement] Creating transformer layer
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:113 create_v8_enhancement] Transformer layer created successfully
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:175 perf_end] PERF END: create_v8_enhancement (0.19 ms)
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:118 create_v8_enhancement] V8 enhancement creation took 0.19 ms
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:245 trace_exit] <<< EXIT create_v8_enhancement: success
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:323 generate_response_v8_safe] Creating workflow for query
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: workflow_processing
+[2025-07-26 12:22:04.811] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 1/5: Extract mathematical elements
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_for_step_safe: step type=1, desc='Extract mathematical elements'
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Extract mathematical elements (type: 1)
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 1 completed successfully
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 2/5: Perform calculation
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_for_step_safe: step type=2, desc='Perform calculation'
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Perform calculation (type: 2)
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:495 generate_response_for_step_safe] EXECUTE step with input: what is 2 plus 2?
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER handle_function_call_safe: input='what is 2 plus 2?'
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: handle_function_call
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:209 handle_function_call_safe] Calculation required, extracting entities
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:228 handle_function_call_safe] Performing calculation with 2 numbers and 1 operators
+[2025-07-26 12:22:04.811] [INFO] [gaia_chat_v8_enhanced.c:266 handle_function_call_safe] Calculation result: 2 plus 2 equals 4
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:175 perf_end] PERF END: handle_function_call (0.03 ms)
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:505 generate_response_for_step_safe] Function call successful: 2 plus 2 equals 4
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 2 completed successfully
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 3/5: Verify calculation result
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_for_step_safe: step type=3, desc='Verify calculation result'
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Verify calculation result (type: 3)
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 3 completed successfully
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 4/5: Combine results into final response
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_for_step_safe: step type=4, desc='Combine results into final response'
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Combine results into final response (type: 4)
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 4 completed successfully
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 5/5: Finalize response
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_for_step_safe: step type=6, desc='Finalize response'
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Finalize response (type: 6)
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 5 completed successfully
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:374 generate_response_v8_safe] Workflow synthesis: 2 plus 2 equals 4
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:175 perf_end] PERF END: workflow_processing (0.21 ms)
+[2025-07-26 12:22:04.811] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: v8_enhancement
+[2025-07-26 12:22:04.811] [DEBUG] [gaia_chat_v8_enhanced.c:393 generate_response_v8_safe] Applying attention enhancement
+[2025-07-26 12:22:04.812] [DEBUG] [gaia_chat_v8_enhanced.c:397 generate_response_v8_safe] Attention applied successfully
+[2025-07-26 12:22:04.812] [DEBUG] [gaia_chat_v8_enhanced.c:404 generate_response_v8_safe] Applying iterative refinement
+[2025-07-26 12:22:04.812] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.67
+[2025-07-26 12:22:04.812] [DEBUG] [gaia_chat_v8_enhanced.c:414 generate_response_v8_safe] Quality below threshold, refining
+[2025-07-26 12:22:04.812] [INFO] [gaia_chat_v8_enhanced.c:421 generate_response_v8_safe] Refinement completed in 5 iterations
+[2025-07-26 12:22:04.812] [TRACE] [gaia_logger.c:175 perf_end] PERF END: v8_enhancement (0.36 ms)
+[2025-07-26 12:22:04.812] [DEBUG] [gaia_chat_v8_enhanced.c:446 generate_response_v8_safe] V8 enhancement took 0.36 ms
+[2025-07-26 12:22:04.812] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753546924] Response generated successfully
+[2025-07-26 12:22:04.812] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER destroy_v8_enhancement: destroying V8 enhancement
+[2025-07-26 12:22:04.812] [DEBUG] [gaia_chat_v8_enhanced.c:132 destroy_v8_enhancement] Transformer layer destroyed
+[2025-07-26 12:22:04.812] [TRACE] [gaia_logger.c:245 trace_exit] <<< EXIT destroy_v8_enhancement: complete
+[2025-07-26 12:22:04.812] [TRACE] [gaia_logger.c:175 perf_end] PERF END: generate_response_v8 (0.85 ms)
+[2025-07-26 12:22:04.812] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753546924] Total response time: 0.85 ms
+[2025-07-26 12:22:04.812] [TRACE] [gaia_logger.c:245 trace_exit] <<< EXIT generate_response_v8_safe: success
+[2025-07-26 12:22:04.812] [INFO] [gaia_chat_v8_enhanced.c:636 main] === Request REQ-1-1753546924 completed ===
+[2025-07-26 12:22:04.812] [INFO] [gaia_chat_v8_enhanced.c:601 main] User requested quit
+[2025-07-26 12:22:04.812] [INFO] [gaia_chat_v8_enhanced.c:640 main] Shutting down GAIA V8
+[2025-07-26 12:22:04.812] [DEBUG] [gaia_chat_v8_enhanced.c:650 main] Freeing 0 patterns
+[2025-07-26 12:22:04.816] [INFO] [gaia_chat_v8_enhanced.c:662 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:22:04.816] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:22:04.816] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:22:04.816] [INFO] [gaia_logger.c:300 logger_print_stats]   TRACE: 28
+[2025-07-26 12:22:04.816] [INFO] [gaia_logger.c:300 logger_print_stats]   DEBUG: 32
+[2025-07-26 12:22:04.816] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 24
+[2025-07-26 12:22:04.816] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:22:04.816] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:22:04.816] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:22:04.816] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:22:17.164] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:22:17.164] [INFO] [gaia_chat_v8_enhanced.c:549 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:22:17.164] [INFO] [gaia_chat_v8_enhanced.c:568 main] Initializing function registry
+[2025-07-26 12:22:17.164] [INFO] [gaia_chat_v8_enhanced.c:572 main] Initializing experiment logger
+[2025-07-26 12:22:17.165] [INFO] [gaia_chat_v8_enhanced.c:576 main] Creating chat system
+[2025-07-26 12:22:17.165] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:22:17.165] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:22:17.165] [INFO] [gaia_chat_v8_enhanced.c:585 main] System initialization complete in 0.18 ms
+[2025-07-26 12:22:17.165] [INFO] [gaia_chat_v8_enhanced.c:614 main] === Request REQ-1-1753546937 started ===
+[2025-07-26 12:22:17.165] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753546937] Processing query: What is the capital of France?
+[2025-07-26 12:22:17.165] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:22:17.165] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.50
+[2025-07-26 12:22:17.165] [INFO] [gaia_chat_v8_enhanced.c:421 generate_response_v8_safe] Refinement completed in 5 iterations
+[2025-07-26 12:22:17.165] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753546937] Response generated successfully
+[2025-07-26 12:22:17.165] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753546937] Total response time: 0.56 ms
+[2025-07-26 12:22:17.165] [INFO] [gaia_chat_v8_enhanced.c:636 main] === Request REQ-1-1753546937 completed ===
+[2025-07-26 12:22:17.165] [INFO] [gaia_chat_v8_enhanced.c:614 main] === Request REQ-2-1753546937 started ===
+[2025-07-26 12:22:17.165] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-2-1753546937] Processing query: -5 plus 3
+[2025-07-26 12:22:17.165] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:22:17.165] [INFO] [gaia_chat_v8_enhanced.c:266 handle_function_call_safe] Calculation result: -5 plus 3 equals -2
+[2025-07-26 12:22:17.166] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.84
+[2025-07-26 12:22:17.166] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-2-1753546937] Response generated successfully
+[2025-07-26 12:22:17.166] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-2-1753546937] Total response time: 0.38 ms
+[2025-07-26 12:22:17.166] [INFO] [gaia_chat_v8_enhanced.c:636 main] === Request REQ-2-1753546937 completed ===
+[2025-07-26 12:22:17.166] [INFO] [gaia_chat_v8_enhanced.c:614 main] === Request REQ-3-1753546937 started ===
+[2025-07-26 12:22:17.166] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-3-1753546937] Processing query: 10 divided by 0
+[2025-07-26 12:22:17.166] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:22:17.166] [ERROR] [gaia_chat_v8_enhanced.c:247 handle_function_call_safe] Division by zero attempted
+[2025-07-26 12:22:17.166] [ERROR] [gaia_chat_v8_enhanced.c:500 generate_response_for_step_safe] Function call failed: Calculation failed
+[2025-07-26 12:22:17.166] [ERROR] [gaia_chat_v8_enhanced.c:355 generate_response_v8_safe] Step 2 failed: Calculation failed
+[2025-07-26 12:22:17.166] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.50
+[2025-07-26 12:22:17.166] [INFO] [gaia_chat_v8_enhanced.c:421 generate_response_v8_safe] Refinement completed in 5 iterations
+[2025-07-26 12:22:17.166] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-3-1753546937] Response generated successfully
+[2025-07-26 12:22:17.166] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-3-1753546937] Total response time: 0.44 ms
+[2025-07-26 12:22:17.166] [INFO] [gaia_chat_v8_enhanced.c:636 main] === Request REQ-3-1753546937 completed ===
+[2025-07-26 12:22:17.166] [INFO] [gaia_chat_v8_enhanced.c:601 main] User requested quit
+[2025-07-26 12:22:17.166] [INFO] [gaia_chat_v8_enhanced.c:640 main] Shutting down GAIA V8
+[2025-07-26 12:22:17.170] [INFO] [gaia_chat_v8_enhanced.c:662 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:22:17.170] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:22:17.170] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:22:17.170] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 37
+[2025-07-26 12:22:17.170] [INFO] [gaia_logger.c:300 logger_print_stats]   ERROR: 3
+[2025-07-26 12:22:17.170] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 3
+[2025-07-26 12:22:17.170] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:22:17.170] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:22:17.170] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:23:16.565] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: TRACE)
+[2025-07-26 12:23:16.565] [INFO] [gaia_chat_v8_enhanced.c:549 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:23:16.565] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: system_initialization
+[2025-07-26 12:23:16.565] [INFO] [gaia_chat_v8_enhanced.c:568 main] Initializing function registry
+[2025-07-26 12:23:16.565] [INFO] [gaia_chat_v8_enhanced.c:572 main] Initializing experiment logger
+[2025-07-26 12:23:16.565] [INFO] [gaia_chat_v8_enhanced.c:576 main] Creating chat system
+[2025-07-26 12:23:16.565] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER init_chat_system: initializing chat system
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: init_chat_system
+[2025-07-26 12:23:16.566] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:23:16.566] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:175 perf_end] PERF END: init_chat_system (0.03 ms)
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:82 init_chat_system] Chat system initialization took 0.03 ms
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:245 trace_exit] <<< EXIT init_chat_system: success
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:175 perf_end] PERF END: system_initialization (0.23 ms)
+[2025-07-26 12:23:16.566] [INFO] [gaia_chat_v8_enhanced.c:585 main] System initialization complete in 0.23 ms
+[2025-07-26 12:23:16.566] [INFO] [gaia_chat_v8_enhanced.c:614 main] === Request REQ-1-1753546996 started ===
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_v8_safe: request_id=REQ-1-1753546996, input='What is the capital of France?'
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: generate_response_v8
+[2025-07-26 12:23:16.566] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753546996] Processing query: What is the capital of France?
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER create_v8_enhancement: creating V8 enhancement for request REQ-1-1753546996
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: create_v8_enhancement
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:104 create_v8_enhancement] Creating transformer layer
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:113 create_v8_enhancement] Transformer layer created successfully
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:175 perf_end] PERF END: create_v8_enhancement (0.15 ms)
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:118 create_v8_enhancement] V8 enhancement creation took 0.15 ms
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:245 trace_exit] <<< EXIT create_v8_enhancement: success
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:323 generate_response_v8_safe] Creating workflow for query
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: workflow_processing
+[2025-07-26 12:23:16.566] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 1/5: Understand core concept
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_for_step_safe: step type=1, desc='Understand core concept'
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Understand core concept (type: 1)
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 1 completed successfully
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 2/5: Generate detailed explanation
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_for_step_safe: step type=2, desc='Generate detailed explanation'
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Generate detailed explanation (type: 2)
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:495 generate_response_for_step_safe] EXECUTE step with input: What is the capital of France?
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER handle_function_call_safe: input='What is the capital of France?'
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: handle_function_call
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:175 perf_end] PERF END: handle_function_call (0.01 ms)
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 2 completed successfully
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 3/5: Check explanation clarity
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_for_step_safe: step type=3, desc='Check explanation clarity'
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Check explanation clarity (type: 3)
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 3 completed successfully
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 4/5: Combine results into final response
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_for_step_safe: step type=4, desc='Combine results into final response'
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Combine results into final response (type: 4)
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 4 completed successfully
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 5/5: Finalize response
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_for_step_safe: step type=6, desc='Finalize response'
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Finalize response (type: 6)
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 5 completed successfully
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:374 generate_response_v8_safe] Workflow synthesis: 
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:175 perf_end] PERF END: workflow_processing (0.15 ms)
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: v8_enhancement
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:393 generate_response_v8_safe] Applying attention enhancement
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:397 generate_response_v8_safe] Attention applied successfully
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:404 generate_response_v8_safe] Applying iterative refinement
+[2025-07-26 12:23:16.566] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.50
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:414 generate_response_v8_safe] Quality below threshold, refining
+[2025-07-26 12:23:16.566] [INFO] [gaia_chat_v8_enhanced.c:421 generate_response_v8_safe] Refinement completed in 5 iterations
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:175 perf_end] PERF END: v8_enhancement (0.40 ms)
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:446 generate_response_v8_safe] V8 enhancement took 0.40 ms
+[2025-07-26 12:23:16.566] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753546996] Response generated successfully
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER destroy_v8_enhancement: destroying V8 enhancement
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:132 destroy_v8_enhancement] Transformer layer destroyed
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:245 trace_exit] <<< EXIT destroy_v8_enhancement: complete
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:175 perf_end] PERF END: generate_response_v8 (0.77 ms)
+[2025-07-26 12:23:16.566] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753546996] Total response time: 0.77 ms
+[2025-07-26 12:23:16.566] [TRACE] [gaia_logger.c:245 trace_exit] <<< EXIT generate_response_v8_safe: success
+[2025-07-26 12:23:16.566] [INFO] [gaia_chat_v8_enhanced.c:636 main] === Request REQ-1-1753546996 completed ===
+[2025-07-26 12:23:16.566] [INFO] [gaia_chat_v8_enhanced.c:601 main] User requested quit
+[2025-07-26 12:23:16.566] [INFO] [gaia_chat_v8_enhanced.c:640 main] Shutting down GAIA V8
+[2025-07-26 12:23:16.566] [DEBUG] [gaia_chat_v8_enhanced.c:650 main] Freeing 0 patterns
+[2025-07-26 12:23:16.571] [INFO] [gaia_chat_v8_enhanced.c:662 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:23:16.571] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:23:16.571] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:23:16.571] [INFO] [gaia_logger.c:300 logger_print_stats]   TRACE: 28
+[2025-07-26 12:23:16.571] [INFO] [gaia_logger.c:300 logger_print_stats]   DEBUG: 29
+[2025-07-26 12:23:16.571] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 23
+[2025-07-26 12:23:16.571] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:23:16.571] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:23:16.571] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:23:16.571] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:26:17.033] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:26:17.033] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:26:17.033] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:26:17.033] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:26:17.033] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:26:17.033] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:26:17.033] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:26:17.033] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.20 ms
+[2025-07-26 12:26:17.033] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547177 started ===
+[2025-07-26 12:26:17.033] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547177] Processing query: What is the capital of France?
+[2025-07-26 12:26:17.033] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:26:17.034] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.77
+[2025-07-26 12:26:17.034] [INFO] [gaia_chat_v8_enhanced.c:421 generate_response_v8_safe] Refinement completed in 5 iterations
+[2025-07-26 12:26:17.034] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753547177] Response generated successfully
+[2025-07-26 12:26:17.034] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753547177] Total response time: 0.54 ms
+[2025-07-26 12:26:17.034] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547177 completed ===
+[2025-07-26 12:26:17.034] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-2-1753547177 started ===
+[2025-07-26 12:26:17.034] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-2-1753547177] Processing query: What is artificial intelligence?
+[2025-07-26 12:26:17.034] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:26:17.034] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.86
+[2025-07-26 12:26:17.034] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-2-1753547177] Response generated successfully
+[2025-07-26 12:26:17.034] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-2-1753547177] Total response time: 0.40 ms
+[2025-07-26 12:26:17.034] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-2-1753547177 completed ===
+[2025-07-26 12:26:17.034] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-3-1753547177 started ===
+[2025-07-26 12:26:17.034] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-3-1753547177] Processing query: 2 plus 2
+[2025-07-26 12:26:17.034] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:26:17.034] [INFO] [gaia_chat_v8_enhanced.c:266 handle_function_call_safe] Calculation result: 2 plus 2 equals 4
+[2025-07-26 12:26:17.035] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.84
+[2025-07-26 12:26:17.035] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-3-1753547177] Response generated successfully
+[2025-07-26 12:26:17.035] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-3-1753547177] Total response time: 0.38 ms
+[2025-07-26 12:26:17.035] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-3-1753547177 completed ===
+[2025-07-26 12:26:17.035] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:26:17.035] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:26:17.039] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:26:17.039] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:26:17.039] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:26:17.039] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 36
+[2025-07-26 12:26:17.039] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:26:17.039] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:26:17.039] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:26:17.039] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.106] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.106] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.106] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.106] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.107] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.107] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.107] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.107] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.17 ms
+[2025-07-26 12:27:40.107] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.107] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: 2 plus 2
+[2025-07-26 12:27:40.107] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:27:40.107] [INFO] [gaia_chat_v8_enhanced.c:266 handle_function_call_safe] Calculation result: 2 plus 2 equals 4
+[2025-07-26 12:27:40.107] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.84
+[2025-07-26 12:27:40.107] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753547260] Response generated successfully
+[2025-07-26 12:27:40.107] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753547260] Total response time: 0.42 ms
+[2025-07-26 12:27:40.107] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.107] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.107] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.111] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.111] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.111] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.111] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 21
+[2025-07-26 12:27:40.111] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.111] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.111] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.111] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.114] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.114] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.114] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.114] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.114] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.114] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.114] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.114] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.17 ms
+[2025-07-26 12:27:40.114] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.114] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: 5 times 3
+[2025-07-26 12:27:40.114] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:27:40.114] [INFO] [gaia_chat_v8_enhanced.c:266 handle_function_call_safe] Calculation result: 5 times 3 equals 15
+[2025-07-26 12:27:40.114] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.84
+[2025-07-26 12:27:40.114] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753547260] Response generated successfully
+[2025-07-26 12:27:40.114] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753547260] Total response time: 0.42 ms
+[2025-07-26 12:27:40.114] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.114] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.114] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.119] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.119] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.119] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.119] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 21
+[2025-07-26 12:27:40.119] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.119] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.119] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.119] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.121] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.121] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.121] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.121] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.121] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.121] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.121] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.121] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.18 ms
+[2025-07-26 12:27:40.121] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.121] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: 10 minus 4
+[2025-07-26 12:27:40.121] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:27:40.121] [INFO] [gaia_chat_v8_enhanced.c:266 handle_function_call_safe] Calculation result: 10 minus 4 equals 6
+[2025-07-26 12:27:40.121] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.84
+[2025-07-26 12:27:40.121] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753547260] Response generated successfully
+[2025-07-26 12:27:40.121] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753547260] Total response time: 0.42 ms
+[2025-07-26 12:27:40.121] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.121] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.121] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.126] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.126] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.126] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.126] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 21
+[2025-07-26 12:27:40.126] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.126] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.126] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.126] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.127] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.128] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.128] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.128] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.128] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.128] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.128] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.128] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.16 ms
+[2025-07-26 12:27:40.128] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.128] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: 20 divided by 4
+[2025-07-26 12:27:40.128] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:27:40.128] [INFO] [gaia_chat_v8_enhanced.c:266 handle_function_call_safe] Calculation result: 20 divided 4 equals 5
+[2025-07-26 12:27:40.128] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.84
+[2025-07-26 12:27:40.128] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753547260] Response generated successfully
+[2025-07-26 12:27:40.128] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753547260] Total response time: 0.45 ms
+[2025-07-26 12:27:40.128] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.128] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.128] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.132] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.132] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.132] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.132] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 21
+[2025-07-26 12:27:40.132] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.132] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.132] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.132] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.134] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.134] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.134] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.134] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.135] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.135] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.135] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.135] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.15 ms
+[2025-07-26 12:27:40.135] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.135] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: -5 plus 3
+[2025-07-26 12:27:40.135] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:27:40.135] [INFO] [gaia_chat_v8_enhanced.c:266 handle_function_call_safe] Calculation result: -5 plus 3 equals -2
+[2025-07-26 12:27:40.135] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.84
+[2025-07-26 12:27:40.135] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753547260] Response generated successfully
+[2025-07-26 12:27:40.135] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753547260] Total response time: 0.40 ms
+[2025-07-26 12:27:40.135] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.135] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.135] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.139] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.139] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.139] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.139] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 21
+[2025-07-26 12:27:40.139] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.139] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.139] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.139] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.141] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.141] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.141] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.141] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.141] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.141] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.141] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.141] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.17 ms
+[2025-07-26 12:27:40.141] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.141] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: 100 divided by 10
+[2025-07-26 12:27:40.142] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:27:40.142] [INFO] [gaia_chat_v8_enhanced.c:266 handle_function_call_safe] Calculation result: 100 divided 10 equals 10
+[2025-07-26 12:27:40.142] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.84
+[2025-07-26 12:27:40.142] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753547260] Response generated successfully
+[2025-07-26 12:27:40.142] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753547260] Total response time: 0.46 ms
+[2025-07-26 12:27:40.142] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.142] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.142] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.146] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.146] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.146] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.146] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 21
+[2025-07-26 12:27:40.146] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.146] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.146] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.146] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.148] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.148] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.148] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.148] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.148] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.148] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.148] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.148] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.18 ms
+[2025-07-26 12:27:40.148] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.148] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: 10 divided by 0
+[2025-07-26 12:27:40.148] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:27:40.148] [ERROR] [gaia_chat_v8_enhanced.c:247 handle_function_call_safe] Division by zero attempted
+[2025-07-26 12:27:40.148] [ERROR] [gaia_chat_v8_enhanced.c:500 generate_response_for_step_safe] Function call failed: Calculation failed
+[2025-07-26 12:27:40.148] [ERROR] [gaia_chat_v8_enhanced.c:355 generate_response_v8_safe] Step 2 failed: Calculation failed
+[2025-07-26 12:27:40.149] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.50
+[2025-07-26 12:27:40.149] [INFO] [gaia_chat_v8_enhanced.c:421 generate_response_v8_safe] Refinement completed in 5 iterations
+[2025-07-26 12:27:40.149] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753547260] Response generated successfully
+[2025-07-26 12:27:40.149] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753547260] Total response time: 0.48 ms
+[2025-07-26 12:27:40.149] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.149] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.149] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.153] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.153] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.153] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.153] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 21
+[2025-07-26 12:27:40.153] [INFO] [gaia_logger.c:300 logger_print_stats]   ERROR: 3
+[2025-07-26 12:27:40.153] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 3
+[2025-07-26 12:27:40.153] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.153] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.153] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.154] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.155] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.155] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.155] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.155] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.155] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.155] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.155] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.17 ms
+[2025-07-26 12:27:40.155] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.155] [WARN] [gaia_chat_v8_enhanced.c:290 generate_response_v8_safe] Empty input provided
+[2025-07-26 12:27:40.155] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.155] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.155] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.159] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.159] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.159] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.159] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 15
+[2025-07-26 12:27:40.159] [INFO] [gaia_logger.c:300 logger_print_stats]   WARN: 1
+[2025-07-26 12:27:40.159] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.159] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 1
+[2025-07-26 12:27:40.159] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.159] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.160] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.161] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.161] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.161] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.161] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.161] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.161] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.161] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.15 ms
+[2025-07-26 12:27:40.161] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.161] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: hello world
+[2025-07-26 12:27:40.161] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 2 steps
+[2025-07-26 12:27:40.161] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.82
+[2025-07-26 12:27:40.161] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753547260] Response generated successfully
+[2025-07-26 12:27:40.161] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753547260] Total response time: 0.38 ms
+[2025-07-26 12:27:40.161] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.161] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.161] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.165] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.165] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.165] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.165] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 20
+[2025-07-26 12:27:40.165] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.165] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.165] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.165] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.167] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.167] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.167] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.167] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.168] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.168] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.168] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.168] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.15 ms
+[2025-07-26 12:27:40.168] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.168] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: what is 2 + 2
+[2025-07-26 12:27:40.168] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:27:40.168] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.82
+[2025-07-26 12:27:40.168] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753547260] Response generated successfully
+[2025-07-26 12:27:40.168] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753547260] Total response time: 0.47 ms
+[2025-07-26 12:27:40.168] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.168] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.168] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.172] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.172] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.172] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.172] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 20
+[2025-07-26 12:27:40.172] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.172] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.172] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.172] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.174] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.174] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.174] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.174] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.174] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.174] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.174] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.174] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.17 ms
+[2025-07-26 12:27:40.174] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.174] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: is 11 a prime number?
+[2025-07-26 12:27:40.174] [INFO] [gaia_chat_v8_enhanced.c:187 handle_function_call_safe] Prime check result: 11 is a prime number
+[2025-07-26 12:27:40.174] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.174] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.174] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.178] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.179] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.179] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.179] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 17
+[2025-07-26 12:27:40.179] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.179] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.179] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.179] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.180] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.181] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.181] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.181] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.181] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.181] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.181] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.181] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.16 ms
+[2025-07-26 12:27:40.181] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.181] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: is 12 a prime number?
+[2025-07-26 12:27:40.181] [INFO] [gaia_chat_v8_enhanced.c:187 handle_function_call_safe] Prime check result: 12 is not a prime number
+[2025-07-26 12:27:40.181] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.181] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.181] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.185] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.185] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.185] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.185] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 17
+[2025-07-26 12:27:40.185] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.185] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.185] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.185] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.187] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.187] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.187] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.187] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.187] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.187] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.187] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.187] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.17 ms
+[2025-07-26 12:27:40.187] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.187] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: is 17 a prime number?
+[2025-07-26 12:27:40.187] [INFO] [gaia_chat_v8_enhanced.c:187 handle_function_call_safe] Prime check result: 17 is a prime number
+[2025-07-26 12:27:40.187] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.187] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.187] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.191] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.191] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.191] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.191] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 17
+[2025-07-26 12:27:40.191] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.191] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.191] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.191] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.193] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.193] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.193] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.193] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.193] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.193] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.193] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.193] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.16 ms
+[2025-07-26 12:27:40.193] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.193] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: is 1 a prime number?
+[2025-07-26 12:27:40.193] [INFO] [gaia_chat_v8_enhanced.c:187 handle_function_call_safe] Prime check result: 1 is not a prime number
+[2025-07-26 12:27:40.193] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.193] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.193] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.197] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.197] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.197] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.197] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 17
+[2025-07-26 12:27:40.197] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.197] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.197] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.197] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.199] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.199] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.199] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.199] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.199] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.199] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.199] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.199] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.17 ms
+[2025-07-26 12:27:40.199] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.199] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: is 2 a prime number?
+[2025-07-26 12:27:40.199] [INFO] [gaia_chat_v8_enhanced.c:187 handle_function_call_safe] Prime check result: 2 is a prime number
+[2025-07-26 12:27:40.199] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.199] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.199] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.204] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.204] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.204] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.204] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 17
+[2025-07-26 12:27:40.204] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.204] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.204] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.204] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.205] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.205] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.205] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.205] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.205] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.205] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.205] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.205] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.15 ms
+[2025-07-26 12:27:40.205] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.205] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: What is the capital of France?
+[2025-07-26 12:27:40.206] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:27:40.206] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.77
+[2025-07-26 12:27:40.206] [INFO] [gaia_chat_v8_enhanced.c:421 generate_response_v8_safe] Refinement completed in 5 iterations
+[2025-07-26 12:27:40.206] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753547260] Response generated successfully
+[2025-07-26 12:27:40.206] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753547260] Total response time: 0.54 ms
+[2025-07-26 12:27:40.206] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.206] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.206] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.210] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.210] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.210] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.210] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 21
+[2025-07-26 12:27:40.210] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.210] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.210] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.210] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.212] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.212] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.212] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.212] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.213] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.213] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.213] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.213] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.18 ms
+[2025-07-26 12:27:40.213] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.213] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: What is artificial intelligence?
+[2025-07-26 12:27:40.213] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:27:40.213] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.86
+[2025-07-26 12:27:40.213] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753547260] Response generated successfully
+[2025-07-26 12:27:40.213] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753547260] Total response time: 0.46 ms
+[2025-07-26 12:27:40.213] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.213] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.213] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.217] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.217] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.217] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.217] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 20
+[2025-07-26 12:27:40.217] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.217] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.217] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.217] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.219] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.219] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.219] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.219] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.219] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.219] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.219] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.219] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.17 ms
+[2025-07-26 12:27:40.219] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.219] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: help
+[2025-07-26 12:27:40.220] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 2 steps
+[2025-07-26 12:27:40.220] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.82
+[2025-07-26 12:27:40.220] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753547260] Response generated successfully
+[2025-07-26 12:27:40.220] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753547260] Total response time: 0.34 ms
+[2025-07-26 12:27:40.220] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.220] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.220] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.224] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.224] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.224] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.224] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 20
+[2025-07-26 12:27:40.224] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.224] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.224] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.224] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.226] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: DEBUG)
+[2025-07-26 12:27:40.226] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.226] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.226] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.226] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.226] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.226] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:82 init_chat_system] Chat system initialization took 0.01 ms
+[2025-07-26 12:27:40.226] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.16 ms
+[2025-07-26 12:27:40.226] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.226] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: 2 plus 2
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:104 create_v8_enhancement] Creating transformer layer
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:113 create_v8_enhancement] Transformer layer created successfully
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:118 create_v8_enhancement] V8 enhancement creation took 0.14 ms
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:323 generate_response_v8_safe] Creating workflow for query
+[2025-07-26 12:27:40.226] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 1/5: Extract mathematical elements
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Extract mathematical elements (type: 1)
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 1 completed successfully
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 2/5: Perform calculation
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Perform calculation (type: 2)
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:495 generate_response_for_step_safe] EXECUTE step with input: 2 plus 2
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:209 handle_function_call_safe] Calculation required, extracting entities
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:228 handle_function_call_safe] Performing calculation with 2 numbers and 1 operators
+[2025-07-26 12:27:40.226] [INFO] [gaia_chat_v8_enhanced.c:266 handle_function_call_safe] Calculation result: 2 plus 2 equals 4
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:505 generate_response_for_step_safe] Function call successful: 2 plus 2 equals 4
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 2 completed successfully
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 3/5: Verify calculation result
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Verify calculation result (type: 3)
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 3 completed successfully
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 4/5: Combine results into final response
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Combine results into final response (type: 4)
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 4 completed successfully
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 5/5: Finalize response
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Finalize response (type: 6)
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 5 completed successfully
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:374 generate_response_v8_safe] Workflow synthesis: 2 plus 2 equals 4
+[2025-07-26 12:27:40.226] [DEBUG] [gaia_chat_v8_enhanced.c:393 generate_response_v8_safe] Applying attention enhancement
+[2025-07-26 12:27:40.227] [DEBUG] [gaia_chat_v8_enhanced.c:397 generate_response_v8_safe] Attention applied successfully
+[2025-07-26 12:27:40.227] [DEBUG] [gaia_chat_v8_enhanced.c:404 generate_response_v8_safe] Applying iterative refinement
+[2025-07-26 12:27:40.227] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.84
+[2025-07-26 12:27:40.227] [DEBUG] [gaia_chat_v8_enhanced.c:446 generate_response_v8_safe] V8 enhancement took 0.26 ms
+[2025-07-26 12:27:40.227] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753547260] Response generated successfully
+[2025-07-26 12:27:40.227] [DEBUG] [gaia_chat_v8_enhanced.c:132 destroy_v8_enhancement] Transformer layer destroyed
+[2025-07-26 12:27:40.227] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753547260] Total response time: 0.56 ms
+[2025-07-26 12:27:40.227] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.227] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.227] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.227] [DEBUG] [gaia_chat_v8_enhanced.c:663 main] Freeing 0 patterns
+[2025-07-26 12:27:40.231] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.231] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.231] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.231] [INFO] [gaia_logger.c:300 logger_print_stats]   DEBUG: 31
+[2025-07-26 12:27:40.231] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 22
+[2025-07-26 12:27:40.231] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.231] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.231] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.231] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.233] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: TRACE)
+[2025-07-26 12:27:40.233] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: system_initialization
+[2025-07-26 12:27:40.233] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.233] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.233] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER init_chat_system: initializing chat system
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: init_chat_system
+[2025-07-26 12:27:40.233] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.233] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:175 perf_end] PERF END: init_chat_system (0.02 ms)
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:82 init_chat_system] Chat system initialization took 0.02 ms
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:245 trace_exit] <<< EXIT init_chat_system: success
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:175 perf_end] PERF END: system_initialization (0.18 ms)
+[2025-07-26 12:27:40.233] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.18 ms
+[2025-07-26 12:27:40.233] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_v8_safe: request_id=REQ-1-1753547260, input='2 plus 2'
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: generate_response_v8
+[2025-07-26 12:27:40.233] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: 2 plus 2
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER create_v8_enhancement: creating V8 enhancement for request REQ-1-1753547260
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: create_v8_enhancement
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:104 create_v8_enhancement] Creating transformer layer
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:113 create_v8_enhancement] Transformer layer created successfully
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:175 perf_end] PERF END: create_v8_enhancement (0.14 ms)
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:118 create_v8_enhancement] V8 enhancement creation took 0.14 ms
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:245 trace_exit] <<< EXIT create_v8_enhancement: success
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:323 generate_response_v8_safe] Creating workflow for query
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: workflow_processing
+[2025-07-26 12:27:40.233] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 1/5: Extract mathematical elements
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_for_step_safe: step type=1, desc='Extract mathematical elements'
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Extract mathematical elements (type: 1)
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 1 completed successfully
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 2/5: Perform calculation
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_for_step_safe: step type=2, desc='Perform calculation'
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Perform calculation (type: 2)
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:495 generate_response_for_step_safe] EXECUTE step with input: 2 plus 2
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER handle_function_call_safe: input='2 plus 2'
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: handle_function_call
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:209 handle_function_call_safe] Calculation required, extracting entities
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:228 handle_function_call_safe] Performing calculation with 2 numbers and 1 operators
+[2025-07-26 12:27:40.233] [INFO] [gaia_chat_v8_enhanced.c:266 handle_function_call_safe] Calculation result: 2 plus 2 equals 4
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:175 perf_end] PERF END: handle_function_call (0.02 ms)
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:505 generate_response_for_step_safe] Function call successful: 2 plus 2 equals 4
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 2 completed successfully
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 3/5: Verify calculation result
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_for_step_safe: step type=3, desc='Verify calculation result'
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Verify calculation result (type: 3)
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 3 completed successfully
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 4/5: Combine results into final response
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_for_step_safe: step type=4, desc='Combine results into final response'
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Combine results into final response (type: 4)
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 4 completed successfully
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:347 generate_response_v8_safe] Executing step 5/5: Finalize response
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER generate_response_for_step_safe: step type=6, desc='Finalize response'
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:490 generate_response_for_step_safe] Processing step: Finalize response (type: 6)
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:363 generate_response_v8_safe] Step 5 completed successfully
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:374 generate_response_v8_safe] Workflow synthesis: 2 plus 2 equals 4
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:175 perf_end] PERF END: workflow_processing (0.17 ms)
+[2025-07-26 12:27:40.233] [TRACE] [gaia_logger.c:158 perf_begin] PERF BEGIN: v8_enhancement
+[2025-07-26 12:27:40.233] [DEBUG] [gaia_chat_v8_enhanced.c:393 generate_response_v8_safe] Applying attention enhancement
+[2025-07-26 12:27:40.234] [DEBUG] [gaia_chat_v8_enhanced.c:397 generate_response_v8_safe] Attention applied successfully
+[2025-07-26 12:27:40.234] [DEBUG] [gaia_chat_v8_enhanced.c:404 generate_response_v8_safe] Applying iterative refinement
+[2025-07-26 12:27:40.234] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.84
+[2025-07-26 12:27:40.234] [TRACE] [gaia_logger.c:175 perf_end] PERF END: v8_enhancement (0.26 ms)
+[2025-07-26 12:27:40.234] [DEBUG] [gaia_chat_v8_enhanced.c:446 generate_response_v8_safe] V8 enhancement took 0.26 ms
+[2025-07-26 12:27:40.234] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753547260] Response generated successfully
+[2025-07-26 12:27:40.234] [TRACE] [gaia_logger.c:233 trace_enter] >>> ENTER destroy_v8_enhancement: destroying V8 enhancement
+[2025-07-26 12:27:40.234] [DEBUG] [gaia_chat_v8_enhanced.c:132 destroy_v8_enhancement] Transformer layer destroyed
+[2025-07-26 12:27:40.234] [TRACE] [gaia_logger.c:245 trace_exit] <<< EXIT destroy_v8_enhancement: complete
+[2025-07-26 12:27:40.234] [TRACE] [gaia_logger.c:175 perf_end] PERF END: generate_response_v8 (0.65 ms)
+[2025-07-26 12:27:40.234] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753547260] Total response time: 0.65 ms
+[2025-07-26 12:27:40.234] [TRACE] [gaia_logger.c:245 trace_exit] <<< EXIT generate_response_v8_safe: success
+[2025-07-26 12:27:40.234] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.234] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.234] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.234] [DEBUG] [gaia_chat_v8_enhanced.c:663 main] Freeing 0 patterns
+[2025-07-26 12:27:40.238] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.238] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.238] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.238] [INFO] [gaia_logger.c:300 logger_print_stats]   TRACE: 28
+[2025-07-26 12:27:40.238] [INFO] [gaia_logger.c:300 logger_print_stats]   DEBUG: 31
+[2025-07-26 12:27:40.238] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 23
+[2025-07-26 12:27:40.238] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.238] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.238] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.238] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0
+[2025-07-26 12:27:40.245] [INFO] [gaia_logger.c:54 logger_init] GAIA Logger initialized (level: INFO)
+[2025-07-26 12:27:40.245] [INFO] [gaia_chat_v8_enhanced.c:562 main] === GAIA V8 Enhanced - Starting ===
+[2025-07-26 12:27:40.245] [INFO] [gaia_chat_v8_enhanced.c:581 main] Initializing function registry
+[2025-07-26 12:27:40.245] [INFO] [gaia_chat_v8_enhanced.c:585 main] Initializing experiment logger
+[2025-07-26 12:27:40.245] [INFO] [gaia_chat_v8_enhanced.c:589 main] Creating chat system
+[2025-07-26 12:27:40.245] [INFO] [gaia_chat_v8_enhanced.c:67 init_chat_system] Allocating chat system with 2097152 hash buckets
+[2025-07-26 12:27:40.245] [INFO] [gaia_chat_v8_enhanced.c:78 init_chat_system] Chat system initialized successfully
+[2025-07-26 12:27:40.245] [INFO] [gaia_chat_v8_enhanced.c:598 main] System initialization complete in 0.17 ms
+[2025-07-26 12:27:40.245] [INFO] [gaia_chat_v8_enhanced.c:627 main] === Request REQ-1-1753547260 started ===
+[2025-07-26 12:27:40.245] [INFO] [gaia_chat_v8_enhanced.c:296 generate_response_v8_safe] [REQ-1-1753547260] Processing query: 2 plus 2
+[2025-07-26 12:27:40.246] [INFO] [gaia_chat_v8_enhanced.c:338 generate_response_v8_safe] Query decomposed into 5 steps
+[2025-07-26 12:27:40.246] [INFO] [gaia_chat_v8_enhanced.c:266 handle_function_call_safe] Calculation result: 2 plus 2 equals 4
+[2025-07-26 12:27:40.246] [INFO] [gaia_chat_v8_enhanced.c:410 generate_response_v8_safe] Base response quality: 0.84
+[2025-07-26 12:27:40.246] [INFO] [gaia_chat_v8_enhanced.c:455 generate_response_v8_safe] [REQ-1-1753547260] Response generated successfully
+[2025-07-26 12:27:40.246] [INFO] [gaia_chat_v8_enhanced.c:471 generate_response_v8_safe] [REQ-1-1753547260] Total response time: 0.42 ms
+[2025-07-26 12:27:40.246] [INFO] [gaia_chat_v8_enhanced.c:649 main] === Request REQ-1-1753547260 completed ===
+[2025-07-26 12:27:40.246] [INFO] [gaia_chat_v8_enhanced.c:614 main] User requested quit
+[2025-07-26 12:27:40.246] [INFO] [gaia_chat_v8_enhanced.c:653 main] Shutting down GAIA V8
+[2025-07-26 12:27:40.250] [INFO] [gaia_chat_v8_enhanced.c:675 main] === GAIA V8 Enhanced - Shutdown complete ===
+[2025-07-26 12:27:40.250] [INFO] [gaia_logger.c:296 logger_print_stats] === Logger Statistics ===
+[2025-07-26 12:27:40.250] [INFO] [gaia_logger.c:297 logger_print_stats] Log messages by level:
+[2025-07-26 12:27:40.250] [INFO] [gaia_logger.c:300 logger_print_stats]   INFO: 21
+[2025-07-26 12:27:40.250] [INFO] [gaia_logger.c:303 logger_print_stats] Total errors: 0
+[2025-07-26 12:27:40.250] [INFO] [gaia_logger.c:304 logger_print_stats] Total warnings: 0
+[2025-07-26 12:27:40.250] [INFO] [gaia_logger.c:195 perf_report] === Performance Report ===
+[2025-07-26 12:27:40.250] [INFO] [gaia_logger.c:196 perf_report] Unclosed operations: 0

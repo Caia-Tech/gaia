@@ -1,0 +1,197 @@
+{
+  "metrics": [
+    {
+      "name": "test.counter",
+      "type": "counter",
+      "value": 10.000,
+      "count": 10,
+      "min": 1000000000.000,
+      "max": -1000000000.000,
+      "sum": 0.000
+    },
+    {
+      "name": "test.gauge",
+      "type": "gauge",
+      "value": 42.000,
+      "count": 5,
+      "min": 0.000,
+      "max": 42.000,
+      "sum": 105.000
+    },
+    {
+      "name": "test.timed_operation",
+      "type": "timer",
+      "value": 0.178,
+      "count": 3,
+      "min": 0.090,
+      "max": 0.265,
+      "sum": 0.534
+    },
+    {
+      "name": "requests.total",
+      "type": "counter",
+      "value": 3.000,
+      "count": 3,
+      "min": 1000000000.000,
+      "max": -1000000000.000,
+      "sum": 0.000
+    },
+    {
+      "name": "v8.workflows.success",
+      "type": "counter",
+      "value": 2.000,
+      "count": 2,
+      "min": 1000000000.000,
+      "max": -1000000000.000,
+      "sum": 0.000
+    },
+    {
+      "name": "v8.workflows.duration_ms",
+      "type": "gauge",
+      "value": 250.000,
+      "count": 3,
+      "min": 98.300,
+      "max": 250.000,
+      "sum": 473.800
+    },
+    {
+      "name": "v8.workflows.failed",
+      "type": "counter",
+      "value": 1.000,
+      "count": 1,
+      "min": 1000000000.000,
+      "max": -1000000000.000,
+      "sum": 0.000
+    },
+    {
+      "name": "v8.attention.confidence",
+      "type": "gauge",
+      "value": 0.780,
+      "count": 3,
+      "min": 0.780,
+      "max": 0.920,
+      "sum": 2.550
+    },
+    {
+      "name": "v8.attention.duration_ms",
+      "type": "gauge",
+      "value": 18.500,
+      "count": 3,
+      "min": 12.800,
+      "max": 18.500,
+      "sum": 46.500
+    },
+    {
+      "name": "v8.refinements.success",
+      "type": "counter",
+      "value": 2.000,
+      "count": 2,
+      "min": 1000000000.000,
+      "max": -1000000000.000,
+      "sum": 0.000
+    },
+    {
+      "name": "v8.refinements.quality_delta",
+      "type": "gauge",
+      "value": 0.000,
+      "count": 3,
+      "min": 0.000,
+      "max": 0.220,
+      "sum": 0.370
+    },
+    {
+      "name": "v8.refinements.iterations",
+      "type": "gauge",
+      "value": 10.000,
+      "count": 3,
+      "min": 3.000,
+      "max": 10.000,
+      "sum": 18.000
+    },
+    {
+      "name": "v8.refinements.failed",
+      "type": "counter",
+      "value": 1.000,
+      "count": 1,
+      "min": 1000000000.000,
+      "max": -1000000000.000,
+      "sum": 0.000
+    },
+    {
+      "name": "v8.responses.total",
+      "type": "counter",
+      "value": 3.000,
+      "count": 3,
+      "min": 1000000000.000,
+      "max": -1000000000.000,
+      "sum": 0.000
+    },
+    {
+      "name": "v8.responses.length",
+      "type": "gauge",
+      "value": 0.000,
+      "count": 3,
+      "min": 0.000,
+      "max": 39.000,
+      "sum": 62.000
+    },
+    {
+      "name": "v8.responses.duration_ms",
+      "type": "gauge",
+      "value": 50.000,
+      "count": 3,
+      "min": 50.000,
+      "max": 175.500,
+      "sum": 375.500
+    },
+    {
+      "name": "v8.quality.coherence",
+      "type": "gauge",
+      "value": 0.850,
+      "count": 2,
+      "min": 0.800,
+      "max": 0.850,
+      "sum": 1.650
+    },
+    {
+      "name": "v8.quality.relevance",
+      "type": "gauge",
+      "value": 0.900,
+      "count": 2,
+      "min": 0.850,
+      "max": 0.900,
+      "sum": 1.750
+    },
+    {
+      "name": "v8.quality.completeness",
+      "type": "gauge",
+      "value": 0.800,
+      "count": 2,
+      "min": 0.750,
+      "max": 0.800,
+      "sum": 1.550
+    },
+    {
+      "name": "v8.quality.grammar",
+      "type": "gauge",
+      "value": 0.950,
+      "count": 2,
+      "min": 0.900,
+      "max": 0.950,
+      "sum": 1.850
+    },
+    {
+      "name": "v8.quality.overall",
+      "type": "gauge",
+      "value": 0.870,
+      "count": 2,
+      "min": 0.820,
+      "max": 0.870,
+      "sum": 1.690
+    }
+  ],
+  "v8_metrics": {
+    "workflows": { "total": 3, "successful": 2, "failed": 1, "avg_time_ms": 157.93 },
+    "responses": { "total": 3, "empty": 1, "avg_length": 20.7, "avg_time_ms": 125.17 }
+  }
+}
