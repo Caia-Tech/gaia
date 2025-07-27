@@ -1,3 +1,5 @@
+⚠️ hitting fundamental walls, preserved for evidence and research      - AFDP and Git forensics remain truly innovative           still continuing
+ 
 # GAIA - Gate-Based Computation Research
 
 ## The Journey
