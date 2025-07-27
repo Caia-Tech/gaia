@@ -4,3 +4,5 @@ FINDINGS- The Elixir program (not on Git) showed that different number bases mak
 quaternary maps naturally to DNA operations, but ternary needs more gates for AND. Evolution found common patterns like NOT chains and Memory-XOR loops,
 which we can optimize with JIT compilation. The main value is for specialized tasks like DNA processing, not general computing.
 
+Can someone at least try this with scaled GPUs? Please. To publish research on the patterns
+
